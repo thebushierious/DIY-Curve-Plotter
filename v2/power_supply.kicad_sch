@@ -7,7 +7,7 @@
 	(title_block
 		(title "Curve Plotter")
 		(date "2026-10-15")
-		(rev "1")
+		(rev "2")
 	)
 	(lib_symbols
 		(symbol "C-Pol_Basic_1"
