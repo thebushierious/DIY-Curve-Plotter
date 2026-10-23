@@ -10,9 +10,20 @@
 		(rev "2")
 	)
 	(lib_symbols)
+	(text "v3:\n-Add curren checker LM339 for relay coils\n-Add checking if all relays switched correcly\n-Add front pannel meter\n-Add step LEDs\n-Add external power option\n-Design HV Box"
+		(exclude_from_sim no)
+		(at 13.97 29.718 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "9309ace3-609d-4235-888e-8354bf1eaa5d")
+	)
 	(wire
 		(pts
-			(xy 154.94 58.42) (xy 151.13 58.42)
+			(xy 148.59 63.5) (xy 144.78 63.5)
 		)
 		(stroke
 			(width 0)
@@ -22,7 +33,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 54.61) (xy 154.94 54.61)
+			(xy 144.78 59.69) (xy 148.59 59.69)
 		)
 		(stroke
 			(width 0)
@@ -32,7 +43,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 62.23) (xy 154.94 62.23)
+			(xy 144.78 67.31) (xy 148.59 67.31)
 		)
 		(stroke
 			(width 0)
@@ -42,7 +53,7 @@
 	)
 	(global_label "12V"
 		(shape output)
-		(at 154.94 62.23 0)
+		(at 148.59 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -52,7 +63,7 @@
 		)
 		(uuid "1ceeda01-b492-4f0a-9344-e0f60d3757ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.4328 62.23 0)
+			(at 155.0828 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66,7 +77,7 @@
 	)
 	(global_label "+15V"
 		(shape output)
-		(at 154.94 54.61 0)
+		(at 148.59 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -76,7 +87,7 @@
 		)
 		(uuid "c0c4dcf5-3701-4de4-8c5d-58a46cbcfa17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.0052 54.61 0)
+			(at 156.6552 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -90,7 +101,7 @@
 	)
 	(global_label "-15V"
 		(shape output)
-		(at 154.94 58.42 0)
+		(at 148.59 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -100,7 +111,7 @@
 		)
 		(uuid "c99d0477-89d3-4d46-b716-0551f9f10d03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.0052 58.42 0)
+			(at 156.6552 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -159,7 +170,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 49.53)
+		(at 118.11 54.61)
 		(size 26.67 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -175,7 +186,7 @@
 		)
 		(uuid "a96e4916-0b05-4003-9480-a639547df929")
 		(property "Sheetname" "Power Supply Board"
-			(at 124.46 48.8184 0)
+			(at 118.11 53.8984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -186,7 +197,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 124.46 69.1646 0)
+			(at 118.11 74.2446 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -198,7 +209,7 @@
 			)
 		)
 		(pin "+15V" output
-			(at 151.13 54.61 0)
+			(at 144.78 59.69 0)
 			(uuid "6f6fe1fe-4f17-492e-be75-58fbca24eaa0")
 			(effects
 				(font
@@ -208,7 +219,7 @@
 			)
 		)
 		(pin "-15V" output
-			(at 151.13 58.42 0)
+			(at 144.78 63.5 0)
 			(uuid "6fa4a78b-05bb-4274-bd31-84c19e650008")
 			(effects
 				(font
@@ -218,7 +229,7 @@
 			)
 		)
 		(pin "12V" output
-			(at 151.13 62.23 0)
+			(at 144.78 67.31 0)
 			(uuid "1f19bea7-4b54-4c61-8b0d-95fc4de98704")
 			(effects
 				(font

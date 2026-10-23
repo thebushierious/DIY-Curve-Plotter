@@ -2363,14 +2363,13 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left)
 		)
 		(uuid "99a21f0a-79cb-4a2e-b26c-96e896c672ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.55 39.9607 90)
+			(at 82.55 40.4367 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2389,14 +2388,13 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left)
 		)
 		(uuid "ba8a24fc-84a6-4231-bb72-e6354d1029c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 39.9607 90)
+			(at 114.3 40.4367 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2415,14 +2413,13 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left)
 		)
 		(uuid "c94ba6dd-dafe-4676-873f-24dacdd20b62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.05 39.9607 90)
+			(at 146.05 40.4367 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -2779,7 +2779,7 @@
 		)
 		(uuid "78bdb053-6b1c-4036-8786-9eab94904bb8")
 	)
-	(text "D7 - D12 1N4148"
+	(text "D7 - D9 1N4148"
 		(exclude_from_sim no)
 		(at 94.742 100.584 0)
 		(effects
@@ -4204,7 +4204,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9c779ae-17fb-41aa-ac6c-878f0ba39c5e")
-		(property "Reference" "D9"
+		(property "Reference" "D8"
 			(at 117.602 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4291,7 +4291,7 @@
 		(instances
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
-					(reference "D9")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -4308,7 +4308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb80f2ec-8ff1-4022-9181-73f6940c9b7e")
-		(property "Reference" "D12"
+		(property "Reference" "D9"
 			(at 134.366 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4395,7 +4395,7 @@
 		(instances
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
-					(reference "D12")
+					(reference "D9")
 					(unit 1)
 				)
 			)

@@ -282,7 +282,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "C-Pol_Basic_1"
+		(symbol "C-Pol_Basic_2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -341,7 +341,7 @@
 					)
 				)
 			)
-			(symbol "C-Pol_Basic_1_1_1"
+			(symbol "C-Pol_Basic_2_1_1"
 				(rectangle
 					(start -2.286 1.524)
 					(end 2.286 0.508)
@@ -1233,16 +1233,16 @@
 		(uuid "5ecf8d37-0a1b-4e6d-a5ec-e22ac3374c7a")
 	)
 	(junction
-		(at 148.59 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00d67eb2-1403-46d6-aa48-8a8d5baa8579")
-	)
-	(junction
 		(at 138.43 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "081b74a1-d188-4f77-b03c-224b049d3ee7")
+	)
+	(junction
+		(at 148.59 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "924da17c-8f70-4213-9d37-2648cacf2cbf")
 	)
 	(junction
 		(at 123.19 81.28)
@@ -1270,6 +1270,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 69.85) (xy 154.94 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231eb290-e53f-46d9-8f8b-c19adfab7975")
+	)
+	(wire
+		(pts
 			(xy 119.38 69.85) (xy 123.19 69.85)
 		)
 		(stroke
@@ -1280,7 +1290,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 81.28) (xy 148.59 80.01)
+			(xy 148.59 82.55) (xy 148.59 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1297,6 +1307,16 @@
 			(type default)
 		)
 		(uuid "3102012b-c5b1-4998-b874-9e38a98cc91e")
+	)
+	(wire
+		(pts
+			(xy 148.59 71.12) (xy 148.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c0dcef4-de17-486b-a7ff-e2883357f469")
 	)
 	(wire
 		(pts
@@ -1357,16 +1377,6 @@
 			(type default)
 		)
 		(uuid "57d37208-ea79-4fe8-8378-3319d0b5fd61")
-	)
-	(wire
-		(pts
-			(xy 138.43 69.85) (xy 148.59 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5db7549b-7178-4aea-a040-d90f76599f9a")
 	)
 	(wire
 		(pts
@@ -1460,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 69.85) (xy 154.94 69.85)
+			(xy 138.43 69.85) (xy 148.59 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1525,7 +1535,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 81.28 0)
+		(at 148.59 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1536,7 +1546,7 @@
 		(fields_autoplaced yes)
 		(uuid "01a5373a-4826-40d8-9d2a-29963bf0d212")
 		(property "Reference" "#PWR026"
-			(at 148.59 87.63 0)
+			(at 148.59 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1547,7 +1557,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 86.36 0)
+			(at 148.59 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1558,7 +1568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 81.28 0)
+			(at 148.59 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1569,7 +1579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 81.28 0)
+			(at 148.59 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1580,7 +1590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 81.28 0)
+			(at 148.59 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1695,89 +1705,6 @@
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0abaecbf-bc21-4583-999c-ef290e64708d"
 					(reference "U4")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "C-Pol_Basic_1")
-		(lib_id "custom:C-Pol_Basic")
-		(at 148.59 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2589c78e-edfa-4730-a54e-bab9f66f79bc")
-		(property "Reference" "C17"
-			(at 152.4 72.2311 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 152.4 74.7711 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "ac9c4ada-fe8c-40a7-a762-5bf2ede3d3ec")
-		)
-		(pin ""
-			(uuid "5e2b72bb-7f2a-4f4a-998e-9b285eed5a0f")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0abaecbf-bc21-4583-999c-ef290e64708d"
-					(reference "C17")
-					(unit 1)
 				)
 			)
 		)
@@ -2025,6 +1952,89 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0abaecbf-bc21-4583-999c-ef290e64708d"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C-Pol_Basic_2")
+		(lib_id "custom:C-Pol_Basic")
+		(at 148.59 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "861dfb90-47e7-4d74-8f5c-fd0f5a0f6112")
+		(property "Reference" "C46"
+			(at 152.4 73.5011 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 152.4 76.0411 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "88f322f4-cf50-4bbf-bf2b-49b551d12e1e")
+		)
+		(pin ""
+			(uuid "7ff8d5f1-f332-4622-bc51-aa92cacc1086")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0abaecbf-bc21-4583-999c-ef290e64708d"
+					(reference "C46")
 					(unit 1)
 				)
 			)
