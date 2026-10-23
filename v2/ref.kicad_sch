@@ -1222,16 +1222,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "0,1%"
-		(exclude_from_sim no)
-		(at 122.936 87.884 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5dfc84f1-f625-4d70-ae25-0753feb9a8e1")
-	)
 	(text "Measure and trim\nso it's 8,000V"
 		(exclude_from_sim no)
 		(at 142.748 64.262 0)
@@ -1242,26 +1232,6 @@
 		)
 		(uuid "5ecf8d37-0a1b-4e6d-a5ec-e22ac3374c7a")
 	)
-	(text "0,1%"
-		(exclude_from_sim no)
-		(at 123.698 101.346 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ea16ff17-dd5a-4221-98dd-65365771375b")
-	)
-	(text "Precision\nmulti-turn\n"
-		(exclude_from_sim no)
-		(at 120.904 76.454 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ea341fe4-3ccc-4978-a310-5e9161160a91")
-	)
 	(junction
 		(at 148.59 69.85)
 		(diameter 0)
@@ -1269,28 +1239,28 @@
 		(uuid "00d67eb2-1403-46d6-aa48-8a8d5baa8579")
 	)
 	(junction
-		(at 128.27 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e3bdb9b-a4de-4849-b785-2f54da3171d8")
-	)
-	(junction
 		(at 138.43 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4fe90bd9-8e13-4e05-b94a-ee97044d0e79")
+		(uuid "081b74a1-d188-4f77-b03c-224b049d3ee7")
 	)
 	(junction
-		(at 128.27 81.28)
+		(at 123.19 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "952c5c94-c22d-4598-b126-16e71cc9a040")
 	)
 	(junction
-		(at 128.27 69.85)
+		(at 123.19 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cbc718e6-b8b7-4bc4-aec6-396975903e3e")
+		(uuid "ce0a8dba-78af-4bb6-adb0-79172e115ab5")
+	)
+	(junction
+		(at 123.19 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d79b82e2-1f78-4727-a003-02d1a608aaf1")
 	)
 	(junction
 		(at 173.99 67.31)
@@ -1300,7 +1270,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 69.85) (xy 128.27 69.85)
+			(xy 119.38 69.85) (xy 123.19 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1320,7 +1290,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 81.28) (xy 128.27 81.28)
+			(xy 125.73 81.28) (xy 123.19 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1330,7 +1300,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 92.71) (xy 128.27 93.98)
+			(xy 123.19 92.71) (xy 123.19 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1340,7 +1310,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 93.98) (xy 128.27 96.52)
+			(xy 123.19 93.98) (xy 123.19 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1360,7 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 82.55) (xy 128.27 81.28)
+			(xy 123.19 82.55) (xy 123.19 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1370,7 +1340,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 107.95) (xy 128.27 106.68)
+			(xy 123.19 106.68) (xy 123.19 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1430,7 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 78.74) (xy 130.81 81.28)
+			(xy 125.73 78.74) (xy 125.73 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1460,7 +1430,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 93.98) (xy 134.62 93.98)
+			(xy 123.19 93.98) (xy 134.62 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1470,7 +1440,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 69.85) (xy 115.57 69.85)
+			(xy 106.68 69.85) (xy 109.22 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1480,7 +1450,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 71.12) (xy 128.27 69.85)
+			(xy 123.19 71.12) (xy 123.19 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1500,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 69.85) (xy 138.43 69.85)
+			(xy 123.19 69.85) (xy 138.43 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1520,7 +1490,7 @@
 	)
 	(global_label "+15V"
 		(shape input)
-		(at 114.3 69.85 180)
+		(at 106.68 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1530,7 +1500,7 @@
 		)
 		(uuid "17db8ac4-f4ff-412b-8e2b-65e961b31fb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.2348 69.85 0)
+			(at 98.6148 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1625,7 +1595,7 @@
 		)
 		(instances
 			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/0abaecbf-bc21-4583-999c-ef290e64708d"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0abaecbf-bc21-4583-999c-ef290e64708d"
 					(reference "#PWR026")
 					(unit 1)
 				)
@@ -1722,7 +1692,7 @@
 		)
 		(instances
 			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/0abaecbf-bc21-4583-999c-ef290e64708d"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0abaecbf-bc21-4583-999c-ef290e64708d"
 					(reference "U4")
 					(unit 2)
 				)
@@ -1805,11 +1775,7 @@
 		)
 		(instances
 			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368"
-					(reference "C17")
-					(unit 1)
-				)
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/0abaecbf-bc21-4583-999c-ef290e64708d"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0abaecbf-bc21-4583-999c-ef290e64708d"
 					(reference "C17")
 					(unit 1)
 				)
@@ -1819,7 +1785,7 @@
 	(symbol
 		(lib_name "P-Trim_Basic_6")
 		(lib_id "custom:P-Trim_Basic")
-		(at 128.27 76.2 0)
+		(at 123.19 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1830,7 +1796,7 @@
 		(fields_autoplaced yes)
 		(uuid "4958cb3f-fc89-4851-bd68-454de7f12148")
 		(property "Reference" "P7"
-			(at 132.08 74.9299 0)
+			(at 127 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1841,7 +1807,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 132.08 77.4699 0)
+			(at 127 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1852,7 +1818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 76.2 0)
+			(at 123.19 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1863,7 +1829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 76.2 0)
+			(at 123.19 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1873,15 +1839,15 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 128.27 76.2 0)
-			(hide yes)
+		(property "Description" "Multi-turn"
+			(at 127 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin ""
@@ -1895,7 +1861,7 @@
 		)
 		(instances
 			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/0abaecbf-bc21-4583-999c-ef290e64708d"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0abaecbf-bc21-4583-999c-ef290e64708d"
 					(reference "P7")
 					(unit 1)
 				)
@@ -1905,7 +1871,7 @@
 	(symbol
 		(lib_name "R_Basic_11")
 		(lib_id "custom:R_Basic")
-		(at 128.27 101.6 90)
+		(at 123.19 100.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1916,7 +1882,7 @@
 		(fields_autoplaced yes)
 		(uuid "554d09e7-dbcc-417b-afb3-318f832c3278")
 		(property "Reference" "R10"
-			(at 130.81 100.3299 90)
+			(at 125.73 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1927,7 +1893,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 130.81 102.8699 90)
+			(at 125.73 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1938,7 +1904,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 101.6 0)
+			(at 123.19 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1949,7 +1915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 101.6 0)
+			(at 123.19 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1959,15 +1925,15 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 128.27 101.6 0)
-			(hide yes)
+		(property "Description" "0,1%"
+			(at 125.73 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin ""
@@ -1978,7 +1944,7 @@
 		)
 		(instances
 			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/0abaecbf-bc21-4583-999c-ef290e64708d"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0abaecbf-bc21-4583-999c-ef290e64708d"
 					(reference "R10")
 					(unit 1)
 				)
@@ -1987,7 +1953,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 107.95 0)
+		(at 123.19 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1998,7 +1964,7 @@
 		(fields_autoplaced yes)
 		(uuid "8539a82c-e527-4558-a9b4-6e650e8c95c9")
 		(property "Reference" "#PWR025"
-			(at 128.27 114.3 0)
+			(at 123.19 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2009,7 +1975,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 113.03 0)
+			(at 123.19 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2020,7 +1986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 107.95 0)
+			(at 123.19 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2031,7 +1997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 107.95 0)
+			(at 123.19 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2042,7 +2008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 107.95 0)
+			(at 123.19 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2057,7 +2023,7 @@
 		)
 		(instances
 			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/0abaecbf-bc21-4583-999c-ef290e64708d"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0abaecbf-bc21-4583-999c-ef290e64708d"
 					(reference "#PWR025")
 					(unit 1)
 				)
@@ -2142,11 +2108,7 @@
 		)
 		(instances
 			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368"
-					(reference "U3")
-					(unit 1)
-				)
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/0abaecbf-bc21-4583-999c-ef290e64708d"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0abaecbf-bc21-4583-999c-ef290e64708d"
 					(reference "U3")
 					(unit 1)
 				)
@@ -2225,7 +2187,7 @@
 		)
 		(instances
 			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/0abaecbf-bc21-4583-999c-ef290e64708d"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0abaecbf-bc21-4583-999c-ef290e64708d"
 					(reference "#PWR034")
 					(unit 1)
 				)
@@ -2235,7 +2197,7 @@
 	(symbol
 		(lib_name "R_Basic_1")
 		(lib_id "custom:R_Basic")
-		(at 128.27 87.63 90)
+		(at 123.19 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2246,7 +2208,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc3c6afb-ddd7-4ea2-a667-c45021fb6c24")
 		(property "Reference" "R13"
-			(at 130.81 86.3599 90)
+			(at 125.73 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2257,7 +2219,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 130.81 88.8999 90)
+			(at 125.73 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2268,7 +2230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 87.63 0)
+			(at 123.19 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2279,7 +2241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 87.63 0)
+			(at 123.19 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2289,15 +2251,15 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 128.27 87.63 0)
-			(hide yes)
+		(property "Description" "0,1%"
+			(at 125.73 90.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin ""
@@ -2308,7 +2270,7 @@
 		)
 		(instances
 			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/0abaecbf-bc21-4583-999c-ef290e64708d"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0abaecbf-bc21-4583-999c-ef290e64708d"
 					(reference "R13")
 					(unit 1)
 				)
@@ -2318,7 +2280,7 @@
 	(symbol
 		(lib_name "R_Basic_12")
 		(lib_id "custom:R_Basic")
-		(at 120.65 69.85 180)
+		(at 114.3 69.85 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2329,7 +2291,7 @@
 		(fields_autoplaced yes)
 		(uuid "f26f286d-28e6-42aa-8edc-4bcf9a91b837")
 		(property "Reference" "R11"
-			(at 120.65 63.5 0)
+			(at 114.3 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2339,7 +2301,7 @@
 			)
 		)
 		(property "Value" "3k3"
-			(at 120.65 66.04 0)
+			(at 114.3 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2349,7 +2311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 69.85 0)
+			(at 114.3 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2360,7 +2322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 69.85 0)
+			(at 114.3 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2371,7 +2333,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 69.85 0)
+			(at 114.3 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2389,7 +2351,7 @@
 		)
 		(instances
 			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/0abaecbf-bc21-4583-999c-ef290e64708d"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0abaecbf-bc21-4583-999c-ef290e64708d"
 					(reference "R11")
 					(unit 1)
 				)

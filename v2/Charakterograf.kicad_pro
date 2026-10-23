@@ -418,7 +418,7 @@
         "uuid": "d7a5a570-e509-45ae-a7d3-ba88e6083368"
       }
     ],
-    "used_designators": "C9,C22-31,K5,K7,U6-7,U11-14,#PWR24,#PWR35-48,R4,R12-14,J6-7,SW4,Q8,P8-10",
+    "used_designators": "SW9",
     "variants": []
   },
   "sheets": [
@@ -428,7 +428,19 @@
     ],
     [
       "a96e4916-0b05-4003-9480-a639547df929",
-      "Power Supply"
+      "Power Supply Board"
+    ],
+    [
+      "26007723-7ed9-4a22-8268-5492e3851067",
+      "5V Supply"
+    ],
+    [
+      "03491c05-b5f3-4f88-a242-4fe53ef90d21",
+      "Logic Board"
+    ],
+    [
+      "0c87c16a-bedb-486e-a7c7-cc13502edb7f",
+      "Switch Supply"
     ],
     [
       "007af530-feb9-4f03-aaed-db03e570bb53",
@@ -437,10 +449,6 @@
     [
       "0abaecbf-bc21-4583-999c-ef290e64708d",
       "8V Ref"
-    ],
-    [
-      "0c87c16a-bedb-486e-a7c7-cc13502edb7f",
-      "Switch Supply"
     ]
   ],
   "text_variables": {},
