@@ -1222,6 +1222,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Check pinout"
+		(exclude_from_sim no)
+		(at 147.574 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "36d0dad7-a599-4b33-bbda-008ad3842784")
+	)
 	(text "Measure and trim\nso it's 8,000V"
 		(exclude_from_sim no)
 		(at 142.748 64.262 0)
@@ -1615,6 +1625,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:OPA2277")
 		(at 162.56 67.31 0)
+		(mirror x)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1624,7 +1635,7 @@
 		(dnp no)
 		(uuid "1f24307e-c528-4e8e-aa8f-6ad83693476b")
 		(property "Reference" "U4"
-			(at 167.64 59.69 0)
+			(at 167.386 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1634,7 +1645,7 @@
 			)
 		)
 		(property "Value" "OPA2277"
-			(at 167.64 62.23 0)
+			(at 167.386 63.246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
