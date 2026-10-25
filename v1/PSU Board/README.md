@@ -1,2 +1,0 @@
-# DIY-Curve-Plotter
-
