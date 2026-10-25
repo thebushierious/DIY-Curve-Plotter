@@ -1222,15 +1222,17 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Check pinout"
-		(exclude_from_sim no)
-		(at 147.574 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
+	(rectangle
+		(start 119.38 71.12)
+		(end 137.16 82.55)
+		(stroke
+			(width 0)
+			(type dash)
 		)
-		(uuid "36d0dad7-a599-4b33-bbda-008ad3842784")
+		(fill
+			(type none)
+		)
+		(uuid "69a313a3-2448-40c6-bee6-3fbb2fe53884")
 	)
 	(text "Measure and trim\nso it's 8,000V"
 		(exclude_from_sim no)
