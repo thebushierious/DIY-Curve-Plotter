@@ -1737,10 +1737,6 @@
 		)
 		(instances
 			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21"
-					(reference "U6")
-					(unit 2)
-				)
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/867728c2-15d3-4eb0-a7ff-a659d23fa9b9"
 					(reference "U6")
 					(unit 2)

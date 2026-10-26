@@ -1261,7 +1261,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 149.86 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -1592,7 +1592,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "X7R"
 			(at 119.38 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -1673,7 +1673,7 @@
 				)
 			)
 		)
-		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
+		(property "Description" ""
 			(at 105.41 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1917,7 +1917,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "X7R"
 			(at 91.44 64.77 0)
 			(hide yes)
 			(show_name no)

@@ -1195,6 +1195,357 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x06_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Socket"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x03"
 			(pin_names
 				(offset 1.016)
@@ -2464,6 +2815,121 @@
 								(size 1.8288 1.8288)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:Heatsink"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "HS"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heatsink"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.3048 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Heatsink"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Heatsink_0_1"
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
+						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
+						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
+						(xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -3996,6 +4462,10 @@
 		(color 0 0 0 0)
 		(uuid "f550adeb-e317-475f-88eb-5bcc5b538695")
 	)
+	(no_connect
+		(at 151.13 121.92)
+		(uuid "0659b84a-9d76-4982-8f44-1258e6160cd0")
+	)
 	(wire
 		(pts
 			(xy 162.56 53.34) (xy 162.56 54.61)
@@ -4018,7 +4488,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 113.03) (xy 139.7 125.73)
+			(xy 139.7 113.03) (xy 139.7 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4045,6 +4515,26 @@
 			(type default)
 		)
 		(uuid "0abbc73e-3796-4ff2-b4d3-d7a7e5068655")
+	)
+	(wire
+		(pts
+			(xy 252.73 90.17) (xy 254 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ebe25c5-bd3b-44b2-aa0f-caba963c1219")
+	)
+	(wire
+		(pts
+			(xy 254 82.55) (xy 242.57 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "114111bb-0a35-4cd6-8d1b-8c792648c4ac")
 	)
 	(wire
 		(pts
@@ -4108,7 +4598,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 41.91) (xy 157.48 41.91)
+			(xy 152.4 43.18) (xy 157.48 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4268,7 +4758,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 41.91) (xy 139.7 41.91)
+			(xy 144.78 43.18) (xy 139.7 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4278,13 +4768,23 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 125.73) (xy 157.48 113.03)
+			(xy 157.48 123.19) (xy 157.48 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3fee913e-0744-44ef-84e0-70f2a7b4fb02")
+	)
+	(wire
+		(pts
+			(xy 254 87.63) (xy 242.57 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408cd954-2c5a-49f5-8dcc-94f78c682648")
 	)
 	(wire
 		(pts
@@ -4305,6 +4805,16 @@
 			(type default)
 		)
 		(uuid "44dcf290-704a-4637-afce-cb33f2507327")
+	)
+	(wire
+		(pts
+			(xy 242.57 82.55) (xy 242.57 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e0316b-5bd4-49ac-81c1-9095f7f29fc8")
 	)
 	(wire
 		(pts
@@ -4338,7 +4848,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 41.91) (xy 157.48 53.34)
+			(xy 157.48 43.18) (xy 157.48 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4368,7 +4878,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 125.73) (xy 157.48 125.73)
+			(xy 152.4 123.19) (xy 157.48 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4395,6 +4905,16 @@
 			(type default)
 		)
 		(uuid "5f5bbd08-149e-4a2e-b097-a65b1f23243e")
+	)
+	(wire
+		(pts
+			(xy 242.57 87.63) (xy 242.57 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a7603b-56be-443a-b054-c60ba6efd539")
 	)
 	(wire
 		(pts
@@ -4428,7 +4948,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 73.66) (xy 139.7 73.66)
+			(xy 144.78 74.93) (xy 139.7 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4495,6 +5015,16 @@
 			(type default)
 		)
 		(uuid "892f6a90-7cd6-4bf1-a6a4-1daaf806eeb6")
+	)
+	(wire
+		(pts
+			(xy 254 80.01) (xy 252.73 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8933d949-2f46-45cb-96c2-71512990f005")
 	)
 	(wire
 		(pts
@@ -4568,7 +5098,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 73.66) (xy 139.7 85.09)
+			(xy 139.7 74.93) (xy 139.7 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4645,6 +5175,16 @@
 			(type default)
 		)
 		(uuid "9de0fb5c-4813-4a7c-815b-0b78156aea98")
+	)
+	(wire
+		(pts
+			(xy 254 85.09) (xy 252.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f54c976-ba30-4b43-9bd5-53c3d76bfe8a")
 	)
 	(wire
 		(pts
@@ -4798,7 +5338,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 41.91) (xy 139.7 53.34)
+			(xy 139.7 43.18) (xy 139.7 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4825,6 +5365,16 @@
 			(type default)
 		)
 		(uuid "c97fe8b3-4710-48af-ae02-143ca9bfefa9")
+	)
+	(wire
+		(pts
+			(xy 254 77.47) (xy 242.57 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb271c2f-2765-4a48-b535-7f67f68612e4")
 	)
 	(wire
 		(pts
@@ -4858,7 +5408,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 73.66) (xy 157.48 73.66)
+			(xy 152.4 74.93) (xy 157.48 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4868,7 +5418,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 125.73) (xy 139.7 125.73)
+			(xy 144.78 123.19) (xy 139.7 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4885,6 +5435,16 @@
 			(type default)
 		)
 		(uuid "ce4fb5b1-db47-4a4f-a55e-6f924f2e62a6")
+	)
+	(wire
+		(pts
+			(xy 242.57 77.47) (xy 242.57 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2f8e64-d5fe-4438-a460-a7c98e2f37f1")
 	)
 	(wire
 		(pts
@@ -5048,7 +5608,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 73.66) (xy 157.48 85.09)
+			(xy 157.48 74.93) (xy 157.48 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5076,38 +5636,149 @@
 		)
 		(uuid "fed952cc-ecea-44c0-a68e-5a1295423bea")
 	)
-	(hierarchical_label "+15V"
-		(shape output)
-		(at 210.82 85.09 0)
+	(global_label "12V"
+		(shape input)
+		(at 252.73 80.01 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "33e95079-52ed-4aa5-a155-7b0ef0a16969")
+		(uuid "040fbc58-1b85-4104-a806-dd0f8bb8f441")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.2372 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(hierarchical_label "12V"
-		(shape output)
-		(at 210.82 53.34 0)
+	(global_label "+15V"
+		(shape input)
+		(at 252.73 90.17 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "c9bb07ce-8d6e-4e50-955f-c1c1e77fe5f3")
+		(uuid "9b3b9610-ef1e-48e5-b195-1470c36a8276")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.6648 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(hierarchical_label "-15V"
+	(global_label "-15V"
 		(shape output)
 		(at 212.09 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "cbfd8f3a-98b0-4f8a-8526-6b8fcecf7aa1")
+		(uuid "ace38f38-a868-4855-b3dd-6deca62e4f74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.1552 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+15V"
+		(shape output)
+		(at 210.82 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd39e8bf-94e6-45e8-9981-e1d44d432109")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.8852 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "-15V"
+		(shape input)
+		(at 252.73 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfb6a670-6287-4b48-ada7-4c2e763bf7b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.6648 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "12V"
+		(shape output)
+		(at 210.82 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5f32f61-8723-4735-9933-1bc65fdcb683")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.3128 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "custom:F-poly_Basic")
@@ -5184,6 +5855,86 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 83.82 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "161234cf-e3ad-4dd0-8ce7-3f109c75a54e")
+		(property "Reference" "#PWR089"
+			(at 242.57 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d52f891d-57d3-4b31-88ea-02096b7ea494")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -5482,7 +6233,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 215.9 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5575,7 +6326,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "X7R"
 			(at 133.35 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5682,6 +6433,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 158.75 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35ef5b94-4bb0-4f4c-9eb0-55ea9c479257")
+		(property "Reference" "HS7"
+			(at 163.83 119.3672 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 163.83 121.9072 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 120.9548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 120.9548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "HS7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "C-Pol_Basic_2")
 		(lib_id "custom:C-Pol_Basic")
 		(at 168.91 91.44 0)
@@ -5765,7 +6592,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 148.59 125.73 180)
+		(at 148.59 123.19 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5776,7 +6603,7 @@
 		(fields_autoplaced yes)
 		(uuid "432c2ce3-ef8a-40f4-a7fd-14bd5f358201")
 		(property "Reference" "D11"
-			(at 148.59 129.54 0)
+			(at 148.59 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5786,7 +6613,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 148.59 132.08 0)
+			(at 148.59 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5795,8 +6622,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 148.59 125.73 0)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5807,7 +6634,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 148.59 125.73 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5817,8 +6644,8 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 148.59 125.73 0)
+		(property "Description" ""
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5829,7 +6656,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 148.59 125.73 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5840,7 +6667,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 148.59 125.73 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5899,7 +6726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 180.34 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5921,7 +6748,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" ""
 			(at 180.34 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6003,7 +6830,7 @@
 				)
 			)
 		)
-		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
+		(property "Description" ""
 			(at 100.33 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6188,7 +7015,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 83.82 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6212,6 +7039,86 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 88.9 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69cda16b-ce4f-4297-acc8-8725b61eea92")
+		(property "Reference" "#PWR090"
+			(at 242.57 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5cb8d3e4-aa09-4db9-8ad6-84d01f8dedfd")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -6353,7 +7260,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "X7R"
 			(at 133.35 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6460,7 +7367,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 148.59 41.91 0)
+		(at 148.59 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6471,7 +7378,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a1d92a8-4d66-47ba-8c78-f5f9db173c64")
 		(property "Reference" "D12"
-			(at 148.59 35.56 0)
+			(at 148.59 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6481,7 +7388,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 148.59 38.1 0)
+			(at 148.59 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6490,8 +7397,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 148.59 41.91 0)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 148.59 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6502,7 +7409,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 148.59 41.91 0)
+			(at 148.59 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6512,8 +7419,8 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 148.59 41.91 0)
+		(property "Description" ""
+			(at 148.59 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6524,7 +7431,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 148.59 41.91 0)
+			(at 148.59 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6535,7 +7442,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 148.59 41.91 0)
+			(at 148.59 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6555,6 +7462,86 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 78.74 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b342be9-166a-4ced-bc44-3b31f6afcc6c")
+		(property "Reference" "#PWR088"
+			(at 242.57 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98fe6332-be13-4f1c-ac19-18312a922bc7")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -6695,7 +7682,7 @@
 				)
 			)
 		)
-		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
+		(property "Description" ""
 			(at 105.41 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6797,7 +7784,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 215.9 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6928,7 +7915,7 @@
 		(fields_autoplaced yes)
 		(uuid "a165ebe3-783b-4fc7-8564-f10af0aea16f")
 		(property "Reference" "U8"
-			(at 148.59 76.2 0)
+			(at 148.59 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6938,7 +7925,7 @@
 			)
 		)
 		(property "Value" "LM7815"
-			(at 148.59 78.74 0)
+			(at 148.59 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6971,8 +7958,9 @@
 				)
 			)
 		)
-		(property "Description" "Heatsink"
+		(property "Description" ""
 			(at 148.59 81.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7001,7 +7989,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 148.59 73.66 0)
+		(at 148.59 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7012,7 +8000,7 @@
 		(fields_autoplaced yes)
 		(uuid "a48daa9c-17b7-4621-933a-13d8a887201d")
 		(property "Reference" "D10"
-			(at 148.59 67.31 0)
+			(at 148.59 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7022,7 +8010,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 148.59 69.85 0)
+			(at 148.59 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7031,8 +8019,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 148.59 73.66 0)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 148.59 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7043,7 +8031,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 148.59 73.66 0)
+			(at 148.59 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7053,8 +8041,8 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 148.59 73.66 0)
+		(property "Description" ""
+			(at 148.59 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7065,7 +8053,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 148.59 73.66 0)
+			(at 148.59 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7076,7 +8064,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 148.59 73.66 0)
+			(at 148.59 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7157,7 +8145,7 @@
 				)
 			)
 		)
-		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
+		(property "Description" ""
 			(at 100.33 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7287,6 +8275,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 158.75 45.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa17770a-6205-4325-890b-117d7ffcd012")
+		(property "Reference" "HS6"
+			(at 163.83 44.4372 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 163.83 46.9772 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 46.0248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 46.0248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "HS6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "C_Basic_3")
 		(lib_id "custom:C_Basic")
 		(at 162.56 106.68 180)
@@ -7342,7 +8406,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "X7R"
 			(at 162.56 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7402,7 +8466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 180.34 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7424,7 +8488,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" ""
 			(at 180.34 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7506,7 +8570,7 @@
 				)
 			)
 		)
-		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
+		(property "Description" ""
 			(at 105.41 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7610,7 +8674,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "X7R"
 			(at 162.56 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7771,7 +8835,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 215.9 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7863,8 +8927,9 @@
 				)
 			)
 		)
-		(property "Description" "Heatsink"
+		(property "Description" ""
 			(at 148.59 121.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7886,6 +8951,99 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 259.08 85.09 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca33549a-bac4-4988-9d4a-c57c7facd9e6")
+		(property "Reference" "J4"
+			(at 258.445 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JST XH S6B-XH-A"
+			(at 258.445 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal"
+			(at 259.08 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "908f657e-9485-461f-b101-79efad2f063e")
+		)
+		(pin "1"
+			(uuid "92f35b25-1627-4514-9f68-e4d812c304bb")
+		)
+		(pin "6"
+			(uuid "091eeff8-0ed5-42ff-8595-a48c543d9443")
+		)
+		(pin "2"
+			(uuid "996af685-81e5-4c1e-b325-21616614952a")
+		)
+		(pin "4"
+			(uuid "13294896-52b4-4c11-ad7e-ddb70543ca10")
+		)
+		(pin "5"
+			(uuid "5e17265b-ccc6-4d65-aea8-f05a9c8ba318")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8027,7 +9185,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "X7R"
 			(at 133.35 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8206,6 +9364,82 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 158.75 77.47 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e569afd7-41aa-4250-8ddf-eab78923eedf")
+		(property "Reference" "HS5"
+			(at 163.83 76.1872 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 163.83 78.7272 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 77.7748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 77.7748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "HS5")
 					(unit 1)
 				)
 			)
@@ -8469,7 +9703,7 @@
 		(fields_autoplaced yes)
 		(uuid "f339bd48-628a-4010-ac6d-12b876d4702a")
 		(property "Reference" "U14"
-			(at 148.59 44.45 0)
+			(at 148.59 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8479,7 +9713,7 @@
 			)
 		)
 		(property "Value" "LM7812"
-			(at 148.59 46.99 0)
+			(at 148.59 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8511,8 +9745,9 @@
 				)
 			)
 		)
-		(property "Description" "Heatsink"
+		(property "Description" ""
 			(at 148.59 49.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8595,7 +9830,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "X7R"
 			(at 162.56 91.44 0)
 			(hide yes)
 			(show_name no)

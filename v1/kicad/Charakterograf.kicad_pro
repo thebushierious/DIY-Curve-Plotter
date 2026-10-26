@@ -306,7 +306,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "C:\\Users\\Client\\Downloads\\RFID.csv",
+    "bom_export_filename": "C:\\Users\\Client\\Downloads\\BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -322,7 +322,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -424,15 +424,21 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
           "show": false
         }
       ],
@@ -484,7 +490,7 @@
         "uuid": "d7a5a570-e509-45ae-a7d3-ba88e6083368"
       }
     ],
-    "used_designators": "D5-6,D19-20,#PWR1-2,#PWR16-18,#PWR35-36,#PWR53-57,#PWR79,#PWR81-85,SW11-12,R23,R36,R55-61,U6",
+    "used_designators": "J3-4,J8,#PWR35,#PWR86-102,U2,U10,U16-17,HS1-7,C12-13,C22-23,C30-31,C41-42,C47-50,FB1-6",
     "variants": []
   },
   "sheets": [

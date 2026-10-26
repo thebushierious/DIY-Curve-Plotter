@@ -3448,8 +3448,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SPST"
 			(at 64.77 55.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3641,7 +3642,7 @@
 				)
 			)
 		)
-		(property "Description" "NPN transistor, collector/base/emitter"
+		(property "Description" ""
 			(at 88.9 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3920,7 +3921,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 135.89 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4013,7 +4014,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" ""
 			(at 88.9 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4478,7 +4479,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" ""
 			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4582,7 +4583,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" ""
 			(at 123.19 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4855,7 +4856,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 140.97 48.26 0)
 			(hide yes)
 			(show_name no)
