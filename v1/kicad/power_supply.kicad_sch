@@ -1805,6 +1805,153 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_2Pole"
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_2Pole"
+				(at 0 -1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2-polar test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_2Pole_0_1"
+				(circle
+					(center -1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_Schottky"
 			(pin_numbers
 				(hide yes)
@@ -4518,7 +4665,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 90.17) (xy 254 90.17)
+			(xy 252.73 72.39) (xy 254 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4528,7 +4675,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 82.55) (xy 242.57 82.55)
+			(xy 254 80.01) (xy 242.57 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4758,6 +4905,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 68.58) (xy 123.19 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37fb07a3-349a-4e5f-b838-396f302bc345")
+	)
+	(wire
+		(pts
 			(xy 144.78 43.18) (xy 139.7 43.18)
 		)
 		(stroke
@@ -4778,7 +4935,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 87.63) (xy 242.57 87.63)
+			(xy 254 74.93) (xy 242.57 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4808,7 +4965,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 82.55) (xy 242.57 83.82)
+			(xy 242.57 80.01) (xy 242.57 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4828,7 +4985,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 113.03) (xy 127 113.03)
+			(xy 102.87 113.03) (xy 111.76 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4908,7 +5065,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 87.63) (xy 242.57 88.9)
+			(xy 242.57 74.93) (xy 242.57 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4968,6 +5125,36 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 85.09) (xy 127 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70fe3e13-a59d-4f98-9d73-0f82e1d2bc36")
+	)
+	(wire
+		(pts
+			(xy 121.92 113.03) (xy 127 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71559e1c-dd5c-42d4-9185-ec37e85d8f20")
+	)
+	(wire
+		(pts
+			(xy 121.92 68.58) (xy 123.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "722f743a-acf4-44c3-9e42-210e8f2771e3")
+	)
+	(wire
+		(pts
 			(xy 182.88 100.33) (xy 182.88 99.06)
 		)
 		(stroke
@@ -4975,6 +5162,16 @@
 			(type default)
 		)
 		(uuid "7824ec31-e8e1-4345-b112-c7ad4be195bc")
+	)
+	(wire
+		(pts
+			(xy 111.76 68.58) (xy 110.49 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eba9e01-eebf-4d14-a078-935c4d7cf6ed")
 	)
 	(wire
 		(pts
@@ -5008,7 +5205,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 85.09) (xy 127 85.09)
+			(xy 102.87 85.09) (xy 111.76 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5018,7 +5215,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 80.01) (xy 252.73 80.01)
+			(xy 254 82.55) (xy 252.73 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5128,6 +5325,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 68.58) (xy 110.49 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96caa649-5ddd-4448-89f2-cb958d725006")
+	)
+	(wire
+		(pts
 			(xy 220.98 118.11) (xy 220.98 119.38)
 		)
 		(stroke
@@ -5178,7 +5385,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 85.09) (xy 252.73 85.09)
+			(xy 254 77.47) (xy 252.73 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5368,7 +5575,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 77.47) (xy 242.57 77.47)
+			(xy 254 85.09) (xy 242.57 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5438,7 +5645,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 77.47) (xy 242.57 78.74)
+			(xy 242.57 85.09) (xy 242.57 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5638,7 +5845,7 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at 252.73 80.01 180)
+		(at 252.73 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5648,7 +5855,7 @@
 		)
 		(uuid "040fbc58-1b85-4104-a806-dd0f8bb8f441")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.2372 80.01 0)
+			(at 246.2372 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5662,7 +5869,7 @@
 	)
 	(global_label "+15V"
 		(shape input)
-		(at 252.73 90.17 180)
+		(at 252.73 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5672,7 +5879,7 @@
 		)
 		(uuid "9b3b9610-ef1e-48e5-b195-1470c36a8276")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.6648 90.17 0)
+			(at 244.6648 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5734,7 +5941,7 @@
 	)
 	(global_label "-15V"
 		(shape input)
-		(at 252.73 85.09 180)
+		(at 252.73 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5744,7 +5951,7 @@
 		)
 		(uuid "dfb6a670-6287-4b48-ada7-4c2e763bf7b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.6648 85.09 0)
+			(at 244.6648 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5777,6 +5984,85 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fc22a86-289b-423e-bdbf-882a40875b70")
+		(property "Reference" "#PWR065"
+			(at 110.49 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "818eb83b-09a3-4490-948d-ab2a1bf84978")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "#PWR065")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5862,8 +6148,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 83.82 0)
-		(mirror y)
+		(at 242.57 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5874,7 +6159,7 @@
 		(fields_autoplaced yes)
 		(uuid "161234cf-e3ad-4dd0-8ce7-3f109c75a54e")
 		(property "Reference" "#PWR089"
-			(at 242.57 90.17 0)
+			(at 242.57 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5885,7 +6170,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 88.9 0)
+			(at 242.57 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5896,7 +6181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 83.82 0)
+			(at 242.57 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5907,7 +6192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 83.82 0)
+			(at 242.57 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5918,7 +6203,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 83.82 0)
+			(at 242.57 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7046,8 +7331,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 88.9 0)
-		(mirror y)
+		(at 242.57 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7058,7 +7342,7 @@
 		(fields_autoplaced yes)
 		(uuid "69cda16b-ce4f-4297-acc8-8725b61eea92")
 		(property "Reference" "#PWR090"
-			(at 242.57 95.25 0)
+			(at 242.57 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7069,7 +7353,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 93.98 0)
+			(at 242.57 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7080,7 +7364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 88.9 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7091,7 +7375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 88.9 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7102,7 +7386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 88.9 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7469,8 +7753,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 78.74 0)
-		(mirror y)
+		(at 242.57 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7481,7 +7764,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b342be9-166a-4ced-bc44-3b31f6afcc6c")
 		(property "Reference" "#PWR088"
-			(at 242.57 85.09 0)
+			(at 242.57 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7492,7 +7775,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 83.82 0)
+			(at 242.57 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7503,7 +7786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 78.74 0)
+			(at 242.57 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7514,7 +7797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 78.74 0)
+			(at 242.57 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7525,7 +7808,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 78.74 0)
+			(at 242.57 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7542,6 +7825,86 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 116.84 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c1ab883-9e16-4adf-972e-6bcefe6fb1e8")
+		(property "Reference" "TP32"
+			(at 116.84 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 116.84 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aa651b3c-b314-4f8a-b69e-38ee19f204da")
+		)
+		(pin "1"
+			(uuid "bca9ae76-d5fd-4b91-8d20-64fd60d1a0ce")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "TP32")
 					(unit 1)
 				)
 			)
@@ -7621,6 +7984,85 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8df1da67-cca5-452b-ae6d-1a8cfa4a8945")
+		(property "Reference" "#PWR066"
+			(at 123.19 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b708c8ca-2397-4a30-9ea9-ad56aa3dfe75")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -8873,6 +9315,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 116.84 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf658e56-09b1-48ff-bed5-d47de3b1b7a9")
+		(property "Reference" "TP7"
+			(at 116.84 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-UNREG"
+			(at 116.84 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 116.84 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8a36f8ee-3f14-43d5-b38e-0357df0a9349")
+		)
+		(pin "1"
+			(uuid "46ac6952-c2ef-452a-920e-f23821675e37")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:L7915")
 		(at 148.59 113.03 0)
 		(unit 1)
@@ -8958,8 +9480,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Socket")
-		(at 259.08 85.09 0)
-		(mirror x)
+		(at 259.08 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8970,27 +9491,29 @@
 		(fields_autoplaced yes)
 		(uuid "ca33549a-bac4-4988-9d4a-c57c7facd9e6")
 		(property "Reference" "J4"
-			(at 258.445 72.39 0)
+			(at 260.35 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "JST XH S6B-XH-A"
-			(at 258.445 74.93 0)
+			(at 260.35 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal"
-			(at 259.08 85.09 0)
+			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9001,7 +9524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 85.09 0)
+			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9012,7 +9535,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 85.09 0)
+			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9685,6 +10208,86 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 116.84 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f15f453a-1918-4983-9265-7dfc67d7862b")
+		(property "Reference" "TP6"
+			(at 116.84 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+UNREG"
+			(at 116.84 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 116.84 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f5e14f15-a4b4-483f-aae8-a24aa2407dcc")
+		)
+		(pin "1"
+			(uuid "a8bd5a24-088e-48ce-9a37-f535ba47b0d0")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "TP6")
 					(unit 1)
 				)
 			)

@@ -12,7 +12,7 @@
 	(lib_symbols)
 	(text "v3:\n-Add curren checker LM339 for relay coils\n-Add checking if all relays switched correcly\n-Add front pannel meter\n-Add step LEDs\n-Add external power option\n-Design HV Box"
 		(exclude_from_sim no)
-		(at 13.97 29.718 0)
+		(at 19.812 31.242 0)
 		(effects
 			(font
 				(size 3 3)
@@ -22,7 +22,7 @@
 		(uuid "9309ace3-609d-4235-888e-8354bf1eaa5d")
 	)
 	(sheet
-		(at 59.69 49.53)
+		(at 45.72 59.69)
 		(size 43.18 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38,7 +38,7 @@
 		)
 		(uuid "03491c05-b5f3-4f88-a242-4fe53ef90d21")
 		(property "Sheetname" "Logic Board"
-			(at 59.69 48.8184 0)
+			(at 45.72 58.9784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49,7 +49,7 @@
 			)
 		)
 		(property "Sheetfile" "Logic.kicad_sch"
-			(at 59.69 76.7846 0)
+			(at 45.72 86.9446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -68,7 +68,7 @@
 		)
 	)
 	(sheet
-		(at 118.11 54.61)
+		(at 93.98 63.5)
 		(size 26.67 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -84,7 +84,7 @@
 		)
 		(uuid "a96e4916-0b05-4003-9480-a639547df929")
 		(property "Sheetname" "Power Supply Board"
-			(at 118.11 53.8984 0)
+			(at 93.98 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -95,7 +95,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 118.11 74.2446 0)
+			(at 93.98 83.1346 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -110,6 +110,53 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 64.77)
+		(size 20.32 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cd41930f-a470-4d4a-ba14-5ff26eaaa2fd")
+		(property "Sheetname" "DUT Board"
+			(at 125.73 64.0584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DUT.kicad_sch"
+			(at 125.73 81.8646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368"
+					(page "5")
 				)
 			)
 		)
