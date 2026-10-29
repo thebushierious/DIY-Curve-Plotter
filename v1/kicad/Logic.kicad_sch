@@ -19092,6 +19092,16 @@
 		)
 		(uuid "b65813c8-3145-4edd-b8b2-fc0676fae641")
 	)
+	(text "Add a buffer from B"
+		(exclude_from_sim no)
+		(at 416.814 184.658 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cbbc11df-195a-46ca-bda2-c064d5c1ab2c")
+	)
 	(text "Base\n"
 		(exclude_from_sim no)
 		(at 396.24 197.104 0)
@@ -23444,6 +23454,16 @@
 	)
 	(wire
 		(pts
+			(xy 420.37 189.23) (xy 421.64 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a1bf9fd-8af6-4894-b34a-a62f93eef29a")
+	)
+	(wire
+		(pts
 			(xy 173.99 106.68) (xy 172.72 106.68)
 		)
 		(stroke
@@ -24371,6 +24391,16 @@
 			(type default)
 		)
 		(uuid "c869af0a-0704-40d0-9634-569295a5cb93")
+	)
+	(wire
+		(pts
+			(xy 420.37 190.5) (xy 420.37 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c88bd50f-ea17-4ef6-881c-9506eafe2ca1")
 	)
 	(wire
 		(pts
@@ -26469,7 +26499,7 @@
 	)
 	(hierarchical_label "GUARD"
 		(shape output)
-		(at 422.91 191.77 0)
+		(at 421.64 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29926,7 +29956,8 @@
 	)
 	(symbol
 		(lib_id "custom:C-Pol_Basic")
-		(at 254 269.24 90)
+		(at 254 269.24 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29936,7 +29967,7 @@
 		(dnp no)
 		(uuid "1c68ad1e-a160-4cf0-be59-d426311b5c9e")
 		(property "Reference" "C48"
-			(at 263.652 267.97 90)
+			(at 263.144 267.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29946,7 +29977,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 263.652 270.51 90)
+			(at 263.144 270.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31520,7 +31551,8 @@
 	)
 	(symbol
 		(lib_id "custom:C-Pol_Basic")
-		(at 194.31 302.26 90)
+		(at 194.31 302.26 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31530,7 +31562,7 @@
 		(dnp no)
 		(uuid "281563e9-c0d1-48a8-a6b9-dde7a30fd636")
 		(property "Reference" "C50"
-			(at 203.962 300.99 90)
+			(at 203.708 300.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31540,7 +31572,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 203.962 303.53 90)
+			(at 203.708 303.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34312,6 +34344,85 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 420.37 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f2a0cf6-a502-4aef-b12a-e109e146b5db")
+		(property "Reference" "#PWR0138"
+			(at 420.37 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 420.37 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 420.37 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 420.37 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 420.37 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11f71d22-385d-4956-a8c8-f88daeaa722b")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21"
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)

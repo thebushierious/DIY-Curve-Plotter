@@ -3126,7 +3126,8 @@
 	)
 	(symbol
 		(lib_id "custom:C-Pol_Basic")
-		(at 167.64 85.09 90)
+		(at 167.64 85.09 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3136,7 +3137,7 @@
 		(dnp no)
 		(uuid "647622d4-38fc-4164-b98b-69d8511d7ce4")
 		(property "Reference" "C13"
-			(at 177.292 83.82 90)
+			(at 177.038 83.566 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3146,7 +3147,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 177.292 86.36 90)
+			(at 177.038 86.106 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
