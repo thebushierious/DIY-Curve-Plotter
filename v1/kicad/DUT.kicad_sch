@@ -1294,6 +1294,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 86.36) (xy 144.78 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8615e392-ee26-45b9-80f3-90cf11049b0b")
+	)
+	(wire
+		(pts
 			(xy 80.01 29.21) (xy 86.36 29.21)
 		)
 		(stroke
@@ -1494,6 +1504,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 90.17) (xy 144.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd142b23-90ac-4154-9985-4dd4936d93c6")
+	)
+	(wire
+		(pts
 			(xy 81.28 88.9) (xy 85.09 88.9)
 		)
 		(stroke
@@ -1531,6 +1551,16 @@
 			(type default)
 		)
 		(uuid "f7e921d8-ce83-4d52-a846-75390f160e7c")
+	)
+	(wire
+		(pts
+			(xy 139.7 93.98) (xy 144.78 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa5c96a7-553d-4ee9-990c-88b1baf2dc3c")
 	)
 	(label "B"
 		(at 81.28 82.55 180)
@@ -1613,6 +1643,16 @@
 		(uuid "57343fe7-db8e-4593-913c-011de1282f9d")
 	)
 	(label "C"
+		(at 139.7 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59794db1-2963-419f-9abc-9b97e2c4380b")
+	)
+	(label "C"
 		(at 80.01 29.21 180)
 		(effects
 			(font
@@ -1652,6 +1692,16 @@
 		)
 		(uuid "97dc0222-3ac0-442e-bab4-d504d4b652da")
 	)
+	(label "B"
+		(at 139.7 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9a7737e9-10b3-41c0-8fd4-1c1785023e97")
+	)
 	(label "E"
 		(at 81.28 88.9 180)
 		(effects
@@ -1671,6 +1721,16 @@
 			(justify right bottom)
 		)
 		(uuid "a95b55bf-a9ba-423d-afce-106ca0a61e02")
+	)
+	(label "E"
+		(at 139.7 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfa69580-c1e9-4169-8caf-cd383727fc2c")
 	)
 	(label "E"
 		(at 80.01 34.29 180)
@@ -1745,7 +1805,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "158d2183-ee19-4382-be53-71de08f2f816")
 		(property "Reference" "J13"
@@ -1793,6 +1853,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 144.78 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spend" "$$$"
 			(at 144.78 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -1867,7 +1938,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.arieselec.com/wp-content/uploads/2020/02/10001-universal-dip-zif-test-socket.pdf"
+		(property "Datasheet" ""
 			(at 281.28 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -1879,7 +1950,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Aries Electronics 2.54mm Pitch 28 Way Through Hole Universal ZIF Test Socket"
+		(property "Description" ""
 			(at 86.36 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -1890,7 +1961,7 @@
 				)
 			)
 		)
-		(property "Height" "12.07"
+		(property "Height" ""
 			(at 481.28 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -1902,7 +1973,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "ARIES"
+		(property "Manufacturer_Name" ""
 			(at 581.28 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -1914,7 +1985,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "28-6554-10"
+		(property "Manufacturer_Part_Number" ""
 			(at 681.28 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -1926,7 +1997,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "535-28-6554-10"
+		(property "Mouser Part Number" ""
 			(at 781.28 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -1938,7 +2009,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Aries-Electronics/28-6554-10?qs=WZRMhwwaLl%2FXVzQUw3ZSkA%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 881.28 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -1972,6 +2043,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Spend" "$$$"
+			(at 86.36 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -2123,7 +2205,18 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" ""
+			(at 90.17 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spend" "$$$"
 			(at 90.17 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2202,7 +2295,18 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" ""
+			(at 90.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spend" "$$$"
 			(at 90.17 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2220,6 +2324,102 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
 					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:3-Pin-Socket_Basic")
+		(at 144.78 90.17 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9431f6f7-df84-44e5-9533-ad6c112225a8")
+		(property "Reference" "J20"
+			(at 148.59 89.6619 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Heavy-duty"
+			(at 148.59 92.2019 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spend" "$$$"
+			(at 144.78 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c560137b-6863-4d1e-8d56-bfc7ed4763fb")
+		)
+		(pin "1"
+			(uuid "e1c58eb7-480b-4984-8661-c6becebf87ad")
+		)
+		(pin "2"
+			(uuid "a1fbd1ed-50a3-4227-b932-96e49116697b")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -2281,7 +2481,18 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" ""
+			(at 90.17 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spend" "$$$"
 			(at 90.17 88.9 0)
 			(hide yes)
 			(show_name no)

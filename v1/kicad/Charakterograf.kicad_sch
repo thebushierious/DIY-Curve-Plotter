@@ -1462,7 +1462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal"
+		(property "Footprint" ""
 			(at 107.95 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1485,6 +1485,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 107.95 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spend" "$$$"
 			(at 107.95 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1555,7 +1566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal"
+		(property "Footprint" ""
 			(at 105.41 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -1578,6 +1589,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 105.41 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spend" "$$$"
+			(at 105.41 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 105.41 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -1669,7 +1702,18 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
+			(at 172.72 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spend" "$$$"
 			(at 172.72 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -1752,7 +1796,18 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" ""
+			(at 176.53 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spend" "$$$"
 			(at 176.53 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1848,6 +1903,17 @@
 				)
 			)
 		)
+		(property "Spend" "$$$"
+			(at 59.69 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9c41f6e2-5632-4d98-88f9-4e14765e2fb2")
 		)
@@ -1920,7 +1986,18 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" ""
+			(at 173.99 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spend" "$$$"
 			(at 173.99 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2006,7 +2083,18 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
+			(at 177.8 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spend" "$$$"
 			(at 177.8 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2134,7 +2222,7 @@
 				(justify right)
 			)
 		)
-		(pin "GND" bidirectional
+		(pin "GND" passive
 			(at 118.11 109.22 180)
 			(uuid "3252bb00-6194-414d-a855-9f7ba0d8a308")
 			(effects

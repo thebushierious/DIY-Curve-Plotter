@@ -440,6 +440,18 @@
           "label": "Field5",
           "name": "Field5",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field6",
+          "name": "Field6",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Spend",
+          "name": "Spend",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -490,7 +502,7 @@
         "uuid": "d7a5a570-e509-45ae-a7d3-ba88e6083368"
       }
     ],
-    "used_designators": "#PWR1-48,#PWR58-64,#PWR67-82,#PWR86-87,#PWR91-92,#PWR95-102,#PWR104-105,#PWR108-155,J11,J17-27,TP41-43",
+    "used_designators": "#PWR1-48,#PWR58-64,#PWR67-82,#PWR86-87,#PWR91-92,#PWR95-102,#PWR104-105,#PWR108-155,J11,J17-27,FB7,TP41-43,K3,SW14",
     "variants": []
   },
   "sheets": [

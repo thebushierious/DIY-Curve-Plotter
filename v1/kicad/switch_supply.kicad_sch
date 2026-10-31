@@ -497,7 +497,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "C_Basic_1"
+		(symbol "custom:C_Basic"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -556,7 +563,7 @@
 					)
 				)
 			)
-			(symbol "C_Basic_1_1_1"
+			(symbol "C_Basic_1_1"
 				(rectangle
 					(start -2.286 1.016)
 					(end 2.286 0.508)
@@ -589,7 +596,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.8288 1.8288)
@@ -607,975 +614,7 @@
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.8288 1.8288)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "C_Basic_11"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 8.128 6.604 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Cap"
-				(at 9.398 4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Basic_11_1_1"
-				(rectangle
-					(start -2.286 1.016)
-					(end 2.286 0.508)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.286 -0.508)
-					(end 2.286 -1.016)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 4.6228)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8288 1.8288)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 4.6228)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8288 1.8288)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "C_Basic_14"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 8.128 6.604 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Cap"
-				(at 9.398 4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Basic_14_1_1"
-				(rectangle
-					(start -2.286 1.016)
-					(end 2.286 0.508)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.286 -0.508)
-					(end 2.286 -1.016)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 4.6228)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8288 1.8288)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 4.6228)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8288 1.8288)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "C_Basic_15"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 8.128 6.604 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Cap"
-				(at 9.398 4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Basic_15_1_1"
-				(rectangle
-					(start -2.286 1.016)
-					(end 2.286 0.508)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.286 -0.508)
-					(end 2.286 -1.016)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 4.6228)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8288 1.8288)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 4.6228)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8288 1.8288)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "C_Basic_16"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 8.128 6.604 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Cap"
-				(at 9.398 4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Basic_16_1_1"
-				(rectangle
-					(start -2.286 1.016)
-					(end 2.286 0.508)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.286 -0.508)
-					(end 2.286 -1.016)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 4.6228)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8288 1.8288)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 4.6228)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8288 1.8288)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "C_Basic_17"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 8.128 6.604 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Cap"
-				(at 9.398 4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Basic_17_1_1"
-				(rectangle
-					(start -2.286 1.016)
-					(end 2.286 0.508)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.286 -0.508)
-					(end 2.286 -1.016)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 4.6228)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8288 1.8288)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 4.6228)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8288 1.8288)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "C_Basic_18"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 8.128 6.604 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Cap"
-				(at 9.398 4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Basic_18_1_1"
-				(rectangle
-					(start -2.286 1.016)
-					(end 2.286 0.508)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.286 -0.508)
-					(end 2.286 -1.016)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 4.6228)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8288 1.8288)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 4.6228)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8288 1.8288)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "C_Basic_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 8.128 6.604 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Cap"
-				(at 9.398 4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Basic_2_1_1"
-				(rectangle
-					(start -2.286 1.016)
-					(end 2.286 0.508)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.286 -0.508)
-					(end 2.286 -1.016)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 4.6228)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8288 1.8288)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 4.6228)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8288 1.8288)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "C_Basic_3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 8.128 6.604 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Cap"
-				(at 9.398 4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Basic_3_1_1"
-				(rectangle
-					(start -2.286 1.016)
-					(end 2.286 0.508)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.286 -0.508)
-					(end 2.286 -1.016)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 4.6228)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8288 1.8288)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 4.6228)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.8288 1.8288)
@@ -2347,7 +1386,6 @@
 		(uuid "fa00ea29-ff0e-40aa-a49d-10169a10ae6b")
 	)
 	(symbol
-		(lib_name "C_Basic_1")
 		(lib_id "custom:C_Basic")
 		(at 152.4 54.61 90)
 		(unit 1)
@@ -2411,10 +1449,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "eae00536-30c3-48d6-b3fa-85731c02753f")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "95c6fb8b-a193-46cb-becc-73d0eb8bd42b")
 		)
 		(instances
@@ -2529,7 +1567,6 @@
 		)
 	)
 	(symbol
-		(lib_name "C_Basic_16")
 		(lib_id "custom:C_Basic")
 		(at 105.41 54.61 90)
 		(unit 1)
@@ -2593,10 +1630,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "670349fa-5db1-405f-9fe8-302992b96716")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "2b7ebcc4-acc9-4624-a7f6-82afece74671")
 		)
 		(instances
@@ -2688,7 +1725,6 @@
 		)
 	)
 	(symbol
-		(lib_name "C_Basic_18")
 		(lib_id "custom:C_Basic")
 		(at 137.16 54.61 90)
 		(unit 1)
@@ -2752,10 +1788,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "98043284-4b7a-4588-b0f8-fb3d2a80c482")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "6549a4ad-a299-49c8-93d0-e334d4062d42")
 		)
 		(instances
@@ -2926,7 +1962,6 @@
 		)
 	)
 	(symbol
-		(lib_name "C_Basic_3")
 		(lib_id "custom:C_Basic")
 		(at 120.65 54.61 90)
 		(unit 1)
@@ -2990,10 +2025,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "a4e90a27-2710-4cf2-b0bd-d67686a70a02")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "d497de0a-2736-4890-b922-0e70ce3ee6dc")
 		)
 		(instances
@@ -3164,7 +2199,6 @@
 		)
 	)
 	(symbol
-		(lib_name "C_Basic_14")
 		(lib_id "custom:C_Basic")
 		(at 88.9 85.09 90)
 		(unit 1)
@@ -3228,10 +2262,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "93a4edd8-9154-4912-bbc9-e8bc24319edc")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "0378bb75-ecd6-4e03-8fdc-447807d2b950")
 		)
 		(instances
@@ -3560,7 +2594,6 @@
 		)
 	)
 	(symbol
-		(lib_name "C_Basic_11")
 		(lib_id "custom:C_Basic")
 		(at 73.66 54.61 90)
 		(unit 1)
@@ -3624,10 +2657,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "3715b3c1-6c84-4bee-9ee1-1f8dc185dc82")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "50d4c513-436d-4058-b188-6b2b58c17b80")
 		)
 		(instances
@@ -3742,7 +2775,6 @@
 		)
 	)
 	(symbol
-		(lib_name "C_Basic_2")
 		(lib_id "custom:C_Basic")
 		(at 88.9 54.61 90)
 		(unit 1)
@@ -3806,10 +2838,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "58757277-ea00-446e-9fc4-ff6bf0517cd7")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "3c19fb05-7573-4f80-9d22-a3113430f393")
 		)
 		(instances
@@ -3822,7 +2854,6 @@
 		)
 	)
 	(symbol
-		(lib_name "C_Basic_17")
 		(lib_id "custom:C_Basic")
 		(at 152.4 85.09 90)
 		(unit 1)
@@ -3886,10 +2917,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "e1cf4555-c386-48b7-b963-59efe47e7873")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "40a12a2e-aff0-4646-9e88-bc8c771db7ed")
 		)
 		(instances
@@ -4162,7 +3193,6 @@
 		)
 	)
 	(symbol
-		(lib_name "C_Basic_15")
 		(lib_id "custom:C_Basic")
 		(at 120.65 85.09 90)
 		(unit 1)
@@ -4226,10 +3256,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "e322e6bb-f769-4ea9-8d8b-3ce02b5a2051")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "cbe94093-c502-4b68-8910-6b167bf7d294")
 		)
 		(instances
