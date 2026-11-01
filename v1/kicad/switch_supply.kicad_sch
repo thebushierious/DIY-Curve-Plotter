@@ -1498,7 +1498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 83.82 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -2706,7 +2706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 147.32 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -3045,7 +3045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 115.57 84.455 0)
 			(hide yes)
 			(show_name no)

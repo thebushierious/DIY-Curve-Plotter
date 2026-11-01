@@ -252,7 +252,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "custom"
+    ],
     "pinned_symbol_libs": [
       "custom"
     ]
@@ -502,7 +504,7 @@
         "uuid": "d7a5a570-e509-45ae-a7d3-ba88e6083368"
       }
     ],
-    "used_designators": "#PWR1-48,#PWR58-64,#PWR67-82,#PWR86-87,#PWR91-92,#PWR95-102,#PWR104-105,#PWR108-155,J11,J17-27,FB7,TP41-43,K3,SW14",
+    "used_designators": "H13-16,TP41-80,HS8-11,D21-22,#PWR26,#PWR30,#PWR48-55,R36,R47,K1-4",
     "variants": []
   },
   "sheets": [

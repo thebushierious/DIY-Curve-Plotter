@@ -10,7 +10,10 @@
 		(rev "2")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint_2Pole"
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.762)
 				(hide yes)
@@ -21,7 +24,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
-				(at 0 1.524 0)
+				(at 0 6.858 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -30,8 +33,8 @@
 					)
 				)
 			)
-			(property "Value" "TestPoint_2Pole"
-				(at 0 -1.778 0)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -41,7 +44,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -52,6 +55,17 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -62,18 +76,7 @@
 					)
 				)
 			)
-			(property "Description" "2-polar test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "point tp"
+			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -95,9 +98,9 @@
 					)
 				)
 			)
-			(symbol "TestPoint_2Pole_0_1"
+			(symbol "TestPoint_0_1"
 				(circle
-					(center -1.778 0)
+					(center 0 3.302)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -107,19 +110,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "TestPoint_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at 0 0 90)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -129,24 +123,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -898,9 +874,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:Heatsink"
+		(symbol "Mechanical:Heatsink_Pad_2Pin"
 			(pin_names
-				(offset 1.016)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -908,7 +884,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "HS"
-				(at 0 5.08 0)
+				(at 0 5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -917,8 +893,8 @@
 					)
 				)
 			)
-			(property "Value" "Heatsink"
-				(at 0 -1.27 0)
+			(property "Value" "Heatsink_Pad_2Pin"
+				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -928,7 +904,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0.3048 0 0)
+				(at 0.3048 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -939,7 +915,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0.3048 0 0)
+				(at 0.3048 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -949,7 +925,7 @@
 					)
 				)
 			)
-			(property "Description" "Heatsink"
+			(property "Description" "Heatsink with electrical connection, 2 pin"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -982,11 +958,11 @@
 					)
 				)
 			)
-			(symbol "Heatsink_0_1"
+			(symbol "Heatsink_Pad_2Pin_0_1"
 				(polyline
 					(pts
-						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
-						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
+						(xy -0.3302 0) (xy -0.9652 0) (xy -0.9652 2.54) (xy -1.6002 2.54) (xy -1.6002 0) (xy -2.2352 0)
+						(xy -2.2352 2.54) (xy -2.8702 2.54) (xy -2.8702 -1.27) (xy -0.9652 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -998,9 +974,9 @@
 				)
 				(polyline
 					(pts
-						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
-						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
-						(xy -0.9652 0)
+						(xy -0.3302 0) (xy -0.3302 2.54) (xy 0.3048 2.54) (xy 0.3048 0) (xy 0.9398 0) (xy 0.9398 2.54)
+						(xy 1.5748 2.54) (xy 1.5748 0) (xy 2.2098 0) (xy 2.2098 2.54) (xy 2.8448 2.54) (xy 2.8448 -1.27)
+						(xy -0.9652 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1008,6 +984,143 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+			(symbol "Heatsink_Pad_2Pin_1_1"
+				(pin passive line
+					(at -2.54 -2.54 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2205,7 +2318,7 @@
 	)
 	(text "Use a standart IEC C14 socket with a built in fuse holder\nUse a slow-blow (T) 250V AC fuse (160mA for 15VA or 250mA for 30VA)"
 		(exclude_from_sim no)
-		(at 76.2 122.428 0)
+		(at 62.992 110.998 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2215,7 +2328,7 @@
 	)
 	(text "Connects to the output of a 2x18V 15/30VA\ntoroidal mains transformer"
 		(exclude_from_sim no)
-		(at 78.232 114.554 0)
+		(at 65.024 103.124 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2254,6 +2367,12 @@
 		(uuid "1da4c9bd-a770-4f16-b99b-9d2331df62ea")
 	)
 	(junction
+		(at 127 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ea724b0-de12-4a15-bf21-7d92b87fa669")
+	)
+	(junction
 		(at 116.84 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2288,6 +2407,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f764e88-1164-4d89-9f1e-829dbf1efd72")
+	)
+	(junction
+		(at 121.92 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45516c87-1722-46f1-8a64-79e474309727")
 	)
 	(junction
 		(at 114.3 115.57)
@@ -2398,6 +2523,12 @@
 		(uuid "bb02be65-5fcf-4519-b6c2-2f8268247c70")
 	)
 	(junction
+		(at 127 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca7f0182-8d5f-4d19-a208-5cf41d6f75bb")
+	)
+	(junction
 		(at 144.78 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2489,6 +2620,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 78.74) (xy 124.46 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1178e1ef-66cb-4591-96a8-7916f58f6b88")
+	)
+	(wire
+		(pts
 			(xy 191.77 88.9) (xy 191.77 91.44)
 		)
 		(stroke
@@ -2509,6 +2650,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 85.09) (xy 171.45 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fdaa8c2-07a7-404d-bf06-f8cb83dde207")
+	)
+	(wire
+		(pts
 			(xy 111.76 114.3) (xy 111.76 115.57)
 		)
 		(stroke
@@ -2526,6 +2677,26 @@
 			(type default)
 		)
 		(uuid "20ad05db-a4b6-48d3-beb4-6d7cfc7c5540")
+	)
+	(wire
+		(pts
+			(xy 99.06 121.92) (xy 99.06 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ba24d8-f968-48ff-8ddd-26b7e43e661f")
+	)
+	(wire
+		(pts
+			(xy 121.92 121.92) (xy 119.38 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21dc8484-3f91-4a1c-8850-4d448698579f")
 	)
 	(wire
 		(pts
@@ -2659,6 +2830,36 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 121.92) (xy 121.92 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2faf8f68-674f-4884-851b-0275f7f2b65e")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 138.43 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ba0f6f-0b2d-40a4-bbd8-d5f24c3e844b")
+	)
+	(wire
+		(pts
+			(xy 121.92 116.84) (xy 127 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32be497f-7cd3-4be9-a871-f1846e162596")
+	)
+	(wire
+		(pts
 			(xy 209.55 88.9) (xy 222.25 88.9)
 		)
 		(stroke
@@ -2709,16 +2910,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 72.39) (xy 134.62 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37fb07a3-349a-4e5f-b838-396f302bc345")
-	)
-	(wire
-		(pts
 			(xy 156.21 46.99) (xy 151.13 46.99)
 		)
 		(stroke
@@ -2749,6 +2940,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 128.27) (xy 171.45 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "447172c7-0398-4145-92f1-7ca95760385f")
+	)
+	(wire
+		(pts
 			(xy 116.84 90.17) (xy 116.84 91.44)
 		)
 		(stroke
@@ -2756,6 +2957,16 @@
 			(type default)
 		)
 		(uuid "44dcf290-704a-4637-afce-cb33f2507327")
+	)
+	(wire
+		(pts
+			(xy 176.53 85.09) (xy 176.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "473aba77-e742-4fcc-932e-7434fbd724ed")
 	)
 	(wire
 		(pts
@@ -2779,7 +2990,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 116.84) (xy 123.19 116.84)
+			(xy 114.3 116.84) (xy 121.92 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2796,6 +3007,16 @@
 			(type default)
 		)
 		(uuid "5235cefa-834a-4b4f-a51d-aaa5e968a102")
+	)
+	(wire
+		(pts
+			(xy 127 87.63) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c40e8e-06fc-4729-830e-bdbe0b23eaf3")
 	)
 	(wire
 		(pts
@@ -2859,6 +3080,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 53.34) (xy 171.45 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61badf4a-068d-4be1-b458-d68c551fe6df")
+	)
+	(wire
+		(pts
 			(xy 173.99 57.15) (xy 180.34 57.15)
 		)
 		(stroke
@@ -2919,43 +3150,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 88.9) (xy 138.43 88.9)
+			(xy 176.53 128.27) (xy 176.53 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70fe3e13-a59d-4f98-9d73-0f82e1d2bc36")
-	)
-	(wire
-		(pts
-			(xy 133.35 116.84) (xy 138.43 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71559e1c-dd5c-42d4-9185-ec37e85d8f20")
-	)
-	(wire
-		(pts
-			(xy 133.35 72.39) (xy 134.62 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "722f743a-acf4-44c3-9e42-210e8f2771e3")
-	)
-	(wire
-		(pts
-			(xy 123.19 72.39) (xy 121.92 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eba9e01-eebf-4d14-a078-935c4d7cf6ed")
+		(uuid "77f17847-f194-473a-8298-30c49d93b59e")
 	)
 	(wire
 		(pts
@@ -2989,7 +3190,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 88.9) (xy 123.19 88.9)
+			(xy 114.3 88.9) (xy 127 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3109,16 +3310,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 72.39) (xy 121.92 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96caa649-5ddd-4448-89f2-cb958d725006")
-	)
-	(wire
-		(pts
 			(xy 232.41 121.92) (xy 232.41 123.19)
 		)
 		(stroke
@@ -3196,6 +3387,16 @@
 			(type default)
 		)
 		(uuid "a042acdf-b513-4697-bd5e-95ea901efa93")
+	)
+	(wire
+		(pts
+			(xy 107.95 121.92) (xy 109.22 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3836037-ad20-4cf9-ab59-38396e68fd0c")
 	)
 	(wire
 		(pts
@@ -3329,6 +3530,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 53.34) (xy 176.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b69a89-cc1d-4ae1-b375-89916f7db8cf")
+	)
+	(wire
+		(pts
 			(xy 194.31 102.87) (xy 194.31 104.14)
 		)
 		(stroke
@@ -3436,6 +3647,16 @@
 			(type default)
 		)
 		(uuid "d33ad6dc-7e70-4f80-813b-5c0660df6288")
+	)
+	(wire
+		(pts
+			(xy 127 116.84) (xy 138.43 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46cef19-47fb-4a33-9b1b-34c96f126bd7")
 	)
 	(wire
 		(pts
@@ -3589,6 +3810,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 121.92) (xy 99.06 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9d814c0-80a8-4d01-a1c0-21cfb235a341")
+	)
+	(wire
+		(pts
 			(xy 168.91 78.74) (xy 168.91 88.9)
 		)
 		(stroke
@@ -3606,6 +3837,16 @@
 			(type default)
 		)
 		(uuid "fa629162-7d24-4a36-bc7d-d5aa66e36b64")
+	)
+	(wire
+		(pts
+			(xy 127 118.11) (xy 127 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcbd595c-6df6-4ff0-91f8-298ae6a575a1")
 	)
 	(wire
 		(pts
@@ -3716,7 +3957,7 @@
 				)
 			)
 		)
-		(property "Value" "A5 hold 30V"
+		(property "Value" "5A hold 30V"
 			(at 200.66 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3726,7 +3967,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:BK30-500-SZ"
 			(at 200.66 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3934,6 +4175,255 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 171.45 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19d0b915-a5e7-43bc-81b1-f652a00f8b0d")
+		(property "Reference" "#PWR050"
+			(at 171.45 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 171.323 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 171.45 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "531d7898-385c-4481-b19b-aecc7f57ebea")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 104.14 121.92 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1fba0a7b-d286-4ff4-a53e-23215f74c66b")
+		(property "Reference" "D22"
+			(at 101.346 125.476 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G LED"
+			(at 101.346 128.016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:151034GS03000"
+			(at 104.14 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bbbf2f15-4628-48d8-b631-902e1e4bb2db")
+		)
+		(pin "1"
+			(uuid "c5436e93-e69f-4dee-92bc-8e0fe441f93b")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 171.45 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2130413e-eaa1-4b43-b079-d3ce07ae3221")
+		(property "Reference" "#PWR052"
+			(at 171.45 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 171.323 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 171.45 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c572d53c-8458-4830-9e27-814f2c339917")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 227.33 121.92 0)
 		(unit 1)
@@ -3965,7 +4455,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:151034GS03000"
 			(at 227.33 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4266,19 +4756,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 170.18 124.46 270)
+		(lib_id "Mechanical:MountingHole")
+		(at 77.47 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "35ef5b94-4bb0-4f4c-9eb0-55ea9c479257")
-		(property "Reference" "HS7"
-			(at 175.26 123.1772 90)
+		(uuid "35d093f7-ca26-42ec-b8b1-c1e3f28db028")
+		(property "Reference" "H5"
+			(at 80.01 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4288,8 +4778,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Heatsink"
-			(at 175.26 125.7172 90)
+		(property "Value" "MountingHole"
+			(at 80.01 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4299,8 +4789,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 170.18 124.7648 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 77.47 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4310,8 +4800,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 170.18 124.7648 0)
+		(property "Datasheet" "https://www.printables.com/model/163087-stackable-pcb-standoff/files"
+			(at 77.47 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4322,7 +4812,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 124.46 0)
+			(at 77.47 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4335,7 +4825,7 @@
 		(instances
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "HS7")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -4507,6 +4997,240 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 77.47 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d0dd344-9960-4459-a99e-0aa647932d4d")
+		(property "Reference" "H6"
+			(at 80.01 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 80.01 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 77.47 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.printables.com/model/163087-stackable-pcb-standoff/files"
+			(at 77.47 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 99.06 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d2b3b62-7db7-452e-80d3-43ad6a1837a6")
+		(property "Reference" "#PWR030"
+			(at 99.06 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 99.187 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 99.06 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e855632f-738d-4c37-9f96-f75e9ac12467")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 127 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42356246-b0f5-4db5-8a70-b76f223c4fca")
+		(property "Reference" "TP41"
+			(at 129.54 83.0579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+UNREG"
+			(at 129.54 85.5979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom:5006"
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9076445-f5fe-42db-a48e-b9c109125b7f")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "TP41")
 					(unit 1)
 				)
 			)
@@ -4691,6 +5415,85 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 127 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4aa8967b-3595-4aaf-9af5-1cccd88e8798")
+		(property "Reference" "TP43"
+			(at 129.54 120.1419 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "-UNREG"
+			(at 129.54 122.6819 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "custom:5006"
+			(at 121.92 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3255d4e4-bf8d-4391-bcdf-656597fb0873")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "TP43")
 					(unit 1)
 				)
 			)
@@ -4893,6 +5696,86 @@
 		)
 	)
 	(symbol
+		(lib_id "custom:R_Basic")
+		(at 114.3 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58684f79-e767-4d4e-a545-fce0c9a7e2af")
+		(property "Reference" "R47"
+			(at 114.3 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k7"
+			(at 114.3 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "908a0b10-5e10-45f1-a975-926317e0e481")
+		)
+		(pin "1"
+			(uuid "02ed204a-562a-4863-b1a5-e644b0a4d818")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 144.78 69.85 0)
 		(unit 1)
@@ -4966,6 +5849,85 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 176.53 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61af85a7-2338-4acb-a50a-95b634f00555")
+		(property "Reference" "#PWR049"
+			(at 176.53 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 176.403 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 176.53 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04a578d0-b0b1-4a99-98aa-8201a97d7345")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -5156,8 +6118,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 128.27 72.39 0)
+		(lib_id "power:GNDPWR")
+		(at 176.53 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5166,9 +6128,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7c1ab883-9e16-4adf-972e-6bcefe6fb1e8")
-		(property "Reference" "TP32"
-			(at 128.27 67.31 0)
+		(uuid "91d34c5d-b425-4aa8-b605-41661f1ea71a")
+		(property "Reference" "#PWR051"
+			(at 176.53 90.17 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5177,8 +6140,9 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 128.27 69.85 0)
+		(property "Value" "GNDPWR"
+			(at 176.403 88.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5188,7 +6152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 72.39 0)
+			(at 176.53 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5199,7 +6163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 72.39 0)
+			(at 176.53 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5209,8 +6173,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 128.27 72.39 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 176.53 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5219,17 +6183,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "aa651b3c-b314-4f8a-b69e-38ee19f204da")
 		)
 		(pin "1"
-			(uuid "bca9ae76-d5fd-4b91-8d20-64fd60d1a0ce")
+			(uuid "a92ede4d-3efc-4f85-aaff-dddd61b457f5")
 		)
 		(instances
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "TP32")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -5371,7 +6332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:151034GS03000"
 			(at 227.33 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5591,6 +6552,85 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
+		(at 176.53 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d834525-d80f-4fd4-97d5-1eb84634b47b")
+		(property "Reference" "#PWR053"
+			(at 176.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 176.403 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 176.53 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "687d7a45-a6be-4a60-b1d7-d98c9c204667")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
 		(at 232.41 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -5700,7 +6740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 160.655 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5981,7 +7021,7 @@
 				)
 			)
 		)
-		(property "Value" "A5 hold 30V"
+		(property "Value" "5A hold 30V"
 			(at 200.66 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5991,7 +7031,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:BK30-500-SZ"
 			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6040,8 +7080,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 170.18 49.53 270)
+		(lib_id "Mechanical:Heatsink_Pad_2Pin")
+		(at 173.99 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6050,9 +7090,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aa17770a-6205-4325-890b-117d7ffcd012")
-		(property "Reference" "HS6"
-			(at 175.26 48.2472 90)
+		(uuid "ab05aca1-9a1a-43fa-ab4f-c79006b0d31e")
+		(property "Reference" "HS10"
+			(at 177.8 122.5549 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6062,8 +7102,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Heatsink"
-			(at 175.26 50.7872 90)
+		(property "Value" "Heatsink_Pad_2Pin"
+			(at 177.8 125.0949 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6073,8 +7113,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 170.18 49.8348 0)
+		(property "Footprint" "SamacSys_Parts:240118ABEH22"
+			(at 174.2948 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6085,7 +7125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 49.8348 0)
+			(at 174.2948 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6096,7 +7136,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 49.53 0)
+			(at 173.99 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6106,10 +7146,16 @@
 				)
 			)
 		)
+		(pin "1"
+			(uuid "3609a8ea-bf04-40d4-9469-1bc98d778e2e")
+		)
+		(pin "2"
+			(uuid "9c46895a-3ccd-4ed1-b90a-b3df53ae1183")
+		)
 		(instances
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "HS6")
+					(reference "HS10")
 					(unit 1)
 				)
 			)
@@ -6587,7 +7633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:151034GS03000"
 			(at 227.33 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6648,7 +7694,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 121.92 73.66 0)
+		(at 124.46 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6659,7 +7705,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc78afe2-0b58-4b99-9ff7-4247bf736ad3")
 		(property "Reference" "#PWR034"
-			(at 121.92 78.74 0)
+			(at 124.46 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6670,7 +7716,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 121.793 77.47 0)
+			(at 124.333 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6681,7 +7727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 74.93 0)
+			(at 124.46 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6692,7 +7738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 74.93 0)
+			(at 124.46 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6703,7 +7749,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 121.92 73.66 0)
+			(at 124.46 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6720,86 +7766,6 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 128.27 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf658e56-09b1-48ff-bed5-d47de3b1b7a9")
-		(property "Reference" "TP7"
-			(at 128.27 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-UNREG"
-			(at 128.27 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8a36f8ee-3f14-43d5-b38e-0357df0a9349")
-		)
-		(pin "1"
-			(uuid "46ac6952-c2ef-452a-920e-f23821675e37")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -6837,7 +7803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 160.02 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7051,6 +8017,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 77.47 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d94f335f-eb94-40f1-b775-dd0e7cbc8d0c")
+		(property "Reference" "H8"
+			(at 80.01 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 80.01 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 77.47 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.printables.com/model/163087-stackable-pcb-standoff/files"
+			(at 77.47 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 180.34 69.85 0)
 		(unit 1)
@@ -7130,8 +8172,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 134.62 73.66 0)
+		(lib_id "Mechanical:Heatsink_Pad_2Pin")
+		(at 173.99 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7140,31 +8182,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e4a9266b-dd0a-4acf-a689-ac35eee014f4")
-		(property "Reference" "#PWR026"
-			(at 134.62 78.74 0)
-			(hide yes)
+		(uuid "dd0ad252-551d-42c3-af6c-7b360ceab9dc")
+		(property "Reference" "HS8"
+			(at 177.8 47.6249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 134.493 77.47 0)
-			(hide yes)
+		(property "Value" "Heatsink_Pad_2Pin"
+			(at 177.8 50.1649 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 134.62 74.93 0)
+		(property "Footprint" "SamacSys_Parts:240118ABEH22"
+			(at 174.2948 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7175,86 +8217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 134.62 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c2f148e-6640-49b5-b8ac-0406d98563ba")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 170.18 81.28 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e569afd7-41aa-4250-8ddf-eab78923eedf")
-		(property "Reference" "HS5"
-			(at 175.26 79.9972 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 175.26 82.5372 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 81.5848 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 81.5848 0)
+			(at 174.2948 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7265,7 +8228,89 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 81.28 0)
+			(at 173.99 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ac394a3-21e1-4b27-90b9-9ec4d2698333")
+		)
+		(pin "2"
+			(uuid "09eefbc2-3673-449a-b25d-d6c38a92a2cb")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "HS8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 77.47 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0c8ac31-08d3-42ba-b1c6-f31ad4b6ec83")
+		(property "Reference" "H7"
+			(at 80.01 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 80.01 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 77.47 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.printables.com/model/163087-stackable-pcb-standoff/files"
+			(at 77.47 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7278,7 +8323,165 @@
 		(instances
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "HS5")
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 171.45 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e355a5d2-b01e-4032-93d8-f4eb8b43d5ac")
+		(property "Reference" "#PWR048"
+			(at 171.45 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 171.323 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 171.45 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58826af5-4f41-473c-b342-c0b318d3f552")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e96b37b9-1fa1-41e2-951e-53075c76f60b")
+		(property "Reference" "TP42"
+			(at 127 72.8979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 75.4379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom:5006"
+			(at 129.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b502f703-30c6-476c-9358-ba1f3c391225")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "TP42")
 					(unit 1)
 				)
 			)
@@ -7490,7 +8693,7 @@
 				)
 			)
 		)
-		(property "Value" "A5 hold 30V"
+		(property "Value" "5A hold 30V"
 			(at 200.66 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7500,7 +8703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:BK30-500-SZ"
 			(at 200.66 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7549,8 +8752,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 128.27 88.9 0)
+		(lib_id "Mechanical:Heatsink_Pad_2Pin")
+		(at 173.99 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7559,29 +8762,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f15f453a-1918-4983-9265-7dfc67d7862b")
-		(property "Reference" "TP6"
-			(at 128.27 83.82 0)
+		(uuid "eecbe1b6-2053-4902-bdb4-d94a86ddfb16")
+		(property "Reference" "HS9"
+			(at 177.8 79.3749 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+UNREG"
-			(at 128.27 86.36 0)
+		(property "Value" "Heatsink_Pad_2Pin"
+			(at 177.8 81.9149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.27 88.9 0)
+		(property "Footprint" "SamacSys_Parts:240118ABEH22"
+			(at 174.2948 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7592,7 +8797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 88.9 0)
+			(at 174.2948 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7603,7 +8808,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 88.9 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7613,16 +8818,16 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "f5e14f15-a4b4-483f-aae8-a24aa2407dcc")
-		)
 		(pin "1"
-			(uuid "a8bd5a24-088e-48ce-9a37-f535ba47b0d0")
+			(uuid "4a10179d-99b5-4b63-a2b2-9ed16b811d1e")
+		)
+		(pin "2"
+			(uuid "7fd09a2e-f9e1-4982-a753-60c84006bb4a")
 		)
 		(instances
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "TP6")
+					(reference "HS9")
 					(unit 1)
 				)
 			)
