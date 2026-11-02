@@ -4298,8 +4298,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.778)
+					(at 2.54 -2.54 90)
+					(length 0)
 					(name ""
 						(effects
 							(font
@@ -4310,14 +4310,14 @@
 					(number "2"
 						(effects
 							(font
-								(size 1.8288 1.8288)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 2.54 -2.54 90)
-					(length 0)
+					(at 0 -5.08 90)
+					(length 1.778)
 					(name ""
 						(effects
 							(font
@@ -4328,7 +4328,7 @@
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8288 1.8288)
 							)
 						)
 					)
@@ -5252,24 +5252,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
-					(length 1.5748)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -5.08 90)
 					(length 1.5748)
 					(name ""
@@ -5279,7 +5261,25 @@
 							)
 						)
 					)
-					(number "2"
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 1.5748)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5337,7 +5337,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5355,7 +5355,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5405,7 +5405,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5423,7 +5423,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5441,7 +5441,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8196,8 +8196,8 @@
 		)
 	)
 	(rectangle
-		(start 222.25 257.81)
-		(end 236.22 269.24)
+		(start 223.52 254)
+		(end 248.92 265.43)
 		(stroke
 			(width 0)
 			(type dash)
@@ -8354,7 +8354,7 @@
 	)
 	(text "Auto\n\n\nStep\n\n\nPot"
 		(exclude_from_sim no)
-		(at 201.168 222.25 0)
+		(at 202.184 222.504 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8775,12 +8775,6 @@
 		(uuid "c09fa004-a449-4a13-91c7-ad2d14da150c")
 	)
 	(junction
-		(at 195.58 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "005685ab-e26f-4d9f-854b-9c53c3dab7c3")
-	)
-	(junction
 		(at 171.45 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8797,6 +8791,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02a6ada3-cba5-43b4-80af-bc99ad5afd51")
+	)
+	(junction
+		(at 220.98 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "033ff4b6-1ab4-4fc6-af92-b940829a19af")
 	)
 	(junction
 		(at 290.83 266.7)
@@ -8917,6 +8917,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "247090dc-9e78-40c6-a388-c5b1747c1e84")
+	)
+	(junction
+		(at 236.22 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26c58e92-a4d0-4c50-9fe3-e98c2aab55aa")
 	)
 	(junction
 		(at 212.09 68.58)
@@ -9075,6 +9081,12 @@
 		(uuid "6532ec6d-4e9d-4ec3-976d-dc0f54dd8b02")
 	)
 	(junction
+		(at 195.58 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "688c0bee-512a-4faf-aa58-dd6e897cfc77")
+	)
+	(junction
 		(at 236.22 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9187,6 +9199,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c817a4f-7088-4451-87df-c51c956ddd78")
+	)
+	(junction
+		(at 71.12 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f79dda1-82c5-424d-9632-c284ffb8c487")
 	)
 	(junction
 		(at 212.09 71.12)
@@ -9303,6 +9321,12 @@
 		(uuid "b5d48a0c-bde4-4f83-8883-d11834760d1d")
 	)
 	(junction
+		(at 208.28 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b906ac59-2e8f-4f86-abdd-56661d74cab9")
+	)
+	(junction
 		(at 311.15 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9313,12 +9337,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfb719cc-e99f-4095-976b-83ea20958226")
-	)
-	(junction
-		(at 220.98 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c267216c-ac74-4a49-9109-a87ed0648bbb")
 	)
 	(junction
 		(at 132.08 101.6)
@@ -9361,12 +9379,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6592eb1-079d-4880-8892-3eb8ba8ff13d")
-	)
-	(junction
-		(at 207.01 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d95c46bd-d989-4d35-8411-fd280909996f")
 	)
 	(junction
 		(at 269.24 68.58)
@@ -9433,12 +9445,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee2c3232-a592-41e9-804e-026d8bdf0d49")
-	)
-	(junction
-		(at 234.95 261.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef5fd419-4a29-4e8f-86f4-842d9636ff4f")
 	)
 	(junction
 		(at 373.38 135.89)
@@ -9782,6 +9788,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 167.64) (xy 71.12 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09898667-c7a7-417f-bd46-1025471f1215")
+	)
+	(wire
+		(pts
 			(xy 363.22 149.86) (xy 363.22 148.59)
 		)
 		(stroke
@@ -9962,16 +9978,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 259.08) (xy 234.95 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12cfecc3-54ac-49bf-ba3e-f164d63cf545")
-	)
-	(wire
-		(pts
 			(xy 303.53 292.1) (xy 302.26 292.1)
 		)
 		(stroke
@@ -10009,6 +10015,16 @@
 			(type default)
 		)
 		(uuid "144da185-a464-408e-a311-85a4f59cf129")
+	)
+	(wire
+		(pts
+			(xy 220.98 222.25) (xy 222.25 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148eb279-000e-461b-b336-aa686c91ef7d")
 	)
 	(wire
 		(pts
@@ -10052,7 +10068,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 222.25) (xy 207.01 223.52)
+			(xy 208.28 222.25) (xy 208.28 223.52)
 		)
 		(stroke
 			(width 0)
@@ -10512,7 +10528,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 213.36) (xy 218.44 213.36)
+			(xy 208.28 213.36) (xy 218.44 213.36)
 		)
 		(stroke
 			(width 0)
@@ -11092,7 +11108,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 218.44) (xy 199.39 218.44)
+			(xy 195.58 218.44) (xy 200.66 218.44)
 		)
 		(stroke
 			(width 0)
@@ -11182,16 +11198,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 259.08) (xy 234.95 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "457a60b1-74bd-406f-a4d0-1e32fe37f1b6")
-	)
-	(wire
-		(pts
 			(xy 64.77 146.05) (xy 71.12 146.05)
 		)
 		(stroke
@@ -11272,16 +11278,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 261.62) (xy 223.52 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4847c6ca-053b-4aec-88d5-2d9f6b55d9f8")
-	)
-	(wire
-		(pts
 			(xy 289.56 201.93) (xy 280.67 201.93)
 		)
 		(stroke
@@ -11299,6 +11295,16 @@
 			(type default)
 		)
 		(uuid "4948b1e5-c901-4346-b26c-4740e8f9cf72")
+	)
+	(wire
+		(pts
+			(xy 224.79 257.81) (xy 220.98 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b567f2-c1e8-4cb6-bbad-458162940dee")
 	)
 	(wire
 		(pts
@@ -11502,6 +11508,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 255.27) (xy 236.22 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5184ece0-d290-47b6-8a55-c15655ffa0be")
+	)
+	(wire
+		(pts
 			(xy 287.02 190.5) (xy 288.29 190.5)
 		)
 		(stroke
@@ -11662,7 +11678,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 226.06) (xy 199.39 226.06)
+			(xy 195.58 226.06) (xy 200.66 226.06)
 		)
 		(stroke
 			(width 0)
@@ -11892,7 +11908,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 222.25) (xy 198.12 222.25)
+			(xy 195.58 222.25) (xy 199.39 222.25)
 		)
 		(stroke
 			(width 0)
@@ -11962,7 +11978,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 165.1) (xy 66.04 163.83)
+			(xy 80.01 170.18) (xy 80.01 168.91)
 		)
 		(stroke
 			(width 0)
@@ -11982,7 +11998,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 232.41) (xy 250.19 261.62)
+			(xy 250.19 232.41) (xy 250.19 257.81)
 		)
 		(stroke
 			(width 0)
@@ -12019,6 +12035,16 @@
 			(type default)
 		)
 		(uuid "67748016-cc12-482f-ae33-e8b059805686")
+	)
+	(wire
+		(pts
+			(xy 208.28 222.25) (xy 209.55 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a0f2c1-31b8-4f7c-9169-1d85977f51b8")
 	)
 	(wire
 		(pts
@@ -12092,16 +12118,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 261.62) (xy 233.68 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ba57e99-cea4-4447-a80a-0c4711264b86")
-	)
-	(wire
-		(pts
 			(xy 271.78 185.42) (xy 273.05 185.42)
 		)
 		(stroke
@@ -12109,16 +12125,6 @@
 			(type default)
 		)
 		(uuid "6cbb4b93-b774-4cdc-bddf-9d673ca98dc6")
-	)
-	(wire
-		(pts
-			(xy 207.01 222.25) (xy 208.28 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cf21cf3-0ba4-4419-8c11-23af2f3b16f3")
 	)
 	(wire
 		(pts
@@ -12242,6 +12248,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 257.81) (xy 237.49 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74db5ba6-3f62-4dd7-be63-7fab65894f65")
+	)
+	(wire
+		(pts
 			(xy 190.5 252.73) (xy 195.58 252.73)
 		)
 		(stroke
@@ -12322,16 +12338,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 222.25) (xy 220.98 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79ef8be3-48bc-4f72-bdb9-06ee1410f249")
-	)
-	(wire
-		(pts
 			(xy 232.41 313.69) (xy 232.41 311.15)
 		)
 		(stroke
@@ -12352,7 +12358,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 261.62) (xy 250.19 261.62)
+			(xy 247.65 257.81) (xy 250.19 257.81)
 		)
 		(stroke
 			(width 0)
@@ -12663,7 +12669,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 222.25) (xy 222.25 222.25)
+			(xy 219.71 222.25) (xy 220.98 222.25)
 		)
 		(stroke
 			(width 0)
@@ -12813,16 +12819,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 176.53) (xy 72.39 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e05a7f4-faae-44ff-bc49-9f0aa61ca49e")
-	)
-	(wire
-		(pts
 			(xy 119.38 111.76) (xy 118.11 111.76)
 		)
 		(stroke
@@ -12913,7 +12909,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 222.25) (xy 207.01 213.36)
+			(xy 208.28 222.25) (xy 208.28 213.36)
 		)
 		(stroke
 			(width 0)
@@ -13040,6 +13036,16 @@
 			(type default)
 		)
 		(uuid "99bdc7d2-8cbc-4543-81d2-ebfbc22721c5")
+	)
+	(wire
+		(pts
+			(xy 234.95 257.81) (xy 236.22 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a12d71e-b551-4900-b98d-d0a7a5716812")
 	)
 	(wire
 		(pts
@@ -13383,6 +13389,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 257.81) (xy 236.22 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c2a2a1-a47f-4316-9b9a-f8cddfb2ce72")
+	)
+	(wire
+		(pts
 			(xy 190.5 146.05) (xy 191.77 146.05)
 		)
 		(stroke
@@ -13723,7 +13739,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 102.87) (xy 314.96 104.14)
+			(xy 311.15 100.33) (xy 311.15 101.6)
 		)
 		(stroke
 			(width 0)
@@ -13740,6 +13756,16 @@
 			(type default)
 		)
 		(uuid "bf37a0bc-6d60-413a-b09f-4986211d357c")
+	)
+	(wire
+		(pts
+			(xy 71.12 168.91) (xy 64.77 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf389f98-5aeb-4bdc-9738-0f0e0475d9de")
 	)
 	(wire
 		(pts
@@ -14073,7 +14099,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 222.25) (xy 207.01 222.25)
+			(xy 205.74 222.25) (xy 208.28 222.25)
 		)
 		(stroke
 			(width 0)
@@ -14120,16 +14146,6 @@
 			(type default)
 		)
 		(uuid "d15b2700-de67-453c-b3dc-a0e7496bf82d")
-	)
-	(wire
-		(pts
-			(xy 220.98 222.25) (xy 220.98 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2603b5e-3198-4111-82f9-9cc5174b77fd")
 	)
 	(wire
 		(pts
@@ -14273,16 +14289,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 261.62) (xy 237.49 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1b3a32-1403-4a40-8f88-059eca5f19da")
-	)
-	(wire
-		(pts
 			(xy 204.47 205.74) (xy 204.47 207.01)
 		)
 		(stroke
@@ -14323,7 +14329,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 233.68) (xy 207.01 234.95)
+			(xy 208.28 233.68) (xy 208.28 234.95)
 		)
 		(stroke
 			(width 0)
@@ -14793,7 +14799,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 163.83) (xy 64.77 163.83)
+			(xy 80.01 168.91) (xy 71.12 168.91)
 		)
 		(stroke
 			(width 0)
@@ -15200,6 +15206,16 @@
 			(type default)
 		)
 		(uuid "ffea6020-a211-4ab8-b337-0b2292b514b8")
+	)
+	(wire
+		(pts
+			(xy 220.98 257.81) (xy 220.98 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff33e1e-c2cb-4344-80f7-3fa411ea4576")
 	)
 	(table
 		(column_count 2)
@@ -15995,7 +16011,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 64.77 163.83 180)
+		(at 64.77 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16499,7 +16515,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG28"
 			(at 175.26 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -16675,7 +16691,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:3362R1473LF"
 			(at 161.29 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -16771,7 +16787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 189.23 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -16850,7 +16866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 270.51 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -16932,7 +16948,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG18C0G1H101JNT06"
 			(at 85.09 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -17012,7 +17028,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 262.89 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17093,7 +17109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 171.45 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -17360,7 +17376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG28"
 			(at 142.24 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -17617,7 +17633,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 182.88 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -17795,7 +17811,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG28"
 			(at 255.27 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -18208,7 +18224,7 @@
 	)
 	(symbol
 		(lib_id "custom:R_Basic")
-		(at 213.36 222.25 0)
+		(at 214.63 222.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18216,9 +18232,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "15622e5a-aa70-4ad7-a90c-e5f8f90307d0")
 		(property "Reference" "R21"
-			(at 213.106 219.964 0)
+			(at 214.63 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18228,7 +18245,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 213.36 225.044 0)
+			(at 214.63 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18237,8 +18254,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 213.36 222.25 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 214.63 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18249,7 +18266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 222.25 0)
+			(at 214.63 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18260,7 +18277,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 222.25 0)
+			(at 214.63 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18392,7 +18409,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG28"
 			(at 175.26 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -18473,7 +18490,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:MKS2C041001F00JA00"
 			(at 205.74 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -18943,7 +18960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 102.87 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -19022,7 +19039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:CAPPRD200W55D500H1250"
 			(at 234.95 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -19113,7 +19130,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:CAPPRD200W55D500H1250"
 			(at 234.95 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -19803,7 +19820,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-15-H05_Horizontal"
 			(at 133.35 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -20128,7 +20145,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG28"
 			(at 234.95 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -20646,7 +20663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:CAPPRD200W55D500H1250"
 			(at 175.26 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -21154,7 +21171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG28"
 			(at 262.89 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -21492,7 +21509,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:3306P1104"
 			(at 205.74 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -21664,7 +21681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 365.76 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -21985,7 +22002,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:3306P1104"
 			(at 182.88 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -22347,7 +22364,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 363.22 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -23032,7 +23049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 267.97 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -23191,7 +23208,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG28"
 			(at 255.27 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -23379,7 +23396,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 477.52 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -23719,7 +23736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG18C0G1H101JNT06"
 			(at 297.18 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -24229,7 +24246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:3306F1103"
 			(at 194.31 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -24511,7 +24528,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 313.69 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -25205,7 +25222,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 257.81 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -25377,7 +25394,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:CAPPRD200W55D500H1250"
 			(at 175.26 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -25664,7 +25681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG28"
 			(at 151.13 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -25707,85 +25724,6 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21"
 					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 72.39 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58e379ea-abd7-4532-b132-1a13d50f41dd")
-		(property "Reference" "#PWR02"
-			(at 72.39 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 72.39 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 72.39 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "83a9fc85-3372-4625-85f3-cc2ccc4861a9")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -26414,7 +26352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 257.81 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -26505,7 +26443,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG28"
 			(at 184.15 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -26587,7 +26525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG28"
 			(at 148.59 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -26743,6 +26681,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 361.95 379.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68a3c6ea-7097-4772-a738-f77a5c1476de")
+		(property "Reference" "H14"
+			(at 364.49 378.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 364.49 380.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 361.95 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.printables.com/model/163087-stackable-pcb-standoff/files"
+			(at 361.95 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21"
+					(reference "H14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 194.31 97.79 0)
 		(unit 1)
@@ -26831,9 +26845,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6a3a5213-e4fd-4cad-a5bf-57b73634157e")
 		(property "Reference" "C43"
-			(at 108.966 113.792 90)
+			(at 113.03 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26843,7 +26858,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 108.966 116.332 90)
+			(at 113.03 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26852,7 +26867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG28"
 			(at 113.03 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -26931,7 +26946,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 370.84 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -27091,7 +27106,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 182.88 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -27756,7 +27771,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 207.01 234.95 0)
+		(at 208.28 234.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27767,7 +27782,7 @@
 		(fields_autoplaced yes)
 		(uuid "745af59b-e485-443a-bd27-9ccf23cf499a")
 		(property "Reference" "#PWR0102"
-			(at 207.01 241.3 0)
+			(at 208.28 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27778,7 +27793,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 207.01 238.76 0)
+			(at 208.28 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27789,7 +27804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 234.95 0)
+			(at 208.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27800,7 +27815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 234.95 0)
+			(at 208.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27811,7 +27826,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 207.01 234.95 0)
+			(at 208.28 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28326,7 +28341,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 232.41 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -29049,7 +29064,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 314.96 104.14 0)
+		(at 311.15 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29060,7 +29075,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f9db724-fd62-4a69-bfb8-8820324f8908")
 		(property "Reference" "#PWR03"
-			(at 314.96 110.49 0)
+			(at 311.15 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29071,7 +29086,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 314.96 107.95 0)
+			(at 311.15 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29082,7 +29097,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 314.96 104.14 0)
+			(at 311.15 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29093,7 +29108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 104.14 0)
+			(at 311.15 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29104,7 +29119,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 314.96 104.14 0)
+			(at 311.15 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29316,7 +29331,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 85.09 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -29574,7 +29589,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 132.08 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -29894,7 +29909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:3306F1201"
 			(at 290.83 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -30255,7 +30270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:3306F1202"
 			(at 133.35 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -30527,7 +30542,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 214.63 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -30686,7 +30701,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG28"
 			(at 297.18 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -30934,7 +30949,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG28"
 			(at 297.18 292.1 0)
 			(hide yes)
 			(show_name no)
@@ -31538,7 +31553,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 450.85 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -31794,7 +31809,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 407.67 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -32025,7 +32040,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 72.39 176.53 0)
+		(at 71.12 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32036,7 +32051,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d1f1775-4043-46bc-8d70-c3db60ac0479")
 		(property "Reference" "TP47"
-			(at 74.93 171.9579 0)
+			(at 73.66 163.0679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32047,7 +32062,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 174.4979 0)
+			(at 73.66 165.6079 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32058,7 +32073,7 @@
 			)
 		)
 		(property "Footprint" "custom:5006"
-			(at 77.47 176.53 0)
+			(at 76.2 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32069,7 +32084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 176.53 0)
+			(at 76.2 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32080,7 +32095,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 176.53 0)
+			(at 71.12 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32353,7 +32368,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 368.3 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -33315,7 +33330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 431.8 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -33408,7 +33423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 189.23 326.39 0)
 			(hide yes)
 			(show_name no)
@@ -33963,7 +33978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4"
 			(at 166.37 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -34053,7 +34068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:3306F1103"
 			(at 228.6 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -34258,7 +34273,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 323.85 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -34677,7 +34692,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 144.78 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -34837,7 +34852,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 238.76 311.15 0)
 			(hide yes)
 			(show_name no)
@@ -34916,7 +34931,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG28"
 			(at 234.95 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -35352,7 +35367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG28"
 			(at 127 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -35481,7 +35496,7 @@
 	)
 	(symbol
 		(lib_id "custom:SW-DP3T-Rotary_Basic")
-		(at 204.47 222.25 0)
+		(at 205.74 222.25 0)
 		(mirror y)
 		(unit 2)
 		(body_style 1)
@@ -35492,7 +35507,7 @@
 		(dnp no)
 		(uuid "c2137000-0243-411a-a639-e7d168197f91")
 		(property "Reference" "SW4"
-			(at 203.962 218.44 0)
+			(at 205.232 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35502,7 +35517,7 @@
 			)
 		)
 		(property "Value" "DP3T Rot"
-			(at 204.47 222.25 0)
+			(at 205.74 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35513,7 +35528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 222.25 0)
+			(at 205.74 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35524,7 +35539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 222.25 0)
+			(at 205.74 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35535,7 +35550,7 @@
 			)
 		)
 		(property "Description" "Gold"
-			(at 204.47 222.25 0)
+			(at 205.74 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35546,7 +35561,7 @@
 			)
 		)
 		(property "Spend" "$$$"
-			(at 204.47 222.25 0)
+			(at 205.74 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35670,7 +35685,7 @@
 	)
 	(symbol
 		(lib_id "custom:P-Trim_Basic")
-		(at 228.6 261.62 90)
+		(at 229.87 257.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35680,7 +35695,7 @@
 		(dnp no)
 		(uuid "c392e279-8d3c-4f75-8b57-1ea5a536cc80")
 		(property "Reference" "P8"
-			(at 228.6 265.176 90)
+			(at 229.87 261.366 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35690,7 +35705,7 @@
 			)
 		)
 		(property "Value" "200R"
-			(at 228.6 267.716 90)
+			(at 229.87 263.906 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35699,8 +35714,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 228.6 261.62 0)
+		(property "Footprint" "SamacSys_Parts:3306F1201"
+			(at 229.87 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35711,7 +35726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 261.62 0)
+			(at 229.87 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35722,7 +35737,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 261.62 0)
+			(at 229.87 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35733,7 +35748,7 @@
 			)
 		)
 		(property "Spend" "$$$"
-			(at 228.6 261.62 90)
+			(at 229.87 257.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35867,7 +35882,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 314.96 102.87 0)
+		(at 311.15 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35878,7 +35893,7 @@
 		(fields_autoplaced yes)
 		(uuid "c93f0de1-2785-401c-8a8e-7f54dc1c17cf")
 		(property "Reference" "TP73"
-			(at 317.5 98.2979 0)
+			(at 313.69 95.7579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35889,7 +35904,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 317.5 100.8379 0)
+			(at 313.69 98.2979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35900,7 +35915,7 @@
 			)
 		)
 		(property "Footprint" "custom:5006"
-			(at 320.04 102.87 0)
+			(at 316.23 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35911,7 +35926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 102.87 0)
+			(at 316.23 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35922,7 +35937,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 314.96 102.87 0)
+			(at 311.15 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35946,7 +35961,7 @@
 	)
 	(symbol
 		(lib_id "custom:R_Basic")
-		(at 207.01 228.6 90)
+		(at 208.28 228.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35957,7 +35972,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb0f67fd-9159-44b3-8635-a006b38d8b0f")
 		(property "Reference" "R23"
-			(at 209.55 227.3299 90)
+			(at 210.82 227.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35968,7 +35983,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 209.55 229.8699 90)
+			(at 210.82 229.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35978,8 +35993,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 207.01 228.6 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 208.28 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35990,7 +36005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 228.6 0)
+			(at 208.28 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36001,7 +36016,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 228.6 0)
+			(at 208.28 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36057,7 +36072,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:3306P1203"
 			(at 438.15 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -36458,6 +36473,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 361.95 374.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd62a7ce-5387-4bac-b06f-3379602db055")
+		(property "Reference" "H13"
+			(at 364.49 373.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 364.49 375.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 361.95 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.printables.com/model/163087-stackable-pcb-standoff/files"
+			(at 361.95 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21"
+					(reference "H13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:Q_PNP_BCE")
 		(at 243.84 321.31 0)
 		(mirror x)
@@ -36646,7 +36737,7 @@
 	)
 	(symbol
 		(lib_id "custom:R_Basic")
-		(at 242.57 261.62 0)
+		(at 242.57 257.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36654,10 +36745,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cde537a6-2051-46fc-8100-f1f314a98e0a")
 		(property "Reference" "R22"
-			(at 242.57 255.27 0)
+			(at 242.57 261.366 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36667,7 +36757,7 @@
 			)
 		)
 		(property "Value" "9k88"
-			(at 242.57 257.81 0)
+			(at 242.57 263.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36676,8 +36766,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 242.57 261.62 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 242.57 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36688,7 +36778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 261.62 0)
+			(at 242.57 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36699,7 +36789,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 270.51 0)
+			(at 242.57 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36756,7 +36846,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 276.86 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -37434,7 +37524,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 66.04 165.1 0)
+		(at 80.01 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37445,7 +37535,7 @@
 		(fields_autoplaced yes)
 		(uuid "de55bf65-e6be-42e5-86ea-4170fc0b971f")
 		(property "Reference" "#PWR01"
-			(at 66.04 171.45 0)
+			(at 80.01 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37456,7 +37546,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 66.04 168.91 0)
+			(at 80.01 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37467,7 +37557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 165.1 0)
+			(at 80.01 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37478,7 +37568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 165.1 0)
+			(at 80.01 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37489,7 +37579,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 66.04 165.1 0)
+			(at 80.01 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37701,7 +37791,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 295.91 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -37793,7 +37883,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 374.65 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -38068,7 +38158,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 261.62 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -38240,7 +38330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:CAPPRD200W55D500H1250"
 			(at 203.2 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -38319,7 +38409,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:3306P1104"
 			(at 205.74 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -38494,7 +38584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 189.23 313.69 0)
 			(hide yes)
 			(show_name no)
@@ -38574,7 +38664,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 367.03 133.35 0)
 			(hide yes)
 			(show_name no)

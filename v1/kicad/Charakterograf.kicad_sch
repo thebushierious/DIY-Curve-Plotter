@@ -1462,7 +1462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal"
 			(at 107.95 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1566,7 +1566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal"
 			(at 105.41 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -1680,7 +1680,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:1718757"
 			(at 172.72 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -1774,7 +1774,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:39-28-1043"
 			(at 176.53 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1841,7 +1841,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 59.69 101.6 180)
+		(at 59.69 101.6 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1849,9 +1850,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6d21d140-a066-4683-a4fa-8a39a9d9070b")
 		(property "Reference" "J19"
-			(at 59.69 92.964 0)
+			(at 59.69 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1861,7 +1863,7 @@
 			)
 		)
 		(property "Value" "1718757"
-			(at 59.69 95.504 0)
+			(at 59.69 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1870,7 +1872,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:1718757"
 			(at 59.69 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -1964,7 +1966,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:39-28-1043"
 			(at 173.99 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2061,7 +2063,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:1718757"
 			(at 177.8 110.49 0)
 			(hide yes)
 			(show_name no)

@@ -1157,8 +1157,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.778)
+					(at 2.54 -2.54 90)
+					(length 0)
 					(name ""
 						(effects
 							(font
@@ -1169,14 +1169,14 @@
 					(number "2"
 						(effects
 							(font
-								(size 1.8288 1.8288)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 2.54 -2.54 90)
-					(length 0)
+					(at 0 -5.08 90)
+					(length 1.778)
 					(name ""
 						(effects
 							(font
@@ -1187,7 +1187,7 @@
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8288 1.8288)
 							)
 						)
 					)
@@ -3023,7 +3023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:PV36W502C01B00"
 			(at 63.5 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3119,7 +3119,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 63.5 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3210,7 +3210,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:CAPPRD200W55D500H1250"
 			(at 107.95 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3300,7 +3300,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG28"
 			(at 107.95 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3560,7 +3560,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 152.4 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3721,7 +3721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:CAPPRD200W55D500H1250"
 			(at 88.9 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3743,7 +3743,7 @@
 				)
 			)
 		)
-		(property "Description" "ESR 0,1-2R"
+		(property "Description" ""
 			(at 88.9 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3890,7 +3890,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:CAPPRD200W55D500H1250"
 			(at 107.95 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4223,7 +4223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:FG28"
 			(at 107.95 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4712,7 +4712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 54.61 63.5 0)
 			(hide yes)
 			(show_name no)
