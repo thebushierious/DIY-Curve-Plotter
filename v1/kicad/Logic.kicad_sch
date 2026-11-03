@@ -4579,7 +4579,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.8288 1.8288)
@@ -4601,6 +4601,24 @@
 					)
 				)
 				(pin passive line
+					(at -5.08 0 0)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.8288 1.8288)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 5.08 0 180)
 					(length 1.778)
 					(name ""
@@ -4611,24 +4629,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.8288 1.8288)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 1.778)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.8288 1.8288)
@@ -14019,16 +14019,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 205.74) (xy 270.51 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9127583-31dc-4726-8ea1-0c8810a3c712")
-	)
-	(wire
-		(pts
 			(xy 64.77 153.67) (xy 71.12 153.67)
 		)
 		(stroke
@@ -17527,6 +17517,7 @@
 		)
 		(property "Value" "SP3T"
 			(at 279.908 240.284 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18761,7 +18752,7 @@
 				)
 			)
 		)
-		(property "Description" "Make-before-break, Gold"
+		(property "Description" "Make-before-break, Silver"
 			(at 396.24 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -18870,7 +18861,7 @@
 				)
 			)
 		)
-		(property "Description" "Gold"
+		(property "Description" "Silver"
 			(at 342.9 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -24154,7 +24145,7 @@
 				)
 			)
 		)
-		(property "Description" "Gold"
+		(property "Description" "Silver"
 			(at 342.9 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -24438,7 +24429,7 @@
 				)
 			)
 		)
-		(property "Value" "99k8"
+		(property "Value" "97k6"
 			(at 303.53 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24448,7 +24439,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 303.53 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -24470,8 +24461,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1%"
 			(at 303.53 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spend" "$$$"
+			(at 303.53 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29899,7 +29901,7 @@
 				)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "5k"
 			(at 290.83 215.646 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29909,7 +29911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:3306F1201"
+		(property "Footprint" ""
 			(at 290.83 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -29931,7 +29933,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multi-turn"
 			(at 290.83 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -32279,7 +32281,7 @@
 				)
 			)
 		)
-		(property "Description" "Gold"
+		(property "Description" "Silver"
 			(at 342.9 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -34186,7 +34188,7 @@
 				)
 			)
 		)
-		(property "Description" "Make-before-break, Gold"
+		(property "Description" "Make-before-break, Silver"
 			(at 381 189.2301 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34395,85 +34397,6 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21"
 					(reference "TP59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 205.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b75f5432-8b03-4f42-a364-9034dcd2497a")
-		(property "Reference" "TP60"
-			(at 273.05 201.1679 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 273.05 203.7079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "custom:5006"
-			(at 275.59 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0274b216-f030-4039-8bb0-098735ba2d8b")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21"
-					(reference "TP60")
 					(unit 1)
 				)
 			)
@@ -35704,7 +35627,7 @@
 				)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "500R"
 			(at 229.87 263.906 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35714,7 +35637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:3306F1201"
+		(property "Footprint" ""
 			(at 229.87 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -35736,7 +35659,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multi-turn"
 			(at 229.87 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -36426,7 +36349,7 @@
 				)
 			)
 		)
-		(property "Description" "Gold"
+		(property "Description" "Silver"
 			(at 355.6 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -36756,7 +36679,7 @@
 				)
 			)
 		)
-		(property "Value" "9k88"
+		(property "Value" "9k76"
 			(at 242.57 263.906 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36788,8 +36711,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1%"
 			(at 242.57 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spend" "$$$"
+			(at 242.57 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38466,85 +38400,6 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21"
 					(reference "P5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 270.51 207.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eea881a7-8873-4c43-9aac-93495dffeba4")
-		(property "Reference" "#PWR0117"
-			(at 270.51 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 270.51 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 270.51 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f563dd1-8832-42d6-9052-7c8b743ba64b")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21"
-					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
