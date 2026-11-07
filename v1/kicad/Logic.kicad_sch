@@ -4579,7 +4579,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.8288 1.8288)
@@ -4610,7 +4610,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.8288 1.8288)
@@ -4628,7 +4628,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.8288 1.8288)
@@ -8197,7 +8197,7 @@
 	)
 	(rectangle
 		(start 223.52 254)
-		(end 248.92 265.43)
+		(end 248.92 267.97)
 		(stroke
 			(width 0)
 			(type dash)
@@ -8220,7 +8220,7 @@
 		(uuid "1a526a78-4c38-4184-8f9b-f2b56e9b90ae")
 	)
 	(rectangle
-		(start 285.75 210.82)
+		(start 284.48 209.55)
 		(end 308.61 223.52)
 		(stroke
 			(width 0)
@@ -8817,12 +8817,6 @@
 		(uuid "0c24cf3e-ee06-43dc-bccc-ad64516d4650")
 	)
 	(junction
-		(at 295.91 219.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e038130-f730-482d-9dc8-088e3f28b882")
-	)
-	(junction
 		(at 133.35 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9229,6 +9223,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9465bad5-7b1b-40a4-a1d4-62669f24413c")
+	)
+	(junction
+		(at 295.91 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99488fb0-9dca-4bf6-844f-963ec1a47c32")
 	)
 	(junction
 		(at 373.38 133.35)
@@ -11038,6 +11038,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 219.71) (xy 309.88 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419cb1c8-e0f9-4460-bce8-5189bebb193f")
+	)
+	(wire
+		(pts
 			(xy 200.66 80.01) (xy 199.39 80.01)
 		)
 		(stroke
@@ -12696,16 +12706,6 @@
 			(type default)
 		)
 		(uuid "88ab39d0-613c-4d17-86fa-6bf0b8383ae4")
-	)
-	(wire
-		(pts
-			(xy 309.88 226.06) (xy 309.88 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8930eb9f-bcbb-42af-afa9-b385864762da")
 	)
 	(wire
 		(pts
@@ -16097,7 +16097,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP4"
 			(at 264.16 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -16585,7 +16585,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP4"
 			(at 264.16 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -17984,7 +17984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP8"
 			(at 170.18 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -18572,7 +18572,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 367.03 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -18730,7 +18730,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:SolderWire-1.5sqmm_2x04_P7.8mm_D1.7mm_OD3.9mm"
 			(at 396.24 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -18839,7 +18839,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:SolderWire-1.5sqmm_3x03_P7.8mm_D1.7mm_OD3.9mm"
 			(at 342.9 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -20746,7 +20746,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:SolderWire-1.5sqmm_2x04_P7.8mm_D1.7mm_OD3.9mm"
 			(at 137.16 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -20957,7 +20957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP8"
 			(at 170.18 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -21066,7 +21066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP4"
 			(at 295.91 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -21127,6 +21127,98 @@
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21"
 					(reference "R19")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:P-Trim_Basic")
+		(at 290.83 219.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2be96802-e5ca-4955-869b-590105e332b1")
+		(property "Reference" "P11"
+			(at 290.83 210.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k"
+			(at 290.83 213.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:PV36W502C01B00"
+			(at 290.83 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Multi-turn"
+			(at 290.83 215.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spend" "$$$"
+			(at 290.83 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "893a3a7b-6216-42eb-b21a-441d2a2ab0bc")
+		)
+		(pin "1"
+			(uuid "e3e9f17b-acb7-4680-99ca-8bb7405a23c7")
+		)
+		(pin "3"
+			(uuid "9706985e-dbed-4d69-8a84-f107f4029040")
+		)
+		(instances
+			(project "Charakterograf"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21"
+					(reference "P11")
+					(unit 1)
 				)
 			)
 		)
@@ -22168,7 +22260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 261.62 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -22773,7 +22865,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 377.19 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -22784,7 +22876,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "0,1%"
+		(property "Datasheet" ""
 			(at 377.19 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -22795,7 +22887,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0,1%"
 			(at 377.19 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -22865,7 +22957,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP4"
 			(at 163.83 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -24123,7 +24215,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:SolderWire-1.5sqmm_3x03_P7.8mm_D1.7mm_OD3.9mm"
 			(at 342.9 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -24331,7 +24423,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP4"
 			(at 293.37 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -25224,7 +25316,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 257.81 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -25566,7 +25658,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:SolderWire-1.5sqmm_2x05_P7.8mm_D1.7mm_OD3.9mm"
 			(at 304.8 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -25763,7 +25855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP4"
 			(at 266.7 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -26258,7 +26350,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x03_P7.8mm_D1.7mm_OD3.9mm"
 			(at 205.74 313.69 0)
 			(hide yes)
 			(show_name no)
@@ -26354,7 +26446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 257.81 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -28057,7 +28149,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 367.03 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -28137,7 +28229,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP8"
 			(at 170.18 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -29413,7 +29505,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP4"
 			(at 266.7 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -29875,99 +29967,6 @@
 			(project "Charakterograf"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "custom:P-Trim_Basic")
-		(at 290.83 219.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8aabe0e2-849f-4772-b2a1-3aa17cb5d76d")
-		(property "Reference" "P11"
-			(at 290.83 213.106 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5k"
-			(at 290.83 215.646 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 290.83 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290.83 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Multi-turn"
-			(at 290.83 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Spend" "$$$"
-			(at 290.83 219.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "662a91ab-b02a-4918-865f-1c6b7bc35c6c")
-		)
-		(pin "1"
-			(uuid "35e5f3a6-72fc-455f-b2ca-f9048c6454d9")
-		)
-		(pin "3"
-			(uuid "c17c1b19-f8ec-49e9-96ef-191ab08eb65b")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21"
-					(reference "P11")
 					(unit 1)
 				)
 			)
@@ -30860,7 +30859,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm"
 			(at 76.2 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -31298,7 +31297,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP4"
 			(at 293.37 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -31714,7 +31713,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP4"
 			(at 295.91 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -32259,7 +32258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:SolderWire-1.5sqmm_3x03_P7.8mm_D1.7mm_OD3.9mm"
 			(at 342.9 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -32875,7 +32874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP8"
 			(at 163.83 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -34166,7 +34165,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:SolderWire-1.5sqmm_2x04_P7.8mm_D1.7mm_OD3.9mm"
 			(at 377.19 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -34513,7 +34512,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:SolderWire-1.5sqmm_2x03_P7.8mm_D1.7mm_OD3.9mm"
 			(at 294.64 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -34936,7 +34935,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at 379.73 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -35450,7 +35449,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:SolderWire-1.5sqmm_2x04_P7.8mm_D1.7mm_OD3.9mm"
 			(at 205.74 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -35637,7 +35636,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:PV36W502C01B00"
 			(at 229.87 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -35660,8 +35659,7 @@
 			)
 		)
 		(property "Description" "Multi-turn"
-			(at 229.87 257.81 0)
-			(hide yes)
+			(at 229.87 266.446 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36780,7 +36778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 276.86 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -37197,7 +37195,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:SolderWire-1.5sqmm_2x05_P7.8mm_D1.7mm_OD3.9mm"
 			(at 275.59 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -37312,7 +37310,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP4"
 			(at 163.83 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -37725,7 +37723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 295.91 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -37828,7 +37826,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "0,1%"
+		(property "Datasheet" ""
 			(at 374.65 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -37839,7 +37837,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0,1%"
 			(at 374.65 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -37996,7 +37994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x03_P7.8mm_D1.7mm_OD3.9mm"
 			(at 270.51 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -38092,7 +38090,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 261.62 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -38600,7 +38598,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:SolderWire-1.5sqmm_2x03_P7.8mm_D1.7mm_OD3.9mm"
 			(at 327.66 163.83 0)
 			(hide yes)
 			(show_name no)

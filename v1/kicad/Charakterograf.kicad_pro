@@ -504,7 +504,7 @@
         "uuid": "d7a5a570-e509-45ae-a7d3-ba88e6083368"
       }
     ],
-    "used_designators": "H13-16,TP41-80,HS8-11,D21-22,#PWR26,#PWR30,#PWR48-55,R36,R47-48,K1-4",
+    "used_designators": "P13,H13-16,TP41-80,HS8-11,D21-22,#PWR26,#PWR30,#PWR48-55,R36,R47-48,K1-4,SW7",
     "variants": []
   },
   "sheets": [

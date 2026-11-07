@@ -2686,7 +2686,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm"
 			(at 53.34 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3336,7 +3336,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:151051RS11000"
+		(property "Footprint" "custom:151051RS11000"
 			(at 135.89 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4191,7 +4191,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:151034GS03000"
+		(property "Footprint" "custom:151034GS03000"
 			(at 140.97 49.53 0)
 			(hide yes)
 			(show_name no)
