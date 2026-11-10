@@ -2021,12 +2021,6 @@
 		(uuid "25a95490-c82e-4fe7-b679-8b52510a3c22")
 	)
 	(junction
-		(at 140.97 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "266a98e7-4b23-4449-afc1-220941bee409")
-	)
-	(junction
 		(at 91.44 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2061,6 +2055,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "812ef90d-f65e-4d5a-8a40-f2b0536e8f0b")
+	)
+	(junction
+		(at 140.97 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7fbda5a-e206-43df-a7c5-30bd9df59eb6")
 	)
 	(junction
 		(at 91.44 31.75)
@@ -3336,7 +3336,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "custom:151051RS11000"
+		(property "Footprint" "custom:151034GS03000"
 			(at 135.89 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3738,19 +3738,19 @@
 			)
 		)
 		(pin "3"
-			(uuid "f6f9c88b-7a81-4384-bdab-fed379aa6a57")
+			(uuid "f6f9c88b-7a81-4384-bdab-fed379aa6a58")
 		)
 		(pin "2"
-			(uuid "86c328e9-bf1a-41d6-a1db-d89833d0a698")
+			(uuid "86c328e9-bf1a-41d6-a1db-d89833d0a699")
 		)
 		(pin "4"
-			(uuid "a18e0f44-9d31-409f-a2ab-482a9589819b")
+			(uuid "a18e0f44-9d31-409f-a2ab-482a9589819c")
 		)
 		(pin "1"
-			(uuid "6222fdf9-fdfc-432c-bf23-3e4242c6560b")
+			(uuid "6222fdf9-fdfc-432c-bf23-3e4242c6560c")
 		)
 		(pin "5"
-			(uuid "591781ed-80ad-4307-9680-c59495c79ad0")
+			(uuid "591781ed-80ad-4307-9680-c59495c79ad1")
 		)
 		(instances
 			(project "Charakterograf"
