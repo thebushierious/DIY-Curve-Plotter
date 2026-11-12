@@ -1,0 +1,11 @@
+kicad-cli sch export bom -o out/bom-order.csv \
+  --fields 'Reference,${QUANTITY},Value,Footprint,Manufacturer,MPN,Mouser' \
+  --labels 'Designators,Qty,Value,Footprint,Manufacturer,MPN,Mouser' \
+  --group-by 'Value,Footprint,MPN' \
+  $P.kicad_sch
+
+kicad-cli sch export bom -o out/bom-refs.csv \
+  --fields 'Reference,Value,Footprint,MPN,Description' \
+  --labels 'Reference,Value,Footprint,MPN,Description' \
+  --sort-field Reference \
+  $P.kicad_sch
