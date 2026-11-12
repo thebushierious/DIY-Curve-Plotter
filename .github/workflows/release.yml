@@ -1,11 +1,42 @@
-kicad-cli sch export bom -o out/bom-order.csv \
-  --fields 'Reference,${QUANTITY},Value,Footprint,Manufacturer,MPN,Mouser' \
-  --labels 'Designators,Qty,Value,Footprint,Manufacturer,MPN,Mouser' \
-  --group-by 'Value,Footprint,MPN' \
-  $P.kicad_sch
+name: Release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    container:
+      image: kicad/kicad:10.0
+      options: --user root
+    steps:
+      - uses: actions/checkout@v4
+      - name: Export
+        run: |
+          P=hardware/v1/kicad/CurvePlotter
+          mkdir -p out/gerbers
 
-kicad-cli sch export bom -o out/bom-refs.csv \
-  --fields 'Reference,Value,Footprint,MPN,Description' \
-  --labels 'Reference,Value,Footprint,MPN,Description' \
-  --sort-field Reference \
-  $P.kicad_sch
+          kicad-cli sch export pdf -o out/schematic.pdf $P.kicad_sch
+
+          kicad-cli sch export bom -o out/bom-order.csv \
+            --fields 'Reference,${QUANTITY},Value,Footprint,Manufacturer,MPN,Mouser' \
+            --labels 'Designators,Qty,Value,Footprint,Manufacturer,MPN,Mouser' \
+            --group-by 'Value,Footprint,MPN' \
+            $P.kicad_sch
+
+          kicad-cli sch export bom -o out/bom-refs.csv \
+            --fields 'Reference,Value,Footprint,MPN,Description' \
+            --labels 'Reference,Value,Footprint,MPN,Description' \
+            --sort-field Reference \
+            $P.kicad_sch
+
+          kicad-cli pcb export gerbers -o out/gerbers/ $P.kicad_pcb
+          kicad-cli pcb export drill -o out/gerbers/ $P.kicad_pcb
+          apt-get update && apt-get install -y zip
+          (cd out/gerbers && zip -r ../gerbers.zip .)
+          rm -r out/gerbers
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: out/*
+          generate_release_notes: true
