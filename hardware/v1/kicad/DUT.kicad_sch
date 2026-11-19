@@ -981,6 +981,17 @@
 					)
 				)
 			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "3-Pin-Socket_Basic_1_1"
 				(rectangle
 					(start -3.048 8.128)
@@ -1929,7 +1940,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "M2 Mounting Hole"
 			(at 41.91 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1974,7 +1985,7 @@
 			)
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
 					(reference "H2")
 					(unit 1)
@@ -2060,6 +2071,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" ""
+			(at 144.78 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "fd60feac-6f7b-44d4-8f4c-2c27dcd11311")
 		)
@@ -2070,7 +2092,7 @@
 			(uuid "34483254-bbc1-45b7-8bcf-bd4b6a80d063")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
 					(reference "J13")
 					(unit 1)
@@ -2101,7 +2123,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "M2 Mounting Hole"
 			(at 41.91 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2146,7 +2168,7 @@
 			)
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
 					(reference "H4")
 					(unit 1)
@@ -2403,7 +2425,7 @@
 			(uuid "d81852c7-8611-4c93-9c78-445c30b66e09")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
 					(reference "J12")
 					(unit 1)
@@ -2493,7 +2515,7 @@
 			(uuid "d7d380f4-d7f8-4a1b-a3bf-9c6cc21a8833")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
 					(reference "J16")
 					(unit 1)
@@ -2583,7 +2605,7 @@
 			(uuid "05d758e6-80d8-41a1-97e2-de22bbde5769")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
 					(reference "J15")
 					(unit 1)
@@ -2669,6 +2691,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" ""
+			(at 144.78 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "c560137b-6863-4d1e-8d56-bfc7ed4763fb")
 		)
@@ -2679,7 +2712,7 @@
 			(uuid "a1fbd1ed-50a3-4227-b932-96e49116697b")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
 					(reference "J20")
 					(unit 1)
@@ -2769,7 +2802,7 @@
 			(uuid "3e23baa6-0e43-4d8a-bc4e-bdd34ed3b203")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
 					(reference "J14")
 					(unit 1)
@@ -2800,7 +2833,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "M2 Mounting Hole"
 			(at 41.91 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2845,7 +2878,7 @@
 			)
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
 					(reference "H3")
 					(unit 1)
@@ -2876,7 +2909,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "M2 Mounting Hole"
 			(at 41.91 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2921,7 +2954,7 @@
 			)
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
 					(reference "H1")
 					(unit 1)

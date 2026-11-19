@@ -10,7 +10,7 @@
 		(rev "2")
 	)
 	(lib_symbols
-		(symbol "Analog_Switch:ADG419BN"
+		(symbol "custom:ADG419BN"
 			(pin_names
 				(offset 0.254)
 			)
@@ -20,7 +20,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -3.175 7.493 0)
+				(at -3.175 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -31,7 +31,7 @@
 				)
 			)
 			(property "Value" "ADG419BN"
-				(at -3.175 5.715 0)
+				(at -3.175 5.461 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -41,20 +41,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-				(at 3.81 -14.605 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.pdf"
-				(at 3.81 -12.065 0)
+			(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+				(at 3.175 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -65,7 +53,30 @@
 					(justify left)
 				)
 			)
-			(property "Description" "Single SPDT Monolithic LC²MOS Analog Switch, 25Ohm Ron, DIP-8"
+			(property "Datasheet" ""
+				(at 3.175 -12.065 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -553,6 +564,17 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1449,6 +1471,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "FG28X7R1H104KNT00"
+			(at 152.4 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "eae00536-30c3-48d6-b3fa-85731c02753f")
 		)
@@ -1456,7 +1489,7 @@
 			(uuid "95c6fb8b-a193-46cb-becc-73d0eb8bd42b")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "C38")
 					(unit 1)
@@ -1465,8 +1498,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Analog_Switch:ADG419BN")
-		(at 80.01 69.85 0)
+		(lib_id "custom:ADG419BN")
+		(at 111.76 69.85 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1475,9 +1508,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "119e0771-1753-4e74-99cc-46e5935fd406")
-		(property "Reference" "U7"
-			(at 87.63 68.5799 0)
+		(uuid "078ec2ea-f260-48e4-a1a9-3beae67f534d")
+		(property "Reference" "U18"
+			(at 119.38 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1488,7 +1521,7 @@
 			)
 		)
 		(property "Value" "ADG419BN"
-			(at 87.63 71.1199 0)
+			(at 119.38 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1499,7 +1532,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 83.82 84.455 0)
+			(at 114.935 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1510,8 +1543,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.pdf"
-			(at 83.82 81.915 0)
+		(property "Datasheet" ""
+			(at 114.935 81.915 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1523,7 +1556,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 69.85 0)
+			(at 111.76 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1533,34 +1566,45 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "e94f8683-093e-4490-8b95-032bff9851c7")
-		)
-		(pin "6"
-			(uuid "76dbc087-fa54-4a37-afd7-01815e370228")
-		)
-		(pin "7"
-			(uuid "48265d01-95f1-4e5b-9076-c5901ea5ea59")
-		)
-		(pin "8"
-			(uuid "3fb7be0b-b4cd-4bdc-b6c7-43175c0b2028")
-		)
-		(pin "1"
-			(uuid "3750907b-ba96-443a-a9c9-ca03e23a608f")
+		(property "Mfr. No" "ADG419BNZ"
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "4"
-			(uuid "2e350857-29df-49a1-8923-41ff8479e3fb")
+			(uuid "0350625b-9302-4224-abab-c33eebd67dfa")
+		)
+		(pin "6"
+			(uuid "c3514264-1450-4bb8-89ad-0fc88caa46d7")
+		)
+		(pin "1"
+			(uuid "29b990ac-fe12-4273-9ae7-8f0bf63291bc")
+		)
+		(pin "8"
+			(uuid "710cbe52-6df4-478c-908d-13d3d3c6d499")
 		)
 		(pin "3"
-			(uuid "2da1e861-f8a5-4261-a6c7-4b75ac77684c")
+			(uuid "7fe64c07-4a61-43d6-9a36-4d5da18de1f9")
+		)
+		(pin "7"
+			(uuid "12a37cae-08c2-4878-8a18-8e0a57766c7d")
 		)
 		(pin "5"
-			(uuid "483a0192-fc99-469f-9eb7-e6dfebeaf3ca")
+			(uuid "b8a39b36-4050-47ff-843a-670c7c877bdb")
+		)
+		(pin "2"
+			(uuid "05195387-1626-454d-943e-1cd3260dac8a")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
-					(reference "U7")
+					(reference "U18")
 					(unit 2)
 				)
 			)
@@ -1630,6 +1674,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "FG28X7R1H104KNT00"
+			(at 105.41 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "670349fa-5db1-405f-9fe8-302992b96716")
 		)
@@ -1637,7 +1692,7 @@
 			(uuid "2b7ebcc4-acc9-4624-a7f6-82afece74671")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "C26")
 					(unit 1)
@@ -1716,10 +1771,123 @@
 			(uuid "747e76dd-040c-4947-9e23-6ceb648847de")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "#PWR092")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:ADG419BN")
+		(at 80.01 69.85 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "237ad1ca-7958-4a3e-b4d3-581e966ac877")
+		(property "Reference" "U9"
+			(at 87.63 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADG419BN"
+			(at 87.63 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+			(at 83.185 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.185 81.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "ADG419BNZ"
+			(at 80.01 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "5c36c151-9384-4f5a-99d2-5de56a18793c")
+		)
+		(pin "1"
+			(uuid "0971711c-6ac0-46ed-8773-91597aab2868")
+		)
+		(pin "2"
+			(uuid "bcd1a581-6f99-460f-8959-89447663731f")
+		)
+		(pin "8"
+			(uuid "11192482-5d39-4b0a-937d-cc6d898d60d9")
+		)
+		(pin "7"
+			(uuid "a17ce8da-bb4e-448e-9fa3-84c6c8b00fab")
+		)
+		(pin "6"
+			(uuid "8e6b3ad4-4461-47d6-a812-5d4310aa25a1")
+		)
+		(pin "3"
+			(uuid "bc0692f3-a04c-4bbf-8d94-6e640cb22ae8")
+		)
+		(pin "5"
+			(uuid "724db1ee-f5df-4282-a071-d12e10eb176b")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
+					(reference "U9")
+					(unit 2)
 				)
 			)
 		)
@@ -1788,6 +1956,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "FG28X7R1H104KNT00"
+			(at 137.16 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "98043284-4b7a-4588-b0f8-fb3d2a80c482")
 		)
@@ -1795,7 +1974,7 @@
 			(uuid "6549a4ad-a299-49c8-93d0-e334d4062d42")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "C28")
 					(unit 1)
@@ -1874,7 +2053,7 @@
 			(uuid "0fa7ef85-3934-4434-8476-435e87d62bd1")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "#PWR059")
 					(unit 1)
@@ -1953,7 +2132,7 @@
 			(uuid "f02df90a-a377-4995-b37f-642254a2a961")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "#PWR039")
 					(unit 1)
@@ -2025,6 +2204,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "FG28X7R1H104KNT00"
+			(at 120.65 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a4e90a27-2710-4cf2-b0bd-d67686a70a02")
 		)
@@ -2032,7 +2222,7 @@
 			(uuid "d497de0a-2736-4890-b922-0e70ce3ee6dc")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "C40")
 					(unit 1)
@@ -2111,7 +2301,7 @@
 			(uuid "701301d7-081f-4579-a901-814c7bab7696")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "#PWR060")
 					(unit 1)
@@ -2190,10 +2380,123 @@
 			(uuid "e66fd1d6-b756-401a-9985-62842b97f13f")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "#PWR058")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:ADG419BN")
+		(at 143.51 69.85 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6261cb1f-0ff6-42bb-8cc9-42fd4b290f5c")
+		(property "Reference" "U19"
+			(at 151.13 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADG419BN"
+			(at 151.13 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+			(at 146.685 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.685 81.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "ADG419BNZ"
+			(at 143.51 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "90775894-30b1-48dc-b268-a9bfc9628a33")
+		)
+		(pin "7"
+			(uuid "192454f1-7e35-445f-b62b-08e98fc08948")
+		)
+		(pin "2"
+			(uuid "59893947-920c-403a-b7b3-967c60901295")
+		)
+		(pin "6"
+			(uuid "5d395ab2-3ba3-4eb1-bb2f-c1d66afc01b9")
+		)
+		(pin "5"
+			(uuid "6290a572-0a91-48cf-9200-bfd0ac8f0558")
+		)
+		(pin "1"
+			(uuid "3eb2da7e-8864-4439-8702-6cf1f2e74fb7")
+		)
+		(pin "3"
+			(uuid "892a6297-2813-4b74-8f25-aec8e16ac39f")
+		)
+		(pin "8"
+			(uuid "febb16b6-3be8-4b50-937b-03f06284b635")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
+					(reference "U19")
+					(unit 2)
 				)
 			)
 		)
@@ -2262,6 +2565,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "FG28X7R1H104KNT00"
+			(at 88.9 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "93a4edd8-9154-4912-bbc9-e8bc24319edc")
 		)
@@ -2269,7 +2583,7 @@
 			(uuid "0378bb75-ecd6-4e03-8fdc-447807d2b950")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "C25")
 					(unit 1)
@@ -2348,7 +2662,7 @@
 			(uuid "5e1f47b9-2923-4e2b-9f5e-114af7a61bfe")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "#PWR045")
 					(unit 1)
@@ -2427,7 +2741,7 @@
 			(uuid "d7bf7b1a-8b1d-4bec-b37d-925e79eab436")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "#PWR091")
 					(unit 1)
@@ -2506,7 +2820,7 @@
 			(uuid "78b6ef7b-493a-42ce-a9cd-991e5921ecac")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "#PWR043")
 					(unit 1)
@@ -2585,7 +2899,7 @@
 			(uuid "069fe61e-0bf3-4067-ad3d-c3af975577d1")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "#PWR071")
 					(unit 1)
@@ -2657,6 +2971,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "FG28X7R1H104KNT00"
+			(at 73.66 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3715b3c1-6c84-4bee-9ee1-1f8dc185dc82")
 		)
@@ -2664,112 +2989,10 @@
 			(uuid "50d4c513-436d-4058-b188-6b2b58c17b80")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "C24")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Analog_Switch:ADG419BN")
-		(at 143.51 69.85 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5df9fb8-8bb1-4cac-973b-37161fdbb560")
-		(property "Reference" "U11"
-			(at 151.13 68.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADG419BN"
-			(at 151.13 71.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 147.32 84.455 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.pdf"
-			(at 147.32 81.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "6d0623d2-bd2c-4cc0-9d36-ab30cfba8258")
-		)
-		(pin "2"
-			(uuid "a07129bb-93b9-43d2-84b2-52bf445b10af")
-		)
-		(pin "3"
-			(uuid "f59ef2eb-336c-472a-9f93-e7e805db1285")
-		)
-		(pin "1"
-			(uuid "174c4583-5674-415f-be52-27e8cca2319c")
-		)
-		(pin "6"
-			(uuid "db02917d-9518-4890-96e6-7af0e48c03fb")
-		)
-		(pin "7"
-			(uuid "f117188b-2869-4185-9552-d329164b688d")
-		)
-		(pin "5"
-			(uuid "7fae61b0-535d-45bc-9cda-86e3bc434d07")
-		)
-		(pin "4"
-			(uuid "6bc24a19-cd57-4b30-8aa3-1f620f9ca831")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
-					(reference "U11")
-					(unit 2)
 				)
 			)
 		)
@@ -2838,6 +3061,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "FG28X7R1H104KNT00"
+			(at 88.9 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "58757277-ea00-446e-9fc4-ff6bf0517cd7")
 		)
@@ -2845,7 +3079,7 @@
 			(uuid "3c19fb05-7573-4f80-9d22-a3113430f393")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "C39")
 					(unit 1)
@@ -2917,6 +3151,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "FG28X7R1H104KNT00"
+			(at 152.4 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e1cf4555-c386-48b7-b963-59efe47e7873")
 		)
@@ -2924,7 +3169,7 @@
 			(uuid "40a12a2e-aff0-4646-9e88-bc8c771db7ed")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "C29")
 					(unit 1)
@@ -3003,112 +3248,10 @@
 			(uuid "a54dea85-4d69-4d12-9395-70aad49fd713")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "#PWR037")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Analog_Switch:ADG419BN")
-		(at 111.76 69.85 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c867268c-5dee-4388-998d-2a335fd67583")
-		(property "Reference" "U12"
-			(at 119.38 68.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADG419BN"
-			(at 119.38 71.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 115.57 84.455 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.pdf"
-			(at 115.57 81.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "67c15b17-bd60-4f86-b822-f3fd0c0e67fe")
-		)
-		(pin "8"
-			(uuid "4b90d8a6-ac8e-40ad-96ef-bdca4438e610")
-		)
-		(pin "3"
-			(uuid "8ff224f8-0df4-41f1-bd2d-c48d9c3667de")
-		)
-		(pin "4"
-			(uuid "4f54d3c1-0662-4769-a7f1-d9b9130a52a9")
-		)
-		(pin "6"
-			(uuid "b5dab251-0e9f-44a9-b544-1950c15a4f5e")
-		)
-		(pin "7"
-			(uuid "42193137-e06e-4fde-98d1-0c3f74e5d159")
-		)
-		(pin "1"
-			(uuid "d0239241-ff79-42d1-b6b2-b5518d26d4bf")
-		)
-		(pin "2"
-			(uuid "09c3f1a2-9a39-4395-ab13-044dcace38b2")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
-					(reference "U12")
-					(unit 2)
 				)
 			)
 		)
@@ -3184,7 +3327,7 @@
 			(uuid "a3cfba79-e1ae-4eb9-b22b-089c7cad60c9")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "#PWR042")
 					(unit 1)
@@ -3256,6 +3399,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "FG28X7R1H104KNT00"
+			(at 120.65 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e322e6bb-f769-4ea9-8d8b-3ce02b5a2051")
 		)
@@ -3263,7 +3417,7 @@
 			(uuid "cbe94093-c502-4b68-8910-6b167bf7d294")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "C27")
 					(unit 1)
@@ -3342,7 +3496,7 @@
 			(uuid "69b70145-862d-4454-a800-bf20afa589e6")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/0c87c16a-bedb-486e-a7c7-cc13502edb7f"
 					(reference "#PWR040")
 					(unit 1)

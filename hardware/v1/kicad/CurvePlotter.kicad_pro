@@ -260,7 +260,7 @@
     ]
   },
   "meta": {
-    "filename": "Charakterograf.kicad_pro",
+    "filename": "CurvePlotter.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -499,18 +499,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Charakterograf.kicad_sch",
-        "name": "Root",
+        "filename": "CurvePlotter.kicad_sch",
+        "name": "CurvePlotter",
         "uuid": "d7a5a570-e509-45ae-a7d3-ba88e6083368"
       }
     ],
-    "used_designators": "SW5,SW7,SW10-11,SW15",
+    "used_designators": "SW5,SW7,SW10-12,SW15,#PWR56,#PWR78,#PWR83-84,#PWR122,#PWR124,#PWR139,#PWR155,D3-8,D10-13,D15-20,D23-26,U7-9,U14,U17-19,FB7-12,TP1-52,TP60,TP81-99,Q1,Q3-6,Q8-9,HS5-10,HS12-13,K4-6,J1-10",
     "variants": []
   },
   "sheets": [
     [
       "d7a5a570-e509-45ae-a7d3-ba88e6083368",
-      "Root"
+      "CurvePlotter"
     ],
     [
       "a96e4916-0b05-4003-9480-a639547df929",

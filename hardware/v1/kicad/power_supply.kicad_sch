@@ -10,1023 +10,6 @@
 		(rev "2")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:1N4148"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "100V 0.15A standard switching diode, DO-35"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1N4148_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:1N5408"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N5408"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?201AD*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1N5408_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N5408_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:Heatsink_Pad_2Pin"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "HS"
-				(at 0 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Heatsink_Pad_2Pin"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.3048 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0.3048 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Heatsink with electrical connection, 2 pin"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "thermal heat temperature"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Heatsink_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Heatsink_Pad_2Pin_0_1"
-				(polyline
-					(pts
-						(xy -0.3302 0) (xy -0.9652 0) (xy -0.9652 2.54) (xy -1.6002 2.54) (xy -1.6002 0) (xy -2.2352 0)
-						(xy -2.2352 2.54) (xy -2.8702 2.54) (xy -2.8702 -1.27) (xy -0.9652 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3302 0) (xy -0.3302 2.54) (xy 0.3048 2.54) (xy 0.3048 0) (xy 0.9398 0) (xy 0.9398 2.54)
-						(xy 1.5748 2.54) (xy 1.5748 0) (xy 2.2098 0) (xy 2.2098 2.54) (xy 2.8448 2.54) (xy 2.8448 -1.27)
-						(xy -0.9652 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "Heatsink_Pad_2Pin_1_1"
-				(pin passive line
-					(at -2.54 -2.54 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -1126,478 +109,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:L7815"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L7815"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.635 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 15V, TO-220/TO-263/TO-252"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 1.5A Positive"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO?252* TO?263* TO?220*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L7815_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "L7815_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Regulator_Linear:L7915"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 -3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L7915"
-				(at 0 -3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Negative 1.5A 35V Linear Regulator, Fixed Output -15V, TO-220/TO-263"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 1.5A Negative"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO?220* TO?263*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L7915_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "L7915_1_1"
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Regulator_Linear:LM7812_TO220"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM7812_TO220"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-				(at 0 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 1A Positive"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO?220*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LM7812_TO220_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM7812_TO220_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "custom:C-Pol_Basic"
 			(pin_numbers
 				(hide yes)
@@ -1654,6 +165,17 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1816,6 +338,17 @@
 					)
 				)
 			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "C_Basic_1_1"
 				(rectangle
 					(start -2.286 1.016)
@@ -1878,6 +411,560 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "custom:D-LED_Basic"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D-LED_Basic"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D-LED_Basic_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D-LED_Basic_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:D-Schottky_Basic"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D-Schottky_Basic"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D-Schottky_Basic_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D-Schottky_Basic_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:D_Basic"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Basic"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Basic_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Basic_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "custom:F-poly_Basic"
 			(pin_numbers
 				(hide yes)
@@ -1930,6 +1017,17 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2015,6 +1113,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "custom:HS-2-Pin_Basic"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "HS"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HS-2-Pin_Basic"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.3048 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HS-2-Pin_Basic_0_1"
+				(polyline
+					(pts
+						(xy -0.3302 0) (xy -0.9652 0) (xy -0.9652 2.54) (xy -1.6002 2.54) (xy -1.6002 0) (xy -2.2352 0)
+						(xy -2.2352 2.54) (xy -2.8702 2.54) (xy -2.8702 -1.27) (xy -0.9652 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 0) (xy -0.3302 2.54) (xy 0.3048 2.54) (xy 0.3048 0) (xy 0.9398 0) (xy 0.9398 2.54)
+						(xy 1.5748 2.54) (xy 1.5748 0) (xy 2.2098 0) (xy 2.2098 2.54) (xy 2.8448 2.54) (xy 2.8448 -1.27)
+						(xy -0.9652 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "HS-2-Pin_Basic_1_1"
+				(pin passive line
+					(at -2.54 -2.54 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "custom:R_Basic"
 			(pin_numbers
 				(hide yes)
@@ -2077,6 +1339,17 @@
 					)
 				)
 			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "R_Basic_1_1"
 				(rectangle
 					(start -3.302 -1.0922)
@@ -2121,6 +1394,476 @@
 						(effects
 							(font
 								(size 1.8288 1.8288)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:TP_Basic"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TP_Basic"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TP_Basic_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TP_Basic_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:U-Reg+_Basic"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "U-Reg+_Basic"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 1A Positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "U-Reg+_Basic_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "U-Reg+_Basic_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:U-Reg-_Basic"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "U-Reg-_Basic"
+				(at 0 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 1A Negative"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "U-Reg-_Basic_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "U-Reg-_Basic_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2316,9 +2059,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Use a standart IEC C14 socket with a built in fuse holder\nUse a slow-blow (T) 250V AC fuse (160mA for 15VA or 250mA for 30VA)"
+	(text "Connects to the output of a 2x18V 15/30VA\ntoroidal mains transformer\n\nUse a standart IEC C14 socket with a built in fuse holder\nUse a slow-blow (T) 250V AC fuse (160mA for 15VA or 250mA for 30VA)"
 		(exclude_from_sim no)
-		(at 62.992 110.998 0)
+		(at 64.008 83.312 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2326,15 +2069,11 @@
 		)
 		(uuid "122a27b8-a635-4e7e-9ce4-60cbdf7f3d3a")
 	)
-	(text "Connects to the output of a 2x18V 15/30VA\ntoroidal mains transformer"
-		(exclude_from_sim no)
-		(at 65.024 103.124 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c206147c-f836-481a-8882-a402d5a4c8de")
+	(junction
+		(at 121.92 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08afbbff-6778-4944-93ff-bd78f29aef5c")
 	)
 	(junction
 		(at 144.78 88.9)
@@ -2361,16 +2100,16 @@
 		(uuid "10416271-9621-4ec5-ac51-5186fe8ccb95")
 	)
 	(junction
+		(at 114.3 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b9e2ba2-6b78-4230-b4f3-b104680a7225")
+	)
+	(junction
 		(at 138.43 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1da4c9bd-a770-4f16-b99b-9d2331df62ea")
-	)
-	(junction
-		(at 127 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ea724b0-de12-4a15-bf21-7d92b87fa669")
 	)
 	(junction
 		(at 116.84 105.41)
@@ -2397,28 +2136,10 @@
 		(uuid "27f0c211-b2e1-412b-b6fa-ac552782afde")
 	)
 	(junction
-		(at 114.3 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "292b23a6-6d52-4728-9367-567b2540397f")
-	)
-	(junction
 		(at 180.34 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f764e88-1164-4d89-9f1e-829dbf1efd72")
-	)
-	(junction
-		(at 121.92 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45516c87-1722-46f1-8a64-79e474309727")
-	)
-	(junction
-		(at 114.3 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "462872a7-63ad-48b8-954a-4fc5b5666f8e")
 	)
 	(junction
 		(at 173.99 102.87)
@@ -2437,6 +2158,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "489e8e47-0533-4d3d-847e-faf2da908454")
+	)
+	(junction
+		(at 114.3 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a7fd1d8-4759-4583-b3fe-654c185ce3c8")
 	)
 	(junction
 		(at 173.99 116.84)
@@ -2463,12 +2190,6 @@
 		(uuid "6535ad1d-9439-4ec2-bead-253ad0d2a78d")
 	)
 	(junction
-		(at 209.55 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68f49683-6023-4c14-a974-03ae78c0265a")
-	)
-	(junction
 		(at 173.99 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2479,6 +2200,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f4a169f-561a-41c8-8ec8-4af05b35047a")
+	)
+	(junction
+		(at 144.78 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76804ea3-cb5a-4918-81ab-e0d6ae83a87b")
+	)
+	(junction
+		(at 114.3 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7801d39d-4f41-46f0-9e0e-db3c80d4d40e")
+	)
+	(junction
+		(at 114.3 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "853362d6-3917-4b6d-a54f-c11105381aaa")
 	)
 	(junction
 		(at 138.43 116.84)
@@ -2517,22 +2256,10 @@
 		(uuid "ba222bd9-67cf-4802-be14-d0849e98ef04")
 	)
 	(junction
-		(at 209.55 88.9)
+		(at 209.55 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb02be65-5fcf-4519-b6c2-2f8268247c70")
-	)
-	(junction
-		(at 127 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca7f0182-8d5f-4d19-a208-5cf41d6f75bb")
-	)
-	(junction
-		(at 144.78 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6df6027-bf2f-422f-a2bf-ffe6b1f6a1f9")
+		(uuid "c22e39f6-214e-4616-8999-6df9ffe018eb")
 	)
 	(junction
 		(at 151.13 57.15)
@@ -2553,10 +2280,16 @@
 		(uuid "f03b0963-3e9e-4266-b1dc-007eb1f99e43")
 	)
 	(junction
-		(at 114.3 90.17)
+		(at 209.55 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f550adeb-e317-475f-88eb-5bcc5b538695")
+		(uuid "faf3afba-83db-4d78-abce-0a76f43853f5")
+	)
+	(junction
+		(at 121.92 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcdbc71e-6c1b-4dc2-bb6c-c710c7812fe0")
 	)
 	(wire
 		(pts
@@ -2580,6 +2313,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 90.17) (xy 116.84 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04afad07-6adc-4256-9e4a-b7402cf2fd5a")
+	)
+	(wire
+		(pts
 			(xy 151.13 116.84) (xy 151.13 127)
 		)
 		(stroke
@@ -2600,7 +2343,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 57.15) (xy 222.25 57.15)
+			(xy 209.55 57.15) (xy 223.52 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2617,16 +2360,6 @@
 			(type default)
 		)
 		(uuid "0dafa438-7f30-46d7-9e06-637612fa7503")
-	)
-	(wire
-		(pts
-			(xy 124.46 78.74) (xy 124.46 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1178e1ef-66cb-4591-96a8-7916f58f6b88")
 	)
 	(wire
 		(pts
@@ -2680,7 +2413,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 121.92) (xy 99.06 120.65)
+			(xy 91.44 118.11) (xy 91.44 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2690,7 +2423,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 121.92) (xy 119.38 121.92)
+			(xy 114.3 118.11) (xy 111.76 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2830,7 +2563,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 121.92) (xy 121.92 116.84)
+			(xy 114.3 118.11) (xy 114.3 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2840,27 +2573,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 138.43 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30ba0f6f-0b2d-40a4-bbd8-d5f24c3e844b")
-	)
-	(wire
-		(pts
-			(xy 121.92 116.84) (xy 127 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32be497f-7cd3-4be9-a871-f1846e162596")
-	)
-	(wire
-		(pts
-			(xy 209.55 88.9) (xy 222.25 88.9)
+			(xy 209.55 88.9) (xy 223.52 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2917,6 +2630,16 @@
 			(type default)
 		)
 		(uuid "3b133e1c-e2da-458f-a1ae-b7d93212cfc9")
+	)
+	(wire
+		(pts
+			(xy 121.92 88.9) (xy 138.43 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e11f546-e12a-41a7-933c-81848c4f5a21")
 	)
 	(wire
 		(pts
@@ -2990,16 +2713,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 116.84) (xy 121.92 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fe82bf4-adb1-4103-af99-693c63278d92")
-	)
-	(wire
-		(pts
 			(xy 116.84 115.57) (xy 116.84 114.3)
 		)
 		(stroke
@@ -3010,7 +2723,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 87.63) (xy 127 88.9)
+			(xy 121.92 87.63) (xy 121.92 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3087,6 +2800,16 @@
 			(type default)
 		)
 		(uuid "61badf4a-068d-4be1-b458-d68c551fe6df")
+	)
+	(wire
+		(pts
+			(xy 114.3 115.57) (xy 116.84 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6379fe18-a904-442d-b9aa-0a563b432cac")
 	)
 	(wire
 		(pts
@@ -3190,16 +2913,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 88.9) (xy 127 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "892f6a90-7cd6-4bf1-a6a4-1daaf806eeb6")
-	)
-	(wire
-		(pts
 			(xy 222.25 121.92) (xy 223.52 121.92)
 		)
 		(stroke
@@ -3207,6 +2920,16 @@
 			(type default)
 		)
 		(uuid "8937634f-0fd1-4a1e-8181-91fe896814f3")
+	)
+	(wire
+		(pts
+			(xy 114.3 116.84) (xy 121.92 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9d489c-5a17-499f-a7b7-93d39d4f4f03")
 	)
 	(wire
 		(pts
@@ -3290,16 +3013,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 90.17) (xy 116.84 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94c49234-ab7d-4e96-954a-e5dd06d48fc2")
-	)
-	(wire
-		(pts
 			(xy 168.91 88.9) (xy 173.99 88.9)
 		)
 		(stroke
@@ -3360,16 +3073,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 102.87) (xy 144.78 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ed29946-709b-4870-bcc1-0991dcb5a61e")
-	)
-	(wire
-		(pts
 			(xy 191.77 102.87) (xy 191.77 106.68)
 		)
 		(stroke
@@ -3390,7 +3093,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 121.92) (xy 109.22 121.92)
+			(xy 121.92 116.84) (xy 138.43 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a125e584-b6a1-4e9c-b532-766f64117ef6")
+	)
+	(wire
+		(pts
+			(xy 100.33 118.11) (xy 101.6 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3467,6 +3180,16 @@
 			(type default)
 		)
 		(uuid "ae32660d-a505-4078-b1a8-c2e6c3af9830")
+	)
+	(wire
+		(pts
+			(xy 121.92 78.74) (xy 121.92 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae38579e-dc0f-4841-a6e5-b6cdd1b3718e")
 	)
 	(wire
 		(pts
@@ -3547,6 +3270,16 @@
 			(type default)
 		)
 		(uuid "c4165070-6190-4481-98d6-10bdb7515cbb")
+	)
+	(wire
+		(pts
+			(xy 114.3 88.9) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ef1f1e-3779-439f-ab17-3e2901356062")
 	)
 	(wire
 		(pts
@@ -3640,26 +3373,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 115.57) (xy 116.84 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d33ad6dc-7e70-4f80-813b-5c0660df6288")
-	)
-	(wire
-		(pts
-			(xy 127 116.84) (xy 138.43 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d46cef19-47fb-4a33-9b1b-34c96f126bd7")
-	)
-	(wire
-		(pts
 			(xy 209.55 83.82) (xy 209.55 88.9)
 		)
 		(stroke
@@ -3710,7 +3423,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 102.87) (xy 138.43 102.87)
+			(xy 100.33 102.87) (xy 144.78 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3810,7 +3523,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 121.92) (xy 99.06 121.92)
+			(xy 91.44 118.11) (xy 92.71 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3840,7 +3553,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 118.11) (xy 127 116.84)
+			(xy 121.92 118.11) (xy 121.92 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3860,7 +3573,7 @@
 	)
 	(hierarchical_label "12V"
 		(shape output)
-		(at 222.25 57.15 0)
+		(at 223.52 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3915,7 +3628,7 @@
 	)
 	(hierarchical_label "+15V"
 		(shape output)
-		(at 222.25 88.9 0)
+		(at 223.52 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3934,6 +3647,190 @@
 			(justify right)
 		)
 		(uuid "d98e5ff8-8236-4b02-ba08-58ba89b4613d")
+	)
+	(symbol
+		(lib_id "custom:D_Basic")
+		(at 160.02 127 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f497db8-fe07-47b4-aaba-0ef10f03b5a8")
+		(property "Reference" "D5"
+			(at 160.02 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 160.02 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 160.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "1N4007"
+			(at 160.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c23606a1-e7dd-489c-9f81-7dcd03760c1c")
+		)
+		(pin "2"
+			(uuid "e972f2f0-1fc2-454d-933f-a68e0d5886d7")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:D-Schottky_Basic")
+		(at 191.77 110.49 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "103ee4ac-9657-4269-a882-b829d87c6306")
+		(property "Reference" "D12"
+			(at 194.31 108.9024 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 194.31 111.4424 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 187.325 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "1N5819RLG"
+			(at 191.77 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08e9b376-ee8c-4d64-add6-1d93c9ec59b7")
+		)
+		(pin "2"
+			(uuid "705a9688-9e72-4ca9-93cb-8e1272cb18d2")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "custom:F-poly_Basic")
@@ -3957,7 +3854,7 @@
 				)
 			)
 		)
-		(property "Value" "5A hold 30V"
+		(property "Value" "5A/H"
 			(at 200.66 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4000,6 +3897,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "BK30-500-SZ"
+			(at 200.66 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3e237acf-d422-4cf4-84cf-e57b7db443ec")
 		)
@@ -4007,7 +3915,7 @@
 			(uuid "06b9b1d6-a6a1-43ce-a7ac-ce4a88bbbd0c")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "F1")
 					(unit 1)
@@ -4086,7 +3994,7 @@
 			(uuid "a4172aaa-59ee-47f9-8043-1f6b8c29df2f")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR041")
 					(unit 1)
@@ -4159,6 +4067,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "MFR-25FRF52-2K7"
+			(at 217.17 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "06389e84-300d-4b13-8875-8a392eb86937")
 		)
@@ -4166,7 +4085,7 @@
 			(uuid "ab3a9c40-5b91-4cda-a360-cc456ae81836")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "R35")
 					(unit 1)
@@ -4245,7 +4164,7 @@
 			(uuid "531d7898-385c-4481-b19b-aecc7f57ebea")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR050")
 					(unit 1)
@@ -4254,9 +4173,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 104.14 121.92 0)
-		(mirror y)
+		(lib_id "custom:U-Reg+_Basic")
+		(at 160.02 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4264,9 +4182,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1fba0a7b-d286-4ff4-a53e-23215f74c66b")
-		(property "Reference" "D22"
-			(at 101.346 125.476 0)
+		(fields_autoplaced yes)
+		(uuid "1dcce981-f0bb-4308-aef5-966933e707f8")
+		(property "Reference" "U14"
+			(at 160.02 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4275,8 +4194,8 @@
 				)
 			)
 		)
-		(property "Value" "G LED"
-			(at 101.346 128.016 0)
+		(property "Value" "UA7815"
+			(at 160.02 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4285,19 +4204,20 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:151034GS03000"
-			(at 104.14 121.92 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 160.02 83.185 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 121.92 0)
+			(at 160.02 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4308,7 +4228,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 121.92 0)
+			(at 160.02 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4318,8 +4238,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 104.14 121.92 0)
+		(property "Mfr. No" "UA7815CKCS"
+			(at 160.02 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4330,15 +4250,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "bbbf2f15-4628-48d8-b631-902e1e4bb2db")
+			(uuid "d3168f05-a1a6-488c-8e2c-e7ab66b7b935")
+		)
+		(pin "3"
+			(uuid "614950d4-ddfe-4c07-93d7-283d4f4eaa17")
 		)
 		(pin "1"
-			(uuid "c5436e93-e69f-4dee-92bc-8e0fe441f93b")
+			(uuid "0db6466a-1544-4827-85b3-1975cf784552")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "D22")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -4415,7 +4338,7 @@
 			(uuid "c572d53c-8458-4830-9e27-814f2c339917")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR052")
 					(unit 1)
@@ -4424,8 +4347,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 227.33 121.92 0)
+		(lib_id "custom:D-LED_Basic")
+		(at 227.33 52.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4434,9 +4357,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "29a15688-e212-43e4-a068-0c46168666c0")
-		(property "Reference" "D16"
-			(at 225.7425 127 0)
+		(uuid "2456e4a2-1cae-45b0-a664-274a2553db7b")
+		(property "Reference" "D17"
+			(at 228.9175 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4446,7 +4369,7 @@
 			)
 		)
 		(property "Value" "G LED"
-			(at 225.7425 129.54 0)
+			(at 228.9175 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4456,7 +4379,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:151034GS03000"
-			(at 227.33 121.92 0)
+			(at 227.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4467,7 +4390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 121.92 0)
+			(at 227.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4478,7 +4401,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 121.92 0)
+			(at 227.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4488,8 +4411,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 227.33 121.92 0)
+		(property "Mfr. No" "151031VS06000"
+			(at 227.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4498,17 +4421,107 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "2f5b2825-975a-428c-8035-dcb01e7025ef")
 		)
 		(pin "1"
-			(uuid "9af9c278-a663-4223-9700-181026547bf4")
+			(uuid "2b4b3fc3-9838-48b1-81e0-4b53eff20d63")
+		)
+		(pin "2"
+			(uuid "cde4c562-c957-4699-bf24-5ac2cb94a033")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "D16")
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:TP_Basic")
+		(at 121.92 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b5d1585-8ac4-4aca-8ec5-1cc7fc00660c")
+		(property "Reference" "TP2"
+			(at 124.46 83.0579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+UNREG"
+			(at 124.46 85.5979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+			(at 127 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" ""
+			(at 121.92 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4ee3df7-e291-41be-b5d5-6d7e18299241")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4585,7 +4598,7 @@
 			(uuid "f02ac2b7-33d2-4e35-b75c-7099e078c364")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR010")
 					(unit 1)
@@ -4660,6 +4673,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "FG28X7R1H104KNT00"
+			(at 144.78 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d44dbecf-2667-4b29-9d70-92d2a540dc1c")
 		)
@@ -4667,7 +4691,7 @@
 			(uuid "14755784-a669-409f-8822-9ede59d82618")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "C18")
 					(unit 1)
@@ -4740,6 +4764,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "MFR-25FRF52-2K7"
+			(at 217.17 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "adb6b295-8284-44b6-8468-14fc49b155b3")
 		)
@@ -4747,7 +4782,7 @@
 			(uuid "e7a56fb4-427a-4df4-8ecd-0ac0b6491f5a")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "R32")
 					(unit 1)
@@ -4778,7 +4813,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "M2 Mounting Hole"
 			(at 80.01 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4823,7 +4858,7 @@
 			)
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "H5")
 					(unit 1)
@@ -4902,7 +4937,7 @@
 			(uuid "116abcff-c38f-40b1-b65d-dd430bcb8af3")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR016")
 					(unit 1)
@@ -4987,6 +5022,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "50YXJ47M6.3X11"
+			(at 180.34 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4cbcb6f0-01d8-453d-9999-728089710257")
 		)
@@ -4994,7 +5040,7 @@
 			(uuid "c5bc57da-c0d2-4b97-9153-874fec5f9fe9")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "C14")
 					(unit 1)
@@ -5025,7 +5071,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "M2 Mounting Hole"
 			(at 80.01 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5070,7 +5116,7 @@
 			)
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "H6")
 					(unit 1)
@@ -5080,7 +5126,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 99.06 120.65 180)
+		(at 91.44 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5091,7 +5137,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d2b3b62-7db7-452e-80d3-43ad6a1837a6")
 		(property "Reference" "#PWR030"
-			(at 99.06 115.57 0)
+			(at 91.44 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5102,7 +5148,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 99.187 116.84 0)
+			(at 91.313 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5113,7 +5159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 119.38 0)
+			(at 91.44 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5124,7 +5170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 119.38 0)
+			(at 91.44 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5135,7 +5181,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 99.06 120.65 0)
+			(at 91.44 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5149,7 +5195,7 @@
 			(uuid "e855632f-738d-4c37-9f96-f75e9ac12467")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR030")
 					(unit 1)
@@ -5158,8 +5204,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 127 87.63 0)
+		(lib_id "custom:D_Basic")
+		(at 116.84 110.49 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5168,9 +5214,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "42356246-b0f5-4db5-8a70-b76f223c4fca")
-		(property "Reference" "TP41"
-			(at 129.54 83.0579 0)
+		(uuid "46118020-af61-4e3b-a160-c56cc5e18cf9")
+		(property "Reference" "D26"
+			(at 119.38 109.2199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5180,8 +5226,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "+UNREG"
-			(at 129.54 85.5979 0)
+		(property "Value" "1N5408"
+			(at 119.38 111.7599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5191,8 +5237,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:5006"
-			(at 132.08 87.63 0)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 116.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5203,7 +5249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 87.63 0)
+			(at 116.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5214,7 +5260,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 87.63 0)
+			(at 116.84 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "1N5408RLG"
+			(at 116.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5225,215 +5282,34 @@
 			)
 		)
 		(pin "1"
-			(uuid "c9076445-f5fe-42db-a48e-b9c109125b7f")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "TP41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 160.02 127 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "432c2ce3-ef8a-40f4-a7fd-14bd5f358201")
-		(property "Reference" "D11"
-			(at 160.02 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 160.02 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 160.02 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 160.02 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 160.02 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 160.02 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5c12732-adfe-4a88-803e-dbff97341de5")
+			(uuid "248386d2-868c-41fd-a545-da37c37a6fa6")
 		)
 		(pin "2"
-			(uuid "e22c21fb-cc66-4e74-b25d-fa627e04fdc3")
+			(uuid "a723a9a0-0d50-4e38-b0bd-8de5c7bfc3f5")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "D11")
+					(reference "D26")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 191.77 95.25 270)
+		(lib_id "custom:TP_Basic")
+		(at 121.92 118.11 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "45f69ce2-0f08-4c4d-874c-9ed75cfb73e3")
-		(property "Reference" "D3"
-			(at 194.31 93.6624 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 194.31 96.2024 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 191.77 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc6de61d-a3aa-410f-9adf-edd6635e0026")
-		)
-		(pin "2"
-			(uuid "55cded80-4f41-4f18-a8b1-14f81b06e6ba")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 127 118.11 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4aa8967b-3595-4aaf-9af5-1cccd88e8798")
-		(property "Reference" "TP43"
-			(at 129.54 120.1419 0)
+		(uuid "4709c9c9-ec0f-46d8-8913-2822d8a8c861")
+		(property "Reference" "TP3"
+			(at 124.46 120.1419 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5444,7 +5320,7 @@
 			)
 		)
 		(property "Value" "-UNREG"
-			(at 129.54 122.6819 0)
+			(at 124.46 122.6819 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5454,8 +5330,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "custom:5006"
-			(at 121.92 118.11 0)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+			(at 116.84 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5466,6 +5342,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 116.84 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
 			(at 121.92 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5476,8 +5363,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 127 118.11 0)
+		(property "Mfr. No" ""
+			(at 121.92 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5488,20 +5375,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "3255d4e4-bf8d-4391-bcdf-656597fb0873")
+			(uuid "8e9dcdfa-7b4d-40d4-86a6-dfe332f789cf")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "TP43")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5408")
-		(at 111.76 110.49 270)
+		(lib_id "custom:U-Reg+_Basic")
+		(at 160.02 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5510,42 +5397,41 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4c9d02eb-1d36-4649-b385-d47e8c38517a")
-		(property "Reference" "D19"
-			(at 109.22 109.2199 90)
+		(uuid "4b38c177-1cc2-450f-aea5-5d98d557db98")
+		(property "Reference" "U17"
+			(at 160.02 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1N5408"
-			(at 109.22 111.7599 90)
+		(property "Value" "UA7812"
+			(at 160.02 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 107.315 110.49 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 160.02 51.435 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 111.76 110.49 0)
+		(property "Datasheet" ""
+			(at 160.02 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5556,7 +5442,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 110.49 0)
+			(at 160.02 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5566,8 +5452,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 111.76 110.49 0)
+		(property "Mfr. No" "UA7812CKCS"
+			(at 160.02 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5577,27 +5463,19 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 111.76 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4cddfbf3-f834-4bb3-b1bb-83583fc385a1")
+		(pin "3"
+			(uuid "a076311d-4367-4b97-8e0f-21b2825b54bc")
 		)
 		(pin "1"
-			(uuid "7c0f4064-7d96-47ea-9a40-a4922567a23a")
+			(uuid "1152c9e4-250f-44fc-a8ce-aab1d153815d")
+		)
+		(pin "2"
+			(uuid "60b5ec43-56a2-4c9f-987b-c828f5cc9da1")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "D19")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -5680,6 +5558,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "50YXJ47M6.3X11"
+			(at 180.34 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2c114093-e96f-46d4-a696-51d30b30f024")
 		)
@@ -5687,7 +5576,7 @@
 			(uuid "ec6a08ae-2c75-48c1-b41d-fafe92a4e666")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "C37")
 					(unit 1)
@@ -5696,8 +5585,8 @@
 		)
 	)
 	(symbol
-		(lib_id "custom:R_Basic")
-		(at 114.3 121.92 0)
+		(lib_id "power:GNDPWR")
+		(at 121.92 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5706,9 +5595,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "58684f79-e767-4d4e-a545-fce0c9a7e2af")
-		(property "Reference" "R47"
-			(at 114.3 125.73 0)
+		(uuid "54acd25c-6667-491b-9111-c8393660c68f")
+		(property "Reference" "#PWR056"
+			(at 121.92 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5717,8 +5607,9 @@
 				)
 			)
 		)
-		(property "Value" "2k7"
-			(at 114.3 128.27 0)
+		(property "Value" "GNDPWR"
+			(at 121.793 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5727,8 +5618,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 114.3 121.92 0)
+		(property "Footprint" ""
+			(at 121.92 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5739,7 +5630,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 121.92 0)
+			(at 121.92 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 121.92 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af533529-0f0e-4ade-80bc-7bd98156a752")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:R_Basic")
+		(at 106.68 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58684f79-e767-4d4e-a545-fce0c9a7e2af")
+		(property "Reference" "R47"
+			(at 106.68 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k7"
+			(at 106.68 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 106.68 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5750,7 +5718,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 121.92 0)
+			(at 106.68 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "MFR-25FRF52-2K7"
+			(at 106.68 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5767,7 +5746,7 @@
 			(uuid "02ed204a-562a-4863-b1a5-e644b0a4d818")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "R47")
 					(unit 1)
@@ -5846,7 +5825,7 @@
 			(uuid "c4028b15-6f2d-4de8-a30d-dde278b8b9af")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR036")
 					(unit 1)
@@ -5925,9 +5904,102 @@
 			(uuid "04a578d0-b0b1-4a99-98aa-8201a97d7345")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:D_Basic")
+		(at 111.76 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aa42f6d-0a6b-4dd0-92ef-4612b828ec03")
+		(property "Reference" "D24"
+			(at 109.22 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N5408"
+			(at 109.22 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 111.76 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "1N5408RLG"
+			(at 111.76 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e532537c-4744-4092-b4ac-38f77e3f98c6")
+		)
+		(pin "2"
+			(uuid "46364407-7501-4baa-8185-5aba28b42061")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -6000,6 +6072,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "FG28X7R1H104KNT00"
+			(at 144.78 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4c3e73fd-3759-48c6-b92d-d23ba0cd4c3a")
 		)
@@ -6007,7 +6090,7 @@
 			(uuid "37540591-8e22-4186-a97d-182bc8373ecc")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "C19")
 					(unit 1)
@@ -6016,7 +6099,98 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "custom:D_Basic")
+		(at 160.02 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "773453fc-3c17-4a4e-a3be-6c241e82034d")
+		(property "Reference" "D6"
+			(at 160.02 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 160.02 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 160.02 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "1N4007"
+			(at 160.02 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "909eb5ed-6147-49da-a694-b27a69ac6769")
+		)
+		(pin "2"
+			(uuid "9a7f8ff8-94f8-4189-b7da-2d33941451cb")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:D_Basic")
 		(at 160.02 46.99 0)
 		(unit 1)
 		(body_style 1)
@@ -6026,8 +6200,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7a1d92a8-4d66-47ba-8c78-f5f9db173c64")
-		(property "Reference" "D12"
+		(uuid "804b5d0a-ff8e-4caf-b062-3459c0f3441a")
+		(property "Reference" "D11"
 			(at 160.02 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6058,7 +6232,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" ""
 			(at 160.02 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6080,18 +6254,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 160.02 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Mfr. No" "1N4007"
 			(at 160.02 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6103,15 +6266,294 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef95cfe9-166e-4b3a-af86-850d5cd34af1")
+			(uuid "5ccf6861-482f-441b-af80-fb2ac3e0348d")
 		)
 		(pin "2"
-			(uuid "d1d8cbb8-eb94-4306-9d50-90762e9e1239")
+			(uuid "bfff2c5b-fb10-4d78-b751-ed7f9dfe4c5e")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "D12")
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:D_Basic")
+		(at 111.76 110.49 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84fa0251-790b-4d28-a160-6d17994ac4ac")
+		(property "Reference" "D25"
+			(at 109.22 109.2199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N5408"
+			(at 109.22 111.7599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 111.76 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "1N5408RLG"
+			(at 111.76 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e8eae8b-a9dc-4e0a-8929-4ac152f31886")
+		)
+		(pin "2"
+			(uuid "611f883f-5ee4-4be7-be4d-e6aed1640c8b")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:HS-2-Pin_Basic")
+		(at 173.99 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86d46020-319b-4538-9b1d-361b23f36f37")
+		(property "Reference" "HS6"
+			(at 177.8 79.3749 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Reg Heatsink"
+			(at 177.8 81.9149 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:240118ABEH22"
+			(at 174.2948 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 174.2948 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "240-118ABEH-22"
+			(at 173.99 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a420734c-c552-4fd0-b255-44b31b1f6865")
+		)
+		(pin "2"
+			(uuid "7f053861-e16b-4672-aea5-473916a4a5ab")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "HS6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:D-Schottky_Basic")
+		(at 191.77 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "912cb81e-2282-44ad-96b8-507431ebcb9d")
+		(property "Reference" "D10"
+			(at 194.31 93.6624 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 194.31 96.2024 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 187.325 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "1N5819RLG"
+			(at 191.77 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63f6eea9-23b9-4867-8b02-3922adfb0678")
+		)
+		(pin "2"
+			(uuid "6cc187af-67ce-4fd5-9371-aa3fd9eae626")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -6188,7 +6630,7 @@
 			(uuid "a92ede4d-3efc-4f85-aaff-dddd61b457f5")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR051")
 					(unit 1)
@@ -6197,8 +6639,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5408")
-		(at 116.84 110.49 270)
+		(lib_id "custom:D-LED_Basic")
+		(at 227.33 83.82 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6207,113 +6649,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "94bb7403-2fab-4aba-b821-e579f8ff4220")
-		(property "Reference" "D20"
-			(at 119.38 109.2199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5408"
-			(at 119.38 111.7599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 112.395 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 116.84 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 116.84 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 116.84 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5bf5dd0d-59cd-4a39-b40d-a030aff4590f")
-		)
-		(pin "1"
-			(uuid "7a01328c-a923-4c44-a696-bed9d49b48b3")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 227.33 52.07 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bd86f46-59e4-49b6-acdc-15d7dd92a53b")
-		(property "Reference" "D17"
-			(at 228.9175 44.45 0)
+		(uuid "9a5fc150-1cc4-455f-a3d0-1b93ca0f881b")
+		(property "Reference" "D15"
+			(at 228.9175 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6323,7 +6661,7 @@
 			)
 		)
 		(property "Value" "G LED"
-			(at 228.9175 46.99 0)
+			(at 228.9175 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6333,7 +6671,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:151034GS03000"
-			(at 227.33 52.07 0)
+			(at 227.33 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6344,7 +6682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 52.07 0)
+			(at 227.33 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6355,7 +6693,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 52.07 0)
+			(at 227.33 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6365,8 +6703,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 227.33 52.07 0)
+		(property "Mfr. No" "151031VS06000"
+			(at 227.33 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6375,17 +6713,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "875437d2-0c6c-4e67-bd11-e78897e1f4b8")
 		)
 		(pin "1"
-			(uuid "4e8b20bc-53e4-4c95-8790-e9d7bde55e26")
+			(uuid "9d9a2cba-eb38-4ae4-b686-6d7ede60a130")
+		)
+		(pin "2"
+			(uuid "a51111f0-7b4a-4cd1-816a-4784f9d7afc3")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "D17")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -6456,6 +6794,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "MFR50SFTE52-3K3"
+			(at 217.17 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "34e559ce-6a5a-4cee-a025-5d4176962bf8")
 		)
@@ -6463,7 +6812,7 @@
 			(uuid "d65a4a86-85f1-4fff-beee-78b9ee2efea7")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "R34")
 					(unit 1)
@@ -6542,7 +6891,7 @@
 			(uuid "59b6bfbf-7ddc-4997-9dba-6b74051a5ada")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR038")
 					(unit 1)
@@ -6621,7 +6970,7 @@
 			(uuid "687d7a45-a6be-4a60-b1d7-d98c9c204667")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR053")
 					(unit 1)
@@ -6700,300 +7049,9 @@
 			(uuid "2c9496bb-83d2-430f-be26-ad9883e939a3")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:L7815")
-		(at 160.02 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a165ebe3-783b-4fc7-8564-f10af0aea16f")
-		(property "Reference" "U8"
-			(at 160.02 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM7815"
-			(at 160.02 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 160.655 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-			(at 160.02 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40b39f76-a442-4b4f-8b9d-5268215927b8")
-		)
-		(pin "2"
-			(uuid "5c8df176-f392-47b6-83a7-32236a1bc440")
-		)
-		(pin "3"
-			(uuid "49d42aea-c3ba-4296-adf4-fd0f7199b3db")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 160.02 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a48daa9c-17b7-4621-933a-13d8a887201d")
-		(property "Reference" "D10"
-			(at 160.02 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 160.02 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 160.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10d6ebb9-0e89-4b01-b531-4918a487ccf2")
-		)
-		(pin "2"
-			(uuid "dbb68fc3-7a8f-402e-a082-1837bde1a5fe")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5408")
-		(at 111.76 95.25 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6137aff-b700-4f01-9ef3-7ace74ee1d5d")
-		(property "Reference" "D5"
-			(at 109.22 93.9799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N5408"
-			(at 109.22 96.5199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 107.315 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 111.76 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 111.76 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 111.76 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "faf66e00-d6e6-40ed-b1ea-859e5842a114")
-		)
-		(pin "1"
-			(uuid "0285dec5-1069-4bbe-b6c1-207bbb55f11e")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7064,6 +7122,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" ""
+			(at 200.66 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5910f65a-289a-4573-a131-959ed0891d97")
 		)
@@ -7071,91 +7140,9 @@
 			(uuid "dcfbd4cc-c846-43cb-bace-9f1e9d02ed95")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "F3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Heatsink_Pad_2Pin")
-		(at 173.99 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab05aca1-9a1a-43fa-ab4f-c79006b0d31e")
-		(property "Reference" "HS10"
-			(at 177.8 122.5549 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink_Pad_2Pin"
-			(at 177.8 125.0949 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:240118ABEH22"
-			(at 174.2948 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 174.2948 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3609a8ea-bf04-40d4-9469-1bc98d778e2e")
-		)
-		(pin "2"
-			(uuid "9c46895a-3ccd-4ed1-b90a-b3df53ae1183")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "HS10")
 					(unit 1)
 				)
 			)
@@ -7227,6 +7214,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "FG28X7R1H104KNT00"
+			(at 173.99 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c6248dcc-7a1f-4146-b716-bd5ec14f94b3")
 		)
@@ -7234,7 +7232,7 @@
 			(uuid "e3ee3d14-c7d7-42c4-8762-29aeddb04ab7")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "C17")
 					(unit 1)
@@ -7243,8 +7241,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 191.77 110.49 270)
+		(lib_id "custom:HS-2-Pin_Basic")
+		(at 173.99 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7253,9 +7251,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b1513eaa-02b6-4f4d-9a9d-b85594f5765f")
-		(property "Reference" "D4"
-			(at 194.31 108.9024 90)
+		(uuid "b5c55e57-a666-4bf4-9a14-e4a40fbdad08")
+		(property "Reference" "HS7"
+			(at 177.8 122.5549 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7265,8 +7263,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5819"
-			(at 194.31 111.4424 90)
+		(property "Value" "Reg Heatsink"
+			(at 177.8 125.0949 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7276,8 +7274,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 191.77 110.49 0)
+		(property "Footprint" "SamacSys_Parts:240118ABEH22"
+			(at 174.2948 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7288,7 +7286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 110.49 0)
+			(at 174.2948 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7299,7 +7297,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 110.49 0)
+			(at 173.99 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "240-118ABEH-22"
+			(at 173.99 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7310,119 +7319,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e440e412-91af-4063-9f51-690a8e3b5ff9")
+			(uuid "c26df5b2-3baf-4ecd-a583-b3ed5fd71154")
 		)
 		(pin "2"
-			(uuid "70a12fce-ea5a-4b7e-badb-117d8fb22f72")
+			(uuid "441dc189-0a0c-48a8-8183-d19ff2ccfba5")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5408")
-		(at 116.84 95.25 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b52a1661-3312-48b1-a7ad-51d4044076fb")
-		(property "Reference" "D6"
-			(at 119.38 93.9799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5408"
-			(at 119.38 96.5199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 112.395 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 116.84 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 116.84 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 116.84 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "acd5a49c-9e57-4fd4-90cd-8f9314c90e56")
-		)
-		(pin "1"
-			(uuid "33d5f82c-634e-44fb-acc8-e44f93516845")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "D6")
+					(reference "HS7")
 					(unit 1)
 				)
 			)
@@ -7494,6 +7399,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "FG28X7R1H104KNT00"
+			(at 173.99 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "715c67ba-0300-4f27-9ae0-4d6cf87b5c66")
 		)
@@ -7501,7 +7417,7 @@
 			(uuid "b5dcd893-5336-4c7e-a7c4-aff7231a4c7c")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "C36")
 					(unit 1)
@@ -7586,6 +7502,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "EKY-500ELL222MMP1S"
+			(at 138.43 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0f5c0b0f-e3f5-45f8-9462-5148ca0c77d7")
 		)
@@ -7593,7 +7520,7 @@
 			(uuid "f0f9c0d0-af38-48e0-8c30-90d9cbe721e1")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "C20")
 					(unit 1)
@@ -7602,8 +7529,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 227.33 83.82 180)
+		(lib_id "custom:HS-2-Pin_Basic")
+		(at 173.99 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7612,29 +7539,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9b16039-db8b-4864-84f1-2fb9c3e22f34")
-		(property "Reference" "D15"
-			(at 228.9175 76.2 0)
+		(uuid "c1b79cfa-c2cb-4e4c-bcb8-202db8096fef")
+		(property "Reference" "HS5"
+			(at 177.8 47.6249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "G LED"
-			(at 228.9175 78.74 0)
+		(property "Value" "Reg Heatsink"
+			(at 177.8 50.1649 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:151034GS03000"
-			(at 227.33 83.82 0)
+		(property "Footprint" "SamacSys_Parts:240118ABEH22"
+			(at 174.2948 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7645,7 +7574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 83.82 0)
+			(at 174.2948 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7656,7 +7585,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 83.82 0)
+			(at 173.99 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7666,8 +7595,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 227.33 83.82 0)
+		(property "Mfr. No" "240-118ABEH-22"
+			(at 173.99 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7676,180 +7605,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "aefe5fc0-2375-44b2-99fd-59ae1de1efc3")
 		)
 		(pin "2"
-			(uuid "af59ec48-2a55-40e3-ad29-a9be6119befb")
-		)
-		(pin "1"
-			(uuid "2cea1902-469c-4cc6-8732-9daa9cb19865")
+			(uuid "63c71ac1-827d-40f8-9dc8-0b68476eec05")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 124.46 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc78afe2-0b58-4b99-9ff7-4247bf736ad3")
-		(property "Reference" "#PWR034"
-			(at 124.46 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 124.333 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "253eb987-36f2-44c6-bf27-2d2c83232062")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:L7915")
-		(at 160.02 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c587dacc-0e7c-4d6f-96db-4da48d1fe491")
-		(property "Reference" "U9"
-			(at 160.02 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM7915"
-			(at 160.02 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 160.02 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf"
-			(at 160.02 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "0ae46e37-0228-4033-b1b3-4ea58ee1cb71")
-		)
-		(pin "1"
-			(uuid "49963600-6d0c-422f-85f7-48650d429036")
-		)
-		(pin "2"
-			(uuid "89bce2a3-3491-423f-81e8-b0f4cb8d0314")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "U9")
+					(reference "HS5")
 					(unit 1)
 				)
 			)
@@ -7926,7 +7692,7 @@
 			(uuid "28867223-cd91-4192-b57c-de611f96e229")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR025")
 					(unit 1)
@@ -8001,6 +7767,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "FG28X7R1H104KNT00"
+			(at 144.78 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dd8846fa-1692-475c-a2ba-178db2c2894f")
 		)
@@ -8008,7 +7785,7 @@
 			(uuid "ad3806a6-2e32-4ead-90ce-8fcc5bbd3dd7")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "C35")
 					(unit 1)
@@ -8039,7 +7816,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "M2 Mounting Hole"
 			(at 80.01 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8084,7 +7861,7 @@
 			)
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "H8")
 					(unit 1)
@@ -8163,7 +7940,7 @@
 			(uuid "e8f2c198-eb3c-4e09-87c9-daf1d038bb33")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR044")
 					(unit 1)
@@ -8172,8 +7949,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink_Pad_2Pin")
-		(at 173.99 49.53 0)
+		(lib_id "custom:D-LED_Basic")
+		(at 96.52 118.11 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8182,31 +7959,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd0ad252-551d-42c3-af6c-7b360ceab9dc")
-		(property "Reference" "HS8"
-			(at 177.8 47.6249 0)
+		(uuid "e098ba6f-3f03-4701-8a41-7396014a68d0")
+		(property "Reference" "D3"
+			(at 98.1075 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Heatsink_Pad_2Pin"
-			(at 177.8 50.1649 0)
+		(property "Value" "G LED"
+			(at 98.1075 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:240118ABEH22"
-			(at 174.2948 50.8 0)
+		(property "Footprint" "custom:151034GS03000"
+			(at 96.52 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8217,7 +7992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 174.2948 50.8 0)
+			(at 96.52 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8228,7 +8003,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 49.53 0)
+			(at 96.52 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "151031VS06000"
+			(at 96.52 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8239,15 +8025,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ac394a3-21e1-4b27-90b9-9ec4d2698333")
+			(uuid "64c00324-80cc-4fb3-b975-5c910c3c8f22")
 		)
 		(pin "2"
-			(uuid "09eefbc2-3673-449a-b25d-d6c38a92a2cb")
+			(uuid "d10c0fbc-794e-4302-b21a-d685fa207cc6")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "HS8")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8276,7 +8062,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "M2 Mounting Hole"
 			(at 80.01 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8321,9 +8107,102 @@
 			)
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:D_Basic")
+		(at 116.84 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2d1369e-fb68-4593-8b36-272b22c14060")
+		(property "Reference" "D23"
+			(at 119.38 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5408"
+			(at 119.38 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 116.84 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "1N5408RLG"
+			(at 116.84 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa123ce8-91a4-46d1-afca-30835dfd4204")
+		)
+		(pin "2"
+			(uuid "29948626-2057-41e6-87de-0a24fe6c94b9")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -8400,7 +8279,7 @@
 			(uuid "58826af5-4f41-473c-b342-c0b318d3f552")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "#PWR048")
 					(unit 1)
@@ -8409,8 +8288,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 124.46 77.47 0)
+		(lib_id "custom:U-Reg-_Basic")
+		(at 160.02 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8419,42 +8298,41 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e96b37b9-1fa1-41e2-951e-53075c76f60b")
-		(property "Reference" "TP42"
-			(at 127 72.8979 0)
+		(uuid "e9d7b8d3-b1f3-4e54-a9a4-21d25f696c97")
+		(property "Reference" "U8"
+			(at 160.02 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 127 75.4379 0)
+		(property "Value" "LM7915"
+			(at 160.02 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "custom:5006"
-			(at 129.54 77.47 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 160.02 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 77.47 0)
+			(at 160.02 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8465,7 +8343,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 77.47 0)
+			(at 160.02 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8475,13 +8353,30 @@
 				)
 			)
 		)
+		(property "Mfr. No" "LM7915CT/NOPB"
+			(at 160.02 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3e2c5d9c-5015-41b3-aea5-09369ceb6b5b")
+		)
+		(pin "3"
+			(uuid "371e32bd-8082-4e41-8c02-e0bbde38ee48")
+		)
 		(pin "1"
-			(uuid "b502f703-30c6-476c-9358-ba1f3c391225")
+			(uuid "e93b3ee3-dbff-417c-9d6d-834276970665")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "TP42")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -8564,6 +8459,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "50YXJ47M6.3X11"
+			(at 180.34 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b1444dcb-6295-4cfa-994d-0b1c65f43b75")
 		)
@@ -8571,7 +8477,7 @@
 			(uuid "7178f446-126f-4f45-bc46-e8da2a59806a")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "C15")
 					(unit 1)
@@ -8656,6 +8562,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "EKY-500ELL222MMP1S"
+			(at 138.43 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ab87a4cb-fab0-4048-9254-8d20100050e5")
 		)
@@ -8663,7 +8580,7 @@
 			(uuid "f8427e5d-0c97-4b8d-b98f-df5b99380155")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "C21")
 					(unit 1)
@@ -8693,7 +8610,7 @@
 				)
 			)
 		)
-		(property "Value" "5A hold 30V"
+		(property "Value" "5A/H"
 			(at 200.66 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8736,6 +8653,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "BK30-500-SZ"
+			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "413b3ac2-e333-46a1-955f-b1927f1d4758")
 		)
@@ -8743,7 +8671,7 @@
 			(uuid "ac33256c-7cab-48a4-acde-ce044ff420b0")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "F2")
 					(unit 1)
@@ -8752,8 +8680,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink_Pad_2Pin")
-		(at 173.99 81.28 0)
+		(lib_id "custom:D-LED_Basic")
+		(at 227.33 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8762,31 +8690,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eecbe1b6-2053-4902-bdb4-d94a86ddfb16")
-		(property "Reference" "HS9"
-			(at 177.8 79.3749 0)
+		(uuid "f44a8649-02a0-4f7a-9381-6b7e4c4d29eb")
+		(property "Reference" "D16"
+			(at 225.7425 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Heatsink_Pad_2Pin"
-			(at 177.8 81.9149 0)
+		(property "Value" "G LED"
+			(at 225.7425 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:240118ABEH22"
-			(at 174.2948 82.55 0)
+		(property "Footprint" "SamacSys_Parts:151034GS03000"
+			(at 227.33 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8797,7 +8723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 174.2948 82.55 0)
+			(at 227.33 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8808,7 +8734,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 81.28 0)
+			(at 227.33 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "151031VS06000"
+			(at 227.33 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8819,99 +8756,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a10179d-99b5-4b63-a2b2-9ed16b811d1e")
+			(uuid "e9871c55-b005-44f1-9de4-c2004d30328a")
 		)
 		(pin "2"
-			(uuid "7fd09a2e-f9e1-4982-a753-60c84006bb4a")
+			(uuid "50dea44f-6d03-4507-984b-4540e5aed6bf")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "HS9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM7812_TO220")
-		(at 160.02 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f339bd48-628a-4010-ac6d-12b876d4702a")
-		(property "Reference" "U14"
-			(at 160.02 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM7812"
-			(at 160.02 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 160.02 51.435 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-			(at 160.02 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "0e772c20-d6a6-4869-a45e-577e5dffae3d")
-		)
-		(pin "2"
-			(uuid "b8cc06d8-41fb-4dae-9950-a16c4e008ef5")
-		)
-		(pin "1"
-			(uuid "9e2d522e-3117-4deb-9bd5-b38adb9fb5cd")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
-					(reference "U14")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -8983,6 +8836,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "FG28X7R1H104KNT00"
+			(at 173.99 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c90fa206-3733-41c0-9d35-13b6f1f00657")
 		)
@@ -8990,9 +8854,99 @@
 			(uuid "f8cdc24e-d420-4339-930e-de8ad836b797")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:TP_Basic")
+		(at 121.92 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdc7bea9-5642-43b0-9b3b-325e91dc61ae")
+		(property "Reference" "TP1"
+			(at 124.46 72.8979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 75.4379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+			(at 127 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" ""
+			(at 121.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "840af697-28b5-434c-93a6-65e05c38bfb7")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/a96e4916-0b05-4003-9480-a639547df929"
+					(reference "TP1")
 					(unit 1)
 				)
 			)

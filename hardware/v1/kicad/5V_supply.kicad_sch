@@ -10,330 +10,6 @@
 		(rev "2")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:Heatsink_Pad_2Pin"
 			(pin_names
 				(offset 0)
@@ -487,163 +163,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:LM7805_TO220"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM7805_TO220"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-				(at 0 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 1A Positive"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO?220*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LM7805_TO220_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM7805_TO220_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "custom:C-Pol_Basic"
 			(pin_numbers
 				(hide yes)
@@ -700,6 +219,17 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -862,6 +392,17 @@
 					)
 				)
 			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "C_Basic_1_1"
 				(rectangle
 					(start -2.286 1.016)
@@ -917,6 +458,207 @@
 						(effects
 							(font
 								(size 1.8288 1.8288)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:D-LED_Basic"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D-LED_Basic"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D-LED_Basic_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D-LED_Basic_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -986,6 +728,17 @@
 					)
 				)
 			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "R_Basic_1_1"
 				(rectangle
 					(start -3.302 -1.0922)
@@ -1030,6 +783,308 @@
 						(effects
 							(font
 								(size 1.8288 1.8288)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:TP_Basic"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TP_Basic"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TP_Basic_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TP_Basic_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:U-Reg+_Basic"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "U-Reg+_Basic"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 1A Positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "U-Reg+_Basic_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "U-Reg+_Basic_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1364,16 +1419,16 @@
 		(uuid "535bb051-b5e5-4d25-9eb4-2df5b1c25eef")
 	)
 	(junction
-		(at 127 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "575900e5-1d89-4531-8c17-2aee0dc70b5b")
-	)
-	(junction
 		(at 95.25 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b992743d-95cd-4531-81d5-a574613aa50e")
+	)
+	(junction
+		(at 127 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec6aa1d9-c9e7-48dd-8c0f-75ddb5515b80")
 	)
 	(wire
 		(pts
@@ -1384,16 +1439,6 @@
 			(type default)
 		)
 		(uuid "084ba23a-17b1-41ad-8fbc-331f189b5b94")
-	)
-	(wire
-		(pts
-			(xy 127 59.69) (xy 137.16 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c50fa44-02b3-4a58-9644-3913488495d7")
 	)
 	(wire
 		(pts
@@ -1424,26 +1469,6 @@
 			(type default)
 		)
 		(uuid "2a7dd714-0830-4295-a795-2a62e2e98131")
-	)
-	(wire
-		(pts
-			(xy 127 58.42) (xy 127 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a5e41f3-9982-4ba7-917d-31aa6845ec7e")
-	)
-	(wire
-		(pts
-			(xy 121.92 69.85) (xy 121.92 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b0d3821-a64c-4c04-b800-c9cd278e45cb")
 	)
 	(wire
 		(pts
@@ -1484,6 +1509,26 @@
 			(type default)
 		)
 		(uuid "54b07461-7057-47e9-8ce6-37425e87afcb")
+	)
+	(wire
+		(pts
+			(xy 116.84 69.85) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea572cc-0b93-478c-b3d4-57f3065c9666")
+	)
+	(wire
+		(pts
+			(xy 127 58.42) (xy 127 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f68eaa4-8da0-48c8-ac84-7ece930026a5")
 	)
 	(wire
 		(pts
@@ -1595,6 +1640,16 @@
 		)
 		(uuid "e696529d-fff8-4ec8-8357-aed39b3104d8")
 	)
+	(wire
+		(pts
+			(xy 127 59.69) (xy 135.89 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6830524-78e3-443a-973e-92e8dbd8771f")
+	)
 	(hierarchical_label "+15V"
 		(shape input)
 		(at 46.99 59.69 180)
@@ -1608,7 +1663,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape output)
-		(at 137.16 59.69 0)
+		(at 135.89 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1619,7 +1674,86 @@
 		(uuid "f25a83c5-e4c8-4547-9960-ff480550ca85")
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "power:GNDD")
+		(at 116.84 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eb854cf-c777-4bef-bd8d-3a29a0ed5ab1")
+		(property "Reference" "#PWR0139"
+			(at 116.84 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a31e1e0-3aee-425c-b553-5e2a883fd305")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:D-LED_Basic")
 		(at 113.03 54.61 180)
 		(unit 1)
 		(body_style 1)
@@ -1629,8 +1763,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "06583506-de3d-463f-b608-83ffb4d202ff")
-		(property "Reference" "D18"
+		(uuid "2798c84a-d7b3-47cc-ad86-7e97eb19f856")
+		(property "Reference" "D4"
 			(at 114.6175 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1683,7 +1817,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Mfr. No" "151031VS06000"
 			(at 113.03 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -1694,16 +1828,16 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "ef2b5297-1a39-48cc-a2b9-ad677b92096f")
-		)
 		(pin "1"
-			(uuid "ebe0ee3b-2aee-4d22-8ebf-2eb084eb0749")
+			(uuid "0f57fb00-d6d9-4c8a-9ba7-896b876d93f5")
+		)
+		(pin "2"
+			(uuid "bed88e9a-ac1d-4fa7-9172-cae649069413")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
-					(reference "D18")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -1780,9 +1914,99 @@
 			(uuid "f2729a8c-3970-44cf-87f9-ee504abc1e80")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:TP_Basic")
+		(at 116.84 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "408e40b4-8f6f-4f67-8848-7dcfb2a1b3c6")
+		(property "Reference" "TP11"
+			(at 119.38 65.2779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 67.8179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+			(at 121.92 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" ""
+			(at 116.84 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97662675-1bf5-46df-8c3f-92772b238512")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -1859,7 +2083,7 @@
 			(uuid "5fbcee1c-fba3-47af-9eec-766f4558f059")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
 					(reference "#PWR0134")
 					(unit 1)
@@ -1938,88 +2162,9 @@
 			(uuid "6033a891-1713-430d-965d-b3da132f5f86")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
 					(reference "#PWR0146")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 121.92 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5da618f2-2c9f-4fc3-9d6b-6f6e8a161751")
-		(property "Reference" "TP51"
-			(at 124.46 65.2779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 67.8179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "custom:5006"
-			(at 127 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c9a9f5e-f781-47a1-a771-6d18eed74455")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
-					(reference "TP51")
 					(unit 1)
 				)
 			)
@@ -2048,7 +2193,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Heatsink_Pad_2Pin"
+		(property "Value" "Reg Heatsink"
 			(at 72.39 45.0849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2099,7 +2244,7 @@
 			(uuid "1922461a-b6a6-4613-8499-341a21d60206")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
 					(reference "HS11")
 					(unit 1)
@@ -2178,7 +2323,7 @@
 			(uuid "d52038cd-4b52-403c-b702-fb167f1c22de")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
 					(reference "#PWR0135")
 					(unit 1)
@@ -2187,8 +2332,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 121.92 71.12 0)
+		(lib_id "custom:U-Reg+_Basic")
+		(at 68.58 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2197,10 +2342,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8470d98e-1f03-4882-aa03-1cedd17a7dc0")
-		(property "Reference" "#PWR0133"
-			(at 121.92 77.47 0)
-			(hide yes)
+		(uuid "8222917b-31a9-41fc-9175-8309b711dbc1")
+		(property "Reference" "U7"
+			(at 68.58 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2209,9 +2353,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
-			(at 121.92 74.93 0)
-			(hide yes)
+		(property "Value" "UA7805"
+			(at 68.58 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2220,19 +2363,20 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 121.92 71.12 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 68.58 53.975 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 71.12 0)
+			(at 68.58 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2242,8 +2386,19 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 121.92 71.12 0)
+		(property "Description" ""
+			(at 68.58 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "UA7805CKCS"
+			(at 68.58 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2254,12 +2409,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "70741bf4-707e-4ed6-9ce4-e85747eeb652")
+			(uuid "9811f2a1-1286-49f4-b109-454a9b756439")
+		)
+		(pin "3"
+			(uuid "2dda4ed5-9dbe-43b8-8539-b937ead84ce7")
+		)
+		(pin "2"
+			(uuid "bc9bbae8-36df-4500-a3e5-87c57cf43fa8")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
-					(reference "#PWR0133")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -2332,6 +2493,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "FG28X7R1H104KNT00"
+			(at 82.55 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b89e662f-8e91-4cd9-91b8-af315eba07d1")
 		)
@@ -2339,7 +2511,7 @@
 			(uuid "c583ce97-e0e9-49ce-9fa5-3c4675a8a593")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
 					(reference "C33")
 					(unit 1)
@@ -2418,93 +2590,9 @@
 			(uuid "54c8e82e-f4f9-4604-8b12-56e5211a704f")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
 					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM7805_TO220")
-		(at 68.58 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b42679ca-43a1-4e56-bcbd-193c39915e56")
-		(property "Reference" "U15"
-			(at 68.58 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM7805"
-			(at 68.58 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 68.58 53.975 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-			(at 68.58 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bbd78e34-054a-4e1f-8650-76df9332d650")
-		)
-		(pin "2"
-			(uuid "ad64bca2-2441-4ab1-85cc-78dda94cacd9")
-		)
-		(pin "3"
-			(uuid "8f7889ea-ae03-45d3-8cd2-188a53ce3baf")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
-					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -2581,88 +2669,9 @@
 			(uuid "45a98295-094e-4f02-a982-53265648c914")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
 					(reference "#PWR0148")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 127 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dffc32c0-13af-44cc-a187-133ee3fffc37")
-		(property "Reference" "TP52"
-			(at 129.54 53.8479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V"
-			(at 129.54 56.3879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "custom:5006"
-			(at 132.08 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "989853e5-5a83-4b37-a08b-a24aa2d9432b")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
-					(reference "TP52")
 					(unit 1)
 				)
 			)
@@ -2735,6 +2744,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "FG28X7R1H104KNT00"
+			(at 54.61 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5604b86b-7f42-4805-beac-3bcb91ba0fbb")
 		)
@@ -2742,7 +2762,7 @@
 			(uuid "f0c07701-bb81-47f1-adc2-703d86de385c")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
 					(reference "C32")
 					(unit 1)
@@ -2821,7 +2841,7 @@
 			(uuid "807a031e-b63c-4af5-9d83-7361a39cafb9")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
 					(reference "#PWR0147")
 					(unit 1)
@@ -2894,6 +2914,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "MF0207FRE52-1K"
+			(at 102.87 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "13287c90-ed10-4e68-be5b-2618db38c696")
 		)
@@ -2901,7 +2932,7 @@
 			(uuid "a9aae9c1-0977-408a-9db0-88d2ca73848e")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
 					(reference "R40")
 					(unit 1)
@@ -2987,6 +3018,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "EEU-FR1H100B"
+			(at 95.25 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a0a7b0a0-efbb-41d8-8bc7-1f20e5101c20")
 		)
@@ -2994,9 +3036,99 @@
 			(uuid "a83c9179-b5c7-4cd9-bdc3-1ba84dcc2920")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:TP_Basic")
+		(at 127 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdc4012b-9b78-46cc-aaaa-e30ba38ef471")
+		(property "Reference" "TP12"
+			(at 129.54 53.8479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V"
+			(at 129.54 56.3879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+			(at 132.08 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" ""
+			(at 127 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "079ae698-3fec-4966-a5df-675f3d9e7a74")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/26007723-7ed9-4a22-8268-5492e3851067"
+					(reference "TP12")
 					(unit 1)
 				)
 			)

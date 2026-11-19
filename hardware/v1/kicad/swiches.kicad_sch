@@ -10,130 +10,7 @@
 		(rev "2")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED"
+		(symbol "custom:D-LED_Basic"
 			(pin_numbers
 				(hide yes)
 			)
@@ -156,7 +33,7 @@
 					)
 				)
 			)
-			(property "Value" "LED"
+			(property "Value" "D-LED_Basic"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -188,7 +65,7 @@
 					)
 				)
 			)
-			(property "Description" "Light emitting diode"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -199,7 +76,7 @@
 					)
 				)
 			)
-			(property "Sim.Pins" "1=K 2=A"
+			(property "Mfr. No" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -232,7 +109,7 @@
 					)
 				)
 			)
-			(symbol "LED_0_1"
+			(symbol "D-LED_Basic_0_1"
 				(polyline
 					(pts
 						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
@@ -294,7 +171,7 @@
 					)
 				)
 			)
-			(symbol "LED_1_1"
+			(symbol "D-LED_Basic_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -334,7 +211,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148"
+		(symbol "custom:D_Basic"
 			(pin_numbers
 				(hide yes)
 			)
@@ -356,7 +233,7 @@
 					)
 				)
 			)
-			(property "Value" "1N4148"
+			(property "Value" "D_Basic"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -366,7 +243,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -377,7 +254,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -388,7 +265,7 @@
 					)
 				)
 			)
-			(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -399,18 +276,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
+			(property "Mfr. No" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -432,7 +298,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?35*"
+			(property "ki_fp_filters" "D*DO?41*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -443,7 +309,7 @@
 					)
 				)
 			)
-			(symbol "1N4148_0_1"
+			(symbol "D_Basic_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -481,7 +347,7 @@
 					)
 				)
 			)
-			(symbol "1N4148_1_1"
+			(symbol "D_Basic_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -521,7 +387,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:Q_NPN_CBE"
+		(symbol "custom:Q-NPN-CBE_Basic"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -542,7 +408,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NPN_CBE"
+			(property "Value" "Q-NPN-CBE_Basic"
 				(at 5.08 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -575,7 +441,7 @@
 					)
 				)
 			)
-			(property "Description" "NPN transistor, collector/base/emitter"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -586,18 +452,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "NPN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=C 2=B 3=E"
+			(property "Mfr. No" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -619,7 +474,7 @@
 					)
 				)
 			)
-			(symbol "Q_NPN_CBE_0_1"
+			(symbol "Q-NPN-CBE_Basic_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -656,7 +511,7 @@
 					)
 				)
 			)
-			(symbol "Q_NPN_CBE_1_1"
+			(symbol "Q-NPN-CBE_Basic_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -812,6 +667,17 @@
 					)
 				)
 			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "R_Basic_1_1"
 				(rectangle
 					(start -3.302 -1.0922)
@@ -867,6 +733,9 @@
 			(pin_numbers
 				(hide yes)
 			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -915,6 +784,17 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1171,7 +1051,7 @@
 				(pin passive inverted
 					(at 0 5.08 180)
 					(length 0)
-					(name ""
+					(name "NO1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1189,7 +1069,7 @@
 				(pin passive inverted
 					(at 0 0 0)
 					(length 0)
-					(name ""
+					(name "COM1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1207,7 +1087,7 @@
 				(pin passive inverted
 					(at 0 -5.08 180)
 					(length 0)
-					(name ""
+					(name "NC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1239,7 +1119,7 @@
 				(pin passive inverted
 					(at 0 5.08 180)
 					(length 0)
-					(name ""
+					(name "NO2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1257,7 +1137,7 @@
 				(pin passive inverted
 					(at 0 0 0)
 					(length 0)
-					(name ""
+					(name "COM2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1275,7 +1155,7 @@
 				(pin passive inverted
 					(at 0 -5.08 180)
 					(length 0)
-					(name ""
+					(name "NC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1295,6 +1175,9 @@
 		)
 		(symbol "custom:Relay-SPDT_Basic"
 			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1345,6 +1228,17 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1634,7 +1528,7 @@
 				(pin passive line
 					(at -6.35 0 0)
 					(length 2.54)
-					(name ""
+					(name "COM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1652,7 +1546,7 @@
 				(pin passive line
 					(at 3.81 -2.54 180)
 					(length 2.54)
-					(name ""
+					(name "NO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1670,7 +1564,7 @@
 				(pin passive line
 					(at 3.81 2.54 180)
 					(length 2.54)
-					(name ""
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1755,6 +1649,17 @@
 					)
 				)
 			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "SW-SPST_Basic_0_0"
 				(circle
 					(center -2.032 0)
@@ -1797,7 +1702,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "B"
+					(name "COM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1815,7 +1720,7 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "A"
+					(name "P1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1823,6 +1728,140 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:TP_Basic"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TP_Basic"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TP_Basic_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TP_Basic_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2234,7 +2273,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 48.26) (xy 74.93 49.53)
+			(xy 73.66 46.99) (xy 73.66 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2645,7 +2684,7 @@
 			(uuid "1cd78836-6617-4469-b12b-01ab3efffad3")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
 					(reference "#PWR0128")
 					(unit 1)
@@ -2730,6 +2769,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "S1F"
+			(at 53.34 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0b08f2c7-96ac-49df-91fd-9aa2eabf4251")
 		)
@@ -2737,9 +2787,103 @@
 			(uuid "45adce17-a9df-4c7d-add8-786fddd3a1c8")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:D_Basic")
+		(at 105.41 39.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23154ff1-117b-4a0d-891c-bfc2eece9d01")
+		(property "Reference" "D8"
+			(at 102.87 39.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 107.95 40.6399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 105.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "1N4148-T26A"
+			(at 105.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5010c54f-932e-48b9-9ccb-68fa7d8210d0")
+		)
+		(pin "2"
+			(uuid "3a51ae74-83c2-4640-955b-77a96561f968")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -2811,7 +2955,7 @@
 				)
 			)
 		)
-		(property "Price" "$$$"
+		(property "Mfr. No" "JW2SN-DC12V"
 			(at 91.44 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -2847,7 +2991,7 @@
 			(uuid "a5d9df9d-6945-4b85-a727-9e2cc5d6a2c2")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
 					(reference "K1")
 					(unit 1)
@@ -2856,8 +3000,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 74.93 48.26 0)
+		(lib_id "custom:D_Basic")
+		(at 88.9 39.37 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2866,9 +3010,21 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2e650685-2d15-4ce7-b468-c55a2f16e276")
-		(property "Reference" "TP48"
-			(at 77.47 43.6879 0)
+		(uuid "2fea09ea-86d2-4fff-a84a-abd6c3343617")
+		(property "Reference" "D7"
+			(at 86.36 39.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 91.44 40.6399 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2878,19 +3034,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 77.47 46.2279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "custom:5006"
-			(at 80.01 48.26 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 88.9 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2901,7 +3046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 48.26 0)
+			(at 88.9 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2912,7 +3057,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 48.26 0)
+			(at 88.9 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "1N4148-T26A"
+			(at 88.9 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2923,12 +3079,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d20f875c-366b-4010-9977-3282c35e956b")
+			(uuid "d28e63ae-17e1-4519-8526-0b5f31357493")
+		)
+		(pin "2"
+			(uuid "54c12f52-087a-4f44-b6fe-7ee03a142b4d")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
-					(reference "TP48")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3005,116 +3164,9 @@
 			(uuid "93c82813-f369-4957-99ba-52f5f7a2bac7")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
 					(reference "#PWR0127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_CBE")
-		(at 88.9 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fced77b-3784-4fa8-b655-b9a40077cc89")
-		(property "Reference" "Q7"
-			(at 93.98 63.4999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC337"
-			(at 93.98 66.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 93.98 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 88.9 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 88.9 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "dd2f4f13-d8a5-48e2-ab67-1683572fa048")
-		)
-		(pin "1"
-			(uuid "bbeb0031-a982-4775-a383-701a134da615")
-		)
-		(pin "2"
-			(uuid "521203b6-d76b-4015-b166-d075d5e90335")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
-					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -3187,6 +3239,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "MFR-25FBF52-2K2"
+			(at 140.97 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ca5b457-d194-4090-933d-3b3f194d9925")
 		)
@@ -3194,7 +3257,7 @@
 			(uuid "5feba821-b8ca-4e7e-a384-98fe8632bce1")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
 					(reference "R39")
 					(unit 1)
@@ -3268,7 +3331,7 @@
 				)
 			)
 		)
-		(property "Price" "$$$"
+		(property "Mfr. No" "ALQ112S"
 			(at 138.43 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3295,7 +3358,7 @@
 			(uuid "591781ed-80ad-4307-9680-c59495c79ad0")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
 					(reference "K3")
 					(unit 2)
@@ -3304,215 +3367,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 135.89 49.53 90)
+		(lib_id "custom:TP_Basic")
+		(at 73.66 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "61e3ce7b-a976-4cdb-afe7-cd1bf3b05306")
-		(property "Reference" "D14"
-			(at 127.762 48.514 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R LED"
-			(at 127.762 51.054 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "custom:151034GS03000"
-			(at 135.89 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 135.89 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "baed4134-5c6d-4762-9051-5a0994fa328b")
-		)
-		(pin "1"
-			(uuid "fe246d71-b61b-45ed-96bf-e3ff3948bf35")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 88.9 39.37 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "64861d6e-6f90-496a-b5b4-a6ac4e00013d")
-		(property "Reference" "D7"
-			(at 84.328 39.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 78.74 40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 88.9 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 88.9 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 88.9 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 88.9 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ebfd8f54-3147-477f-9dce-85be51a5f6f9")
-		)
-		(pin "2"
-			(uuid "4dfc8b18-3b17-4998-aeb2-17fd5cc7f741")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 77.47 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "70871dff-55c8-4e06-8b10-2806bc52e218")
-		(property "Reference" "TP49"
-			(at 80.01 58.9279 0)
+		(uuid "5ae2b276-2b89-442f-91e3-a8c445ef4e5f")
+		(property "Reference" "TP40"
+			(at 76.2 42.4179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3522,8 +3389,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "QB"
-			(at 80.01 61.4679 0)
+		(property "Value" "GND"
+			(at 76.2 44.9579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3533,8 +3400,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:5006"
-			(at 82.55 63.5 0)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+			(at 78.74 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3545,7 +3412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 63.5 0)
+			(at 78.74 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3556,7 +3423,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 63.5 0)
+			(at 73.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" ""
+			(at 73.66 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3567,12 +3445,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "05be8d90-d4db-437e-88fa-ab29afb86321")
+			(uuid "2b304634-ef77-4233-bc71-258350a8dd6b")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
-					(reference "TP49")
+					(reference "TP40")
 					(unit 1)
 				)
 			)
@@ -3612,7 +3490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 71.12 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3645,6 +3523,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" "MFR25SFRF52-10K"
+			(at 71.12 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "96b49163-8e10-4a5b-8a2d-680fb34f3a93")
 		)
@@ -3652,9 +3541,105 @@
 			(uuid "d807e069-0e5e-45a2-8496-ab6e32f8160c")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
 					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:Q-NPN-CBE_Basic")
+		(at 88.9 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8d00356-5914-484a-a55c-70bc4097f245")
+		(property "Reference" "Q4"
+			(at 93.98 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC337"
+			(at 93.98 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 93.98 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "BC337-16BK"
+			(at 88.9 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2e177d49-66c9-42c1-9f76-751466d91ace")
+		)
+		(pin "3"
+			(uuid "2b04aa19-85a4-4f4b-bcb7-33ad4b8288d5")
+		)
+		(pin "1"
+			(uuid "abf57a69-afb9-4d21-8f49-b674d9e417e5")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -3726,7 +3711,7 @@
 				)
 			)
 		)
-		(property "Price" "$$$"
+		(property "Mfr. No" "ALQ112S"
 			(at 125.73 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3753,7 +3738,7 @@
 			(uuid "591781ed-80ad-4307-9680-c59495c79ad1")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
 					(reference "K3")
 					(unit 1)
@@ -3762,29 +3747,39 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 105.41 39.37 270)
+		(lib_id "custom:TP_Basic")
+		(at 77.47 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b9c779ae-17fb-41aa-ac6c-878f0ba39c5e")
-		(property "Reference" "D8"
-			(at 101.092 39.37 90)
+		(fields_autoplaced yes)
+		(uuid "b90e48fd-d88c-4dca-9efe-8598fce29c51")
+		(property "Reference" "TP41"
+			(at 77.47 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 95.25 40.64 90)
+		(property "Value" "QB"
+			(at 77.47 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+			(at 82.55 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3792,22 +3787,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 105.41 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 105.41 39.37 0)
+		(property "Datasheet" ""
+			(at 82.55 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3818,7 +3801,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 39.37 0)
+			(at 77.47 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3828,19 +3811,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 105.41 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 105.41 39.37 0)
+		(property "Mfr. No" ""
+			(at 77.47 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3851,22 +3823,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "e9c4e7af-31db-4e54-a12d-9e5990cd0123")
-		)
-		(pin "2"
-			(uuid "3f21679a-6946-425d-bce7-10597157674e")
+			(uuid "0279519d-3281-41e9-84a2-4a4025090fd6")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
-					(reference "D8")
+					(reference "TP41")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "custom:D_Basic")
 		(at 123.19 39.37 270)
 		(unit 1)
 		(body_style 1)
@@ -3875,20 +3844,21 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bb80f2ec-8ff1-4022-9181-73f6940c9b7e")
+		(fields_autoplaced yes)
+		(uuid "c7a2e0af-1c7e-4354-8859-d4d796b4ecbb")
 		(property "Reference" "D9"
-			(at 117.856 39.37 90)
+			(at 120.65 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1N4148"
-			(at 113.03 40.64 90)
+			(at 125.73 40.6399 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3910,7 +3880,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" ""
 			(at 123.19 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3932,18 +3902,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 123.19 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Mfr. No" "1N4148-T26A"
 			(at 123.19 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3955,15 +3914,108 @@
 			)
 		)
 		(pin "1"
-			(uuid "347b2a72-dd6a-4e4f-9fd3-fc90f01b2918")
+			(uuid "363787d4-91e6-4587-93ea-705900b14228")
 		)
 		(pin "2"
-			(uuid "dc8b3c6c-0477-4c67-a3e0-523f0e53ab1f")
+			(uuid "56367f66-5702-41ae-9da0-a7fee66b902d")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:D-LED_Basic")
+		(at 140.97 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8c0dadc-1a8c-4e48-8d6f-cbb4b66ac280")
+		(property "Reference" "D13"
+			(at 144.78 49.8474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "G LED"
+			(at 144.78 52.3874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "custom:151034GS03000"
+			(at 140.97 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "151031VS06000"
+			(at 140.97 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15fcd589-41f4-4fc4-a713-34803bed1beb")
+		)
+		(pin "2"
+			(uuid "c6824ce9-9098-4626-96b3-b90dd537f2df")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -4040,7 +4092,7 @@
 			(uuid "94df153c-5c6c-4325-af45-00aa0f2045e6")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
 					(reference "#PWR0129")
 					(unit 1)
@@ -4114,7 +4166,7 @@
 				)
 			)
 		)
-		(property "Price" "$$$"
+		(property "Mfr. No" "JW2SN-DC12V"
 			(at 107.95 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4150,7 +4202,7 @@
 			(uuid "08effb63-27df-4369-bf1d-8a676a6a7427")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
 					(reference "K2")
 					(unit 1)
@@ -4159,100 +4211,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 140.97 49.53 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dfb3649c-795b-4fd6-a5c6-bd383a562d59")
-		(property "Reference" "D13"
-			(at 144.018 48.514 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "G LED"
-			(at 144.018 51.054 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "custom:151034GS03000"
-			(at 140.97 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 140.97 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "94db1b24-030b-4590-a3bc-f2945e999deb")
-		)
-		(pin "1"
-			(uuid "a529dcb4-4527-42eb-b158-8d5fedbb49f4")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
-		(at 74.93 49.53 0)
+		(at 73.66 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4263,7 +4223,7 @@
 		(fields_autoplaced yes)
 		(uuid "e34756ff-7270-41d2-a8b7-85d673ff2ebf")
 		(property "Reference" "#PWR0130"
-			(at 74.93 55.88 0)
+			(at 73.66 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4274,7 +4234,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 74.93 53.34 0)
+			(at 73.66 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4285,7 +4245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 49.53 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4296,7 +4256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 49.53 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4307,7 +4267,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 74.93 49.53 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4321,9 +4281,99 @@
 			(uuid "efe9d928-1928-4b57-9945-7d61b26ceae0")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
 					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:TP_Basic")
+		(at 92.71 53.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4add183-d39e-4552-8a93-40d25426e016")
+		(property "Reference" "TP42"
+			(at 97.79 52.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "COIL"
+			(at 97.79 54.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+			(at 92.71 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" ""
+			(at 92.71 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01e39a31-0892-4ecb-8a42-4a89b18e184e")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
+					(reference "TP42")
 					(unit 1)
 				)
 			)
@@ -4394,6 +4444,17 @@
 				)
 			)
 		)
+		(property "Mfr. No" ""
+			(at 64.77 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bdbfbe07-0860-48bc-8f82-ce3f18b3bec9")
 		)
@@ -4401,7 +4462,7 @@
 			(uuid "2e30226b-132c-4791-b3bd-f3f404a19bfd")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
 					(reference "R41")
 					(unit 1)
@@ -4410,8 +4471,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 92.71 53.34 270)
+		(lib_id "custom:D-LED_Basic")
+		(at 135.89 49.53 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4420,9 +4481,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fdb118d7-736c-40b3-9b20-30088b1a9862")
-		(property "Reference" "TP50"
-			(at 97.79 52.0699 90)
+		(uuid "f9fcecd7-74bd-44b2-bd17-08f5479518f0")
+		(property "Reference" "D19"
+			(at 133.35 49.8474 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4432,8 +4493,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "COIL"
-			(at 97.79 54.6099 90)
+		(property "Value" "R LED"
+			(at 133.35 52.3874 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4443,8 +4504,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:5006"
-			(at 92.71 58.42 0)
+		(property "Footprint" "custom:151034GS03000"
+			(at 135.89 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4455,7 +4516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 58.42 0)
+			(at 135.89 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4466,7 +4527,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 53.34 0)
+			(at 135.89 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "151031SS04000"
+			(at 135.89 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4477,12 +4549,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ac7d426-2819-45e7-b2b6-6623e935d438")
+			(uuid "a225836d-d4ad-438d-9561-b7da8f1148ee")
+		)
+		(pin "2"
+			(uuid "77ac05ee-ca06-4f1b-8dee-d8e7a8db8511")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/03491c05-b5f3-4f88-a242-4fe53ef90d21/007af530-feb9-4f03-aaed-db03e570bb53"
-					(reference "TP50")
+					(reference "D19")
 					(unit 1)
 				)
 			)

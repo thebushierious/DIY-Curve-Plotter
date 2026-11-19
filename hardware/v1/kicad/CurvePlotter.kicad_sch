@@ -10,7 +10,7 @@
 		(rev "2")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x04_Socket"
+		(symbol "custom:J-01x03-Screw_Basic"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -30,7 +30,277 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_Socket"
+			(property "Value" "J-01x03-Screw_Basic"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "J-01x03-Screw_Basic_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:J-01x04-Socket_Basic"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "J-01x04-Socket_Basic"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -62,7 +332,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -73,10 +343,11 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
+			(property "Mfr. No" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -105,7 +376,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_Socket_1_1"
+			(symbol "J-01x04-Socket_Basic_1_1"
 				(polyline
 					(pts
 						(xy -1.27 2.54) (xy -0.508 2.54)
@@ -277,7 +548,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x06_Socket"
+		(symbol "custom:J-01x06-Socket_Basic"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -297,7 +568,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x06_Socket"
+			(property "Value" "J-01x06-Socket_Basic"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -329,7 +600,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -340,10 +611,11 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
+			(property "Mfr. No" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -372,7 +644,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x06_Socket_1_1"
+			(symbol "J-01x06-Socket_Basic_1_1"
 				(polyline
 					(pts
 						(xy -1.27 5.08) (xy -0.508 5.08)
@@ -618,265 +890,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Screw_Terminal_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x03"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Screw_Terminal_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1430,8 +1443,8 @@
 		(uuid "f3d082ee-f6e4-4365-bbea-bf0eae0677cb")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Socket")
-		(at 107.95 104.14 180)
+		(lib_id "custom:J-01x04-Socket_Basic")
+		(at 173.99 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1439,9 +1452,21 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2a05076f-6e72-436e-8707-20383bbe3ed4")
-		(property "Reference" "J11"
-			(at 117.094 90.17 0)
+		(fields_autoplaced yes)
+		(uuid "07c04c73-6a52-4f90-bc47-1e6a3cde097c")
+		(property "Reference" "J6"
+			(at 173.355 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39-28-1043"
+			(at 175.26 100.3299 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1451,19 +1476,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST XH S6B-XH-A"
-			(at 117.094 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal"
-			(at 107.95 104.14 0)
+		(property "Footprint" "SamacSys_Parts:39-28-1043"
+			(at 173.99 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1474,7 +1488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 104.14 0)
+			(at 173.99 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1485,7 +1499,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 104.14 0)
+			(at 173.99 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1495,8 +1509,8 @@
 				)
 			)
 		)
-		(property "Spend" "$$$"
-			(at 107.95 104.14 0)
+		(property "Mfr. No" "39-28-1043"
+			(at 173.99 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1505,36 +1519,30 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "3"
-			(uuid "26139504-e306-495d-b3f9-16b50eba54d6")
 		)
 		(pin "1"
-			(uuid "6591e5f6-b655-4ebc-9bb8-489066c1512a")
-		)
-		(pin "6"
-			(uuid "7e83c2cf-7e8f-4bf8-8a59-9124a03b1b9a")
+			(uuid "c39f22df-2a16-4eed-a19c-d9503acab818")
 		)
 		(pin "2"
-			(uuid "c446a431-24d7-4b34-9935-5815112ff4cf")
+			(uuid "b59e4d04-acfd-4b56-ac20-fe01a0717561")
+		)
+		(pin "3"
+			(uuid "fbb69cd7-ead9-4ce4-9aa1-6827bdc55b2e")
 		)
 		(pin "4"
-			(uuid "aedb651f-dfec-41f0-b796-9d7fe0b9995f")
-		)
-		(pin "5"
-			(uuid "54f70b52-1e95-459d-875e-8228612e6a18")
+			(uuid "bd57e309-6297-4c27-b8ca-dbc08ace7945")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368"
-					(reference "J11")
+					(reference "J6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Socket")
+		(lib_id "custom:J-01x06-Socket_Basic")
 		(at 105.41 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -1543,20 +1551,21 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3aa896d9-0293-4684-93bc-59ce16314958")
-		(property "Reference" "J21"
-			(at 96.266 112.014 0)
+		(fields_autoplaced yes)
+		(uuid "502b0b44-1526-4354-a77d-3c95981d0269")
+		(property "Reference" "J2"
+			(at 104.775 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "JST XH S6B-XH-A"
-			(at 96.266 114.554 0)
+			(at 96.266 92.456 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1599,7 +1608,7 @@
 				)
 			)
 		)
-		(property "Spend" "$$$"
+		(property "Mfr. No" "S6B-XH-A(LF)(SN)"
 			(at 105.41 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -1609,49 +1618,37 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Field6" ""
-			(at 105.41 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "af6152b0-556f-4ff0-b7a0-b61c1571f087")
-		)
-		(pin "1"
-			(uuid "4da667d7-c923-46df-9517-a9e8c6dbb9d1")
-		)
-		(pin "6"
-			(uuid "5f1c7643-d4bd-4aa0-b679-9c8db4d6773b")
-		)
-		(pin "2"
-			(uuid "53e9fd6b-73cf-42bb-8026-0629f7d0c9da")
-		)
-		(pin "4"
-			(uuid "5f02ebce-4cfa-4189-87f0-b1828f081f28")
 		)
 		(pin "5"
-			(uuid "281dbeb5-ec53-453e-a3ba-25c2866816bb")
+			(uuid "8ffec1c2-1439-493b-9afb-e52cb99d22d5")
+		)
+		(pin "6"
+			(uuid "9d4d1c9c-e915-401f-ab2c-aad9fc6e7894")
+		)
+		(pin "3"
+			(uuid "a8ca006d-1772-4533-bbbd-ce05cbe22b3f")
+		)
+		(pin "4"
+			(uuid "169a6f09-5b8d-4bb4-bded-fabe2d341532")
+		)
+		(pin "2"
+			(uuid "b1188e7a-046f-489b-8116-fe5ffab790b4")
+		)
+		(pin "1"
+			(uuid "e6122d9d-93a0-488a-8ab9-975e41e59533")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368"
-					(reference "J21")
+					(reference "J2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 172.72 110.49 0)
-		(mirror x)
+		(lib_id "custom:J-01x04-Socket_Basic")
+		(at 176.53 100.33 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1659,9 +1656,108 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4a20189f-e3f0-4f79-b4e4-f6eb2c8d8400")
-		(property "Reference" "J18"
-			(at 167.64 115.57 0)
+		(fields_autoplaced yes)
+		(uuid "6f21f105-99e9-4424-b3b5-57a105a10a79")
+		(property "Reference" "J7"
+			(at 177.165 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39-28-1043"
+			(at 175.26 97.7901 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:39-28-1043"
+			(at 176.53 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "39-28-1043"
+			(at 176.53 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfbd2d78-9a3e-43f2-b1a4-e40a85634e3b")
+		)
+		(pin "2"
+			(uuid "24482d43-d65c-4afd-a869-c53164ae6d02")
+		)
+		(pin "3"
+			(uuid "03b0e315-5ce3-41a2-8e7a-fdc92f00e710")
+		)
+		(pin "4"
+			(uuid "7a74e5be-6857-4f21-809f-08d74daaa4bd")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:J-01x03-Screw_Basic")
+		(at 172.72 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c0d59bb-2514-43f5-bc34-0202c85d9113")
+		(property "Reference" "J9"
+			(at 172.466 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1671,7 +1767,8 @@
 			)
 		)
 		(property "Value" "1718757"
-			(at 167.64 118.11 0)
+			(at 172.72 104.14 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1713,7 +1810,7 @@
 				)
 			)
 		)
-		(property "Spend" "$$$"
+		(property "Mfr. No" "1718757"
 			(at 172.72 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -1724,28 +1821,27 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "4d5de2df-3835-45c8-bf35-54bc8d795af4")
-		)
 		(pin "1"
-			(uuid "044be2a5-2804-4a81-bc59-c9c7bbd18ea9")
+			(uuid "337bce84-9001-4948-920e-beec0f131049")
 		)
 		(pin "2"
-			(uuid "ca2f3ee3-534d-4139-8657-a2b72ef4ca3a")
+			(uuid "fe016d16-bce3-4fe7-b303-93cb3037c328")
+		)
+		(pin "3"
+			(uuid "544d0a0e-c4d2-4191-8c66-3215c80b9dfc")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368"
-					(reference "J18")
+					(reference "J9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 176.53 97.79 0)
-		(mirror y)
+		(lib_id "custom:J-01x03-Screw_Basic")
+		(at 177.8 110.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1753,9 +1849,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "58db2258-be1e-4d8a-a175-71b013e14a50")
-		(property "Reference" "J23"
-			(at 182.372 89.916 0)
+		(uuid "93834781-a18f-4e06-a859-5c1d204b7ec4")
+		(property "Reference" "J10"
+			(at 177.546 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1764,8 +1860,9 @@
 				)
 			)
 		)
-		(property "Value" "39-28-1043"
-			(at 182.372 92.456 0)
+		(property "Value" "1718757"
+			(at 177.8 116.84 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1774,8 +1871,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:39-28-1043"
-			(at 176.53 97.79 0)
+		(property "Footprint" "custom:1718757"
+			(at 177.8 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1786,7 +1883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 97.79 0)
+			(at 177.8 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1797,7 +1894,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 97.79 0)
+			(at 177.8 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1807,8 +1904,8 @@
 				)
 			)
 		)
-		(property "Spend" "$$$"
-			(at 176.53 97.79 0)
+		(property "Mfr. No" "1718757"
+			(at 177.8 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1817,30 +1914,132 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "3"
-			(uuid "2758c946-ce1c-4815-bb12-3a3b1cf83013")
-		)
-		(pin "2"
-			(uuid "728d3bc2-e942-4b06-b0ff-0460c2e2b057")
-		)
-		(pin "4"
-			(uuid "418c0a9d-bbbc-4f6c-ae42-cbe9b8a18d21")
 		)
 		(pin "1"
-			(uuid "f034c5a1-354a-4d6b-9e52-dccdab900d48")
+			(uuid "e67e8860-df8e-4941-899d-76c27890313a")
+		)
+		(pin "2"
+			(uuid "d93d9134-ff95-449d-8953-27d81a3b326d")
+		)
+		(pin "3"
+			(uuid "2787b6fb-8bd6-4c36-95df-3e37f7ba5288")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368"
-					(reference "J23")
+					(reference "J10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
+		(lib_id "custom:J-01x06-Socket_Basic")
+		(at 107.95 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daa39590-1c7d-47aa-8f6b-65095f92986f")
+		(property "Reference" "J5"
+			(at 108.585 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JST XH S6B-XH-A"
+			(at 115.316 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal"
+			(at 107.95 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "S6B-XH-A(LF)(SN)"
+			(at 107.95 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "55353fc2-539a-411e-b817-b493a5412f8e")
+		)
+		(pin "6"
+			(uuid "f5c87f4f-fc93-41f7-9995-8e9dff750796")
+		)
+		(pin "3"
+			(uuid "89429680-a61b-4b6e-94b7-af10f9bb80e4")
+		)
+		(pin "4"
+			(uuid "d6f8f317-80e3-4989-b914-421090b6bf3c")
+		)
+		(pin "2"
+			(uuid "fea618a4-93eb-4395-a84d-c68670aebbec")
+		)
+		(pin "1"
+			(uuid "4e454833-049e-4461-b68c-401e2d4e31f3")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:J-01x03-Screw_Basic")
 		(at 59.69 101.6 0)
 		(mirror y)
 		(unit 1)
@@ -1851,9 +2050,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6d21d140-a066-4683-a4fa-8a39a9d9070b")
-		(property "Reference" "J19"
-			(at 59.69 92.71 0)
+		(uuid "e1441656-b099-4ab8-95e9-1cde6dcbecd2")
+		(property "Reference" "J8"
+			(at 59.69 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1864,6 +2063,7 @@
 		)
 		(property "Value" "1718757"
 			(at 59.69 95.25 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1905,7 +2105,7 @@
 				)
 			)
 		)
-		(property "Spend" "$$$"
+		(property "Mfr. No" "1718757"
 			(at 59.69 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -1916,210 +2116,19 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "9c41f6e2-5632-4d98-88f9-4e14765e2fb2")
-		)
 		(pin "1"
-			(uuid "247e4ab1-6359-48c4-a3dc-09c27de5f6ab")
-		)
-		(pin "3"
-			(uuid "10464ed7-7a97-4b97-a99a-3a965f923b69")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368"
-					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 173.99 100.33 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7f635246-8bb5-40af-a4f0-0784c66e5ef5")
-		(property "Reference" "J17"
-			(at 168.148 89.916 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "39-28-1043"
-			(at 168.148 92.456 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:39-28-1043"
-			(at 173.99 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Spend" "$$$"
-			(at 173.99 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "b4085eba-5375-4e37-b7cc-951d19ec31a5")
+			(uuid "31dc0b74-18f3-4533-8793-4176522d84fa")
 		)
 		(pin "2"
-			(uuid "b0c05e2a-f6fb-4504-b7fc-502a03fb4067")
-		)
-		(pin "4"
-			(uuid "82e85c74-97ab-4f0d-8fc5-a61babe2b227")
-		)
-		(pin "1"
-			(uuid "952c17c6-8232-486e-a0f3-f7e9482b0119")
-		)
-		(instances
-			(project "Charakterograf"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 177.8 110.49 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bb6d48a1-f94b-4042-84fb-07ead25a0f45")
-		(property "Reference" "J22"
-			(at 183.134 115.824 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1718757"
-			(at 183.134 118.364 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "custom:1718757"
-			(at 177.8 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Spend" "$$$"
-			(at 177.8 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(uuid "37915918-351d-4aad-8cac-f58469c92756")
 		)
 		(pin "3"
-			(uuid "3594c5ad-aa36-4b68-b21c-61622977e031")
-		)
-		(pin "1"
-			(uuid "60330c40-e3f7-450a-9ffb-f6f63ca3e876")
-		)
-		(pin "2"
-			(uuid "b58741ca-47bc-4056-ab68-a7200a1d1ab8")
+			(uuid "5b03cdb8-38c8-4cb5-8059-95dcfc853e49")
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368"
-					(reference "J22")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2245,7 +2254,7 @@
 			)
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368"
 					(page "6")
 				)
@@ -2362,7 +2371,7 @@
 			)
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368"
 					(page "2")
 				)
@@ -2449,7 +2458,7 @@
 			)
 		)
 		(instances
-			(project "Charakterograf"
+			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368"
 					(page "5")
 				)
