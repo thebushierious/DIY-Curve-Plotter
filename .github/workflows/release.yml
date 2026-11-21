@@ -22,6 +22,15 @@ jobs:
           EXTRAS=hardware/v1/bom/extras.csv
           mkdir -p out/gerbers
 
+		kicad-cli sch export bom -o out/debug.csv \
+             --fields 'Reference,Value,Mfr. No' \
+             --labels 'Reference,Value,Mfr. No' \
+             --group-by 'Reference' \
+             $P.kicad_sch
+           echo "Parts without Mfr. No:"
+           grep -E ',""$|,$' out/debug.csv || true
+           rm out/debug.csv
+		
           kicad-cli sch export pdf -o out/schematic.pdf $P.kicad_sch
 
           kicad-cli sch export bom -o out/bom-buy.csv \
