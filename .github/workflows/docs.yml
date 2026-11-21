@@ -4,7 +4,9 @@ on:
   push:
     branches: [main]
     paths:
-      - 'hardware/**'
+      - '**/*.kicad_sch'
+      - '**/*.kicad_pcb'
+      - '**/*.kicad_pro'
   workflow_dispatch:
 
 permissions:
@@ -30,14 +32,7 @@ jobs:
           pip install --break-system-packages pcbdraw
 
       - name: Generate
-        run: |
-          P=hardware/v1/kicad/CurvePlotter
-          mkdir -p docs/generated
-
-          kicad-cli sch export pdf -o docs/generated/schematic.pdf $P.kicad_sch
-
-          pcbdraw plot $P.kicad_pcb docs/generated/board-top.svg
-          pcbdraw plot --side back $P.kicad_pcb docs/generated/board-bottom.svg
+        run: bash .github/scripts/export.sh docs docs/generated
 
       - name: Commit changes
         run: |

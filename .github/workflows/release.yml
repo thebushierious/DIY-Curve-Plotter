@@ -14,62 +14,22 @@ jobs:
     container:
       image: kicad/kicad:10.0
       options: --user root
+    env:
+      MFR_FIELD: 'Mfr. No'
+      STRICT: '1'
     steps:
       - uses: actions/checkout@v4
 
-      - name: Export
+      - name: Install tools
         run: |
-          P=hardware/v1/kicad/CurvePlotter
-          EXTRAS=hardware/v1/bom/extras.csv
-          mkdir -p out/gerbers
-
-          kicad-cli sch export pdf -o out/schematic.pdf $P.kicad_sch
-
-          kicad-cli sch export bom -o out/debug.csv \
-            --fields 'Reference,Value,Mfr. No' \
-            --labels 'Reference,Value,Mfr. No' \
-            --group-by 'Reference' \
-            $P.kicad_sch
-          echo "Parts without Mfr. No:"
-          grep -E ',""$|,$' out/debug.csv || true
-          rm out/debug.csv
-
-          kicad-cli sch export bom -o out/bom-buy.csv \
-            --fields 'Mfr. No,${QUANTITY}' \
-            --labels 'Manufacturer Part Number,Quantity' \
-            --group-by 'Mfr. No' \
-            --sort-field 'Mfr. No' \
-            $P.kicad_sch
-
-          kicad-cli sch export bom -o out/bom-user.csv \
-            --fields 'Reference,Value,Description' \
-            --labels 'Reference,Value,Description' \
-            --group-by 'Value,Description' \
-            --sort-field 'Reference' \
-            --ref-delimiter ', ' \
-            --ref-range-delimiter '' \
-            $P.kicad_sch
-
-          if grep -q '^"",' out/bom-buy.csv; then
-            echo "Some parts have no Mfr. No"
-            exit 1
-          fi
-
-          if [ -f "$EXTRAS" ]; then
-            sed -i -e '$a\' out/bom-buy.csv
-            tail -n +2 "$EXTRAS" >> out/bom-buy.csv
-          fi
-
-          kicad-cli pcb export gerbers -o out/gerbers/ $P.kicad_pcb
-          kicad-cli pcb export drill -o out/gerbers/ $P.kicad_pcb
           apt-get update
           apt-get install -y zip
-          cd out/gerbers
-          zip -r ../gerbers.zip .
-          cd ../..
-          rm -r out/gerbers
+
+      - name: Export
+        run: bash .github/scripts/export.sh release out
 
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: outputs
           path: out/
