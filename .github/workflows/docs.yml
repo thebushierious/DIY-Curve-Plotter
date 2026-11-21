@@ -1,0 +1,48 @@
+name: Docs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'hardware/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: docs
+  cancel-in-progress: true
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    container:
+      image: kicad/kicad:10.0
+      options: --user root
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          apt-get update
+          apt-get install -y inkscape python3-pip git
+          pip install --break-system-packages pcbdraw
+
+      - name: Generate
+        run: |
+          P=hardware/v1/kicad/CurvePlotter
+          mkdir -p docs/generated
+
+          kicad-cli sch export pdf -o docs/generated/schematic.pdf $P.kicad_sch
+
+          pcbdraw plot $P.kicad_pcb docs/generated/board-top.svg
+          pcbdraw plot --side back $P.kicad_pcb docs/generated/board-bottom.svg
+
+      - name: Commit changes
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config user.name "thebushierious"
+          git config user.email "155904022+thebushierious@users.noreply.github.com"
+          git add docs/generated
+          git diff --cached --quiet || (git commit -m "Update generated docs" && git push)
