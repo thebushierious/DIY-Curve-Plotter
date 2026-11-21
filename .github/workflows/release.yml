@@ -1,5 +1,8 @@
 name: Release
 
+# Runs when you push a tag that starts with "v" (v1.0, v2.1, ...)
+# or by hand: Actions > Release > Run workflow (no release is published then,
+# but the files are downloadable from the run page under "Artifacts").
 on:
   push:
     tags: ['v*']
@@ -12,18 +15,18 @@ jobs:
   release:
     runs-on: ubuntu-latest
     container:
-      image: kicad/kicad:10.0
+      image: kicad/kicad:10.0   # keep in sync with the KiCad version you use
       options: --user root
     env:
-      MFR_FIELD: 'Mfr. No'
-      STRICT: '1'
+      MFR_FIELD: 'Mfr. No'      # name of the part number field on your symbols
+      STRICT: '1'               # 1 = fail when a part has no part number, 0 = warn only
     steps:
       - uses: actions/checkout@v4
 
       - name: Install tools
         run: |
           apt-get update
-          apt-get install -y zip
+          apt-get install -y zip python3
 
       - name: Export
         run: bash .github/scripts/export.sh release out
