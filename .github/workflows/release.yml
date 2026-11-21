@@ -18,8 +18,8 @@ jobs:
 
       - name: Export
         run: |
-          P=v1/kicad/CurvePlotter
-          EXTRAS=v1/bom/extras.csv
+          P=hardware/v1/kicad/CurvePlotter
+          EXTRAS=hardware/v1/bom/extras.csv
           mkdir -p out/gerbers
 
           kicad-cli sch export pdf -o out/schematic.pdf $P.kicad_sch
