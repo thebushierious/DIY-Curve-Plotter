@@ -18,9 +18,9 @@ A 2 × 18 V toroidal transformer (15 or 30 VA) is connected to J8 (L1, GND1, L2)
 
 | Rail | Regulator | Fuse | LED |
 |---|---|---|---|
-| +15 V | U14 (UA7815) | F1 (5 A hold) | D15 |
-| −15 V | U8 (LM7915) | F2 (5 A hold) | D16 |
-| 12 V (relay coils) | U17 (UA7812) | F3 (5 A hold, 30 V) | D17 |
+| +15 V | U14 (UA7815) | F1 (500 mA hold) | D15 |
+| −15 V | U8 (LM7915) | F2 (500 mA hold) | D16 |
+| 12 V (relay coils) | U17 (UA7812) | F3 (500 mA hold) | D17 |
 
 D3 is an LED on the unregulated supply. The Schottky diodes D10 (+15 V) and D12 (−15 V), both 1N5819, clamp each analog rail to within about 0.3 V of ground in the wrong direction, so the load can never pull one rail across ground while the other is starting up or collapsing. D5, D6 and D11 (1N4007) across the regulators protect them if the input falls faster than the output.
 

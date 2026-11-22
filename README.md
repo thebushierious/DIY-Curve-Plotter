@@ -8,7 +8,7 @@
 ![KiCad](https://img.shields.io/badge/KiCad-10.0-blue?logo=kicad)
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 
-An analog transistor curve tracer (Charakterograf): it sweeps the collector (or drain) voltage while stepping the base current (or gate voltage) and draws the family of I-V curves on an oscilloscope in X-Y mode.
+An analog transistor curve tracer : it sweeps the collector (or drain) voltage while stepping the base current (or gate voltage) and draws the family of I-V curves on an oscilloscope in X-Y mode.
 
 Based on the Charakterograf (curve plotter) by R. K., "Praktyczny Elektronik" 2/1995, pp. 4–10 (PCB no. 188). See [credits](#credits).
 
@@ -64,7 +64,7 @@ More details, the plan for v3 (microcontroller, display and USB) and the high-vo
 | Folder | Contents |
 |---|---|
 | `hardware/` | KiCad projects, one folder per revision |
-| `docs/` | documentation; `docs/generated/` is rebuilt automatically |
+| `docs/` | documentation |
 | `mechanical/` | enclosure, front panel, printed parts |
 | `.github/` | release and docs automation |
 
