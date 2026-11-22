@@ -7,7 +7,6 @@
 	(title_block
 		(title "Curve Plotter")
 		(date "2026-10-15")
-		(rev "2")
 	)
 	(lib_symbols
 		(symbol "custom:J-01x03-Screw_Basic"
@@ -900,17 +899,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "v3:\n-Add curren checker LM339 for relay coils\n-Add checking if all relays switched correcly\n-Add front pannel meter\n-Add step LEDs\n-Add external power option\n-Design HV Box"
-		(exclude_from_sim no)
-		(at 19.812 31.242 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-			(justify left)
-		)
-		(uuid "9309ace3-609d-4235-888e-8354bf1eaa5d")
 	)
 	(junction
 		(at 97.79 109.22)

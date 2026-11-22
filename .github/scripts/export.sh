@@ -72,25 +72,20 @@ while IFS= read -r PRO <&3; do
         fi
       fi
     fi
-    rm -rf "$TMP"
 
-    # Buying BOM: part number and quantity
+    # Buying BOM: part number and quantity, built from the reference table above.
+    # A part without a part number is listed as "MISSING <reference>" at the top.
+    # Off-board parts (screws, transformer, fuses...) from extras.csv are merged in.
     BUY="$DEST/${PFX}bom-buy.csv"
-    kicad-cli sch export bom -o "$BUY" \
-      --fields "$MFR_FIELD"',${QUANTITY}' \
-      --labels 'Manufacturer Part Number,Quantity' \
-      --group-by "$MFR_FIELD" \
-      --sort-field "$MFR_FIELD" \
-      "$SCH" || STATUS=1
-
-    # Off-board parts (screws, transformer, fuses...), merged into the buying BOM
     EXTRAS=""
     for X in "$DIR/../bom/extras.csv" "$DIR/bom/extras.csv"; do
       [ -f "$X" ] && EXTRAS="$X"
     done
-    if [ -f "$BUY" ]; then
-      python3 "$TOOLS" buy "$BUY" $EXTRAS || { echo "::error::$SLUG: could not build the buying BOM"; STATUS=1; }
+    if [ -f "$TMP/debug.csv" ]; then
+      python3 "$TOOLS" buy "$TMP/debug.csv" "$BUY" "$MFR_FIELD" $EXTRAS \
+        || { echo "::error::$SLUG: could not build the buying BOM"; STATUS=1; }
     fi
+    rm -rf "$TMP"
 
     # User BOM: reference, value, description
     kicad-cli sch export bom -o "$DEST/${PFX}bom-user.csv" \

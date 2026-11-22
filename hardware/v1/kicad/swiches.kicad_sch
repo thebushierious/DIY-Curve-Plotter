@@ -7,7 +7,6 @@
 	(title_block
 		(title "Curve Plotter")
 		(date "2026-10-15")
-		(rev "2")
 	)
 	(lib_symbols
 		(symbol "custom:D-LED_Basic"

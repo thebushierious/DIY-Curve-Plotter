@@ -7,7 +7,6 @@
 	(title_block
 		(title "Curve Plotter")
 		(date "2026-10-15")
-		(rev "2")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Socket"
@@ -1069,17 +1068,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "Could be the 0397000203"
-		(exclude_from_sim no)
-		(at 146.05 63.246 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b9c011a6-f7d7-4b68-a70c-21dfda354d7f")
 	)
 	(junction
 		(at 86.36 29.21)

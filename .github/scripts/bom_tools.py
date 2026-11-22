@@ -2,9 +2,12 @@
 """BOM helpers used by export.sh.
 
   bom_tools.py missing <debug.csv> <field>      list references whose <field> is empty (exit 1 if any)
-  bom_tools.py buy <bom-buy.csv> [extras.csv]   strip whitespace, merge duplicates, append extras
+  bom_tools.py buy <refs.csv> <bom-buy.csv> <field> [extras.csv]
+        build the buying BOM from a one-row-per-reference table; parts without
+        <field> are listed as "MISSING <reference>"; extras.csv is merged in
 """
 import csv
+import re
 import sys
 
 
@@ -58,26 +61,39 @@ def read_extras(path):
     return out
 
 
-def cmd_buy(path, extras=None):
-    rows = read(path)
+def natural(ref):
+    return [int(p) if p.isdigit() else p for p in re.split(r"(\d+)", ref)]
+
+
+def cmd_buy(refs_path, out_path, field, extras=None):
+    """Build the buying BOM from a one-row-per-reference table (Reference, <field>)."""
+    rows = read(refs_path)
     head, body = rows[0], rows[1:]
-    totals = {}
+    if field not in head:
+        sys.exit(f"Field '{field}' not found in the BOM export (columns: {', '.join(head)})")
+    i = head.index(field)
+    totals, missing = {}, []
     for r in body:
-        key = r[0].strip()
-        totals[key] = totals.get(key, 0) + to_int(r[1], path)
+        ref = r[0].strip()
+        mfr = r[i].strip() if len(r) > i else ""
+        if mfr:
+            totals[mfr] = totals.get(mfr, 0) + 1
+        else:
+            missing.append(ref)
     if extras:
         for key, qty in read_extras(extras):
             totals[key] = totals.get(key, 0) + qty
-    totals.pop("", None)  # parts without a part number are reported by "missing", not ordered
-    out = [head] + [[k, str(v)] for k, v in sorted(totals.items())]
-    write(path, out)
+    out = [["Manufacturer Part Number", "Quantity"]]
+    out += [[f"MISSING {ref}", "1"] for ref in sorted(missing, key=natural)]
+    out += [[k, str(v)] for k, v in sorted(totals.items())]
+    write(out_path, out)
 
 
 if __name__ == "__main__":
     args = sys.argv[1:]
     if len(args) >= 3 and args[0] == "missing":
         cmd_missing(args[1], args[2])
-    elif len(args) in (2, 3) and args[0] == "buy":
-        cmd_buy(args[1], args[2] if len(args) == 3 else None)
+    elif len(args) in (4, 5) and args[0] == "buy":
+        cmd_buy(args[1], args[2], args[3], args[4] if len(args) == 5 else None)
     else:
         sys.exit(__doc__)
