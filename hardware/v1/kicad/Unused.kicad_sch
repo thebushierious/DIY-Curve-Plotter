@@ -1605,7 +1605,7 @@
 				)
 			)
 		)
-		(property "Value" "CD4520"
+		(property "Value" "CD4520BE"
 			(at 146.6215 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -9,147 +9,6 @@
 		(date "2026-10-15")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Socket"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x01_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -249,7 +108,302 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:28-6554-10"
+		(symbol "custom:3-Pin-Socket_Basic"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 3.556 9.652 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3-Pin-Socket_Basic_1_1"
+				(rectangle
+					(start -3.048 8.128)
+					(end 3.048 -6.604)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "L1\n\nL2\n\nL3"
+					(at -1.27 2.032 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 3.81 180)
+					(length 0)
+					(name "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 0 180)
+					(length 0)
+					(name "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 -3.81 180)
+					(length 0)
+					(name "L3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:J-01x01-Socket_Basic"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "J-01x01-Socket_Basic"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "J-01x01-Socket_Basic_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:J-28-pin-ZIF_Basic"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -266,7 +420,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "28-6554-10"
+			(property "Value" "J-28-pin-ZIF_Basic"
 				(at 19.05 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -277,7 +431,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "28655410"
+			(property "Footprint" ""
 				(at 19.05 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -289,7 +443,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://www.arieselec.com/wp-content/uploads/2020/02/10001-universal-dip-zif-test-socket.pdf"
+			(property "Datasheet" ""
 				(at 19.05 -194.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -301,7 +455,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "Aries Electronics 2.54mm Pitch 28 Way Through Hole Universal ZIF Test Socket"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -312,8 +466,8 @@
 					)
 				)
 			)
-			(property "Height" "12.07"
-				(at 19.05 -394.92 0)
+			(property "Mfr. No" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -321,82 +475,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Manufacturer_Name" "ARIES"
-				(at 19.05 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "28-6554-10"
-				(at 19.05 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "535-28-6554-10"
-				(at 19.05 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Aries-Electronics/28-6554-10?qs=WZRMhwwaLl%2FXVzQUw3ZSkA%3D%3D"
-				(at 19.05 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 19.05 -894.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 19.05 -994.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "28-6554-10_1_1"
+			(symbol "J-28-pin-ZIF_Basic_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 17.78 -35.56)
@@ -905,159 +986,6 @@
 						)
 					)
 					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "custom:3-Pin-Socket_Basic"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 3.556 9.652 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3-Pin-Socket_Basic_1_1"
-				(rectangle
-					(start -3.048 8.128)
-					(end 3.048 -6.604)
-					(stroke
-						(width 0)
-						(type dash)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "L1\n\nL2\n\nL3"
-					(at -1.27 2.032 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 0 3.81 180)
-					(length 0)
-					(name "L1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 0 0 180)
-					(length 0)
-					(name "L2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 0 -3.81 180)
-					(length 0)
-					(name "L3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1990,7 +1918,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "158d2183-ee19-4382-be53-71de08f2f816")
 		(property "Reference" "J13"
@@ -2059,7 +1987,7 @@
 				)
 			)
 		)
-		(property "Mfr. No" ""
+		(property "Mfr. No" "TBL009V-254-03GY-2GY"
 			(at 144.78 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2165,264 +2093,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:28-6554-10")
-		(at 86.36 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cbc1335-0ed2-4d5f-9589-17dfa09a13af")
-		(property "Reference" "J12"
-			(at 123.19 46.9899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "228-1277-00-0602J"
-			(at 123.19 49.5299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "custom:228-1277-00-0602J"
-			(at 181.28 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.28 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 481.28 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 581.28 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 681.28 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 781.28 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 881.28 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 981.28 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1081.28 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Spend" "$$$"
-			(at 86.36 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "94ac0839-b8a7-4263-88f4-c6e81bba61d4")
-		)
-		(pin "2"
-			(uuid "5bc3bbe0-b9fa-4dcd-a69a-ef94cb5f6a9b")
-		)
-		(pin "9"
-			(uuid "e6f46f04-ebbd-4103-8106-252f0f84e9a2")
-		)
-		(pin "13"
-			(uuid "6484d332-acff-46fc-a073-da33ccd05645")
-		)
-		(pin "18"
-			(uuid "166a6e23-6763-4a46-9bc8-118fca1114d6")
-		)
-		(pin "20"
-			(uuid "739e9f7d-815d-46db-affc-33c56d35470b")
-		)
-		(pin "5"
-			(uuid "be69efb4-b01c-4d68-99bd-d476d78bf89f")
-		)
-		(pin "14"
-			(uuid "6103b8b4-1561-4d17-8be4-d9338059d3e1")
-		)
-		(pin "17"
-			(uuid "1f739b9a-0aac-451b-827e-753beb82475f")
-		)
-		(pin "3"
-			(uuid "69664eeb-acaa-4af4-87ee-165203312920")
-		)
-		(pin "8"
-			(uuid "9cd6232b-eb65-4772-a76d-a9e3e7b61caa")
-		)
-		(pin "10"
-			(uuid "2f5c8be3-e946-46a5-9681-5ebf0e60959a")
-		)
-		(pin "1"
-			(uuid "734c5ea8-c208-4ed3-adf2-fe932ac4df20")
-		)
-		(pin "15"
-			(uuid "8463073f-9af3-4981-8d70-681e97a7c920")
-		)
-		(pin "12"
-			(uuid "40f6bdca-59ae-4008-ad47-1960254ea024")
-		)
-		(pin "6"
-			(uuid "726cf2ae-aea2-40d0-b6dd-c982ab2058c8")
-		)
-		(pin "7"
-			(uuid "4df16c4e-e26f-4b9e-a05a-1d7ca44ca0b1")
-		)
-		(pin "11"
-			(uuid "667d418b-5390-47f5-a8f0-a612754315e8")
-		)
-		(pin "16"
-			(uuid "1f9b0685-520c-42b7-8baf-0411e600d3e4")
-		)
-		(pin "19"
-			(uuid "07787d62-8569-4215-a26b-66dcb5650fbe")
-		)
-		(pin "22"
-			(uuid "0028b512-5450-4dd4-a3a2-830632fe9ccd")
-		)
-		(pin "23"
-			(uuid "50f1bb29-51e8-4db3-910e-c96f716d3a1c")
-		)
-		(pin "26"
-			(uuid "8e4b3b2a-12ab-42d5-a757-f4f8d0ef752a")
-		)
-		(pin "28"
-			(uuid "4e95d344-7b51-4325-829f-567f68fe1963")
-		)
-		(pin "25"
-			(uuid "52dbdaf3-760b-4ae5-9274-ba700fe31435")
-		)
-		(pin "21"
-			(uuid "aac81812-5109-426a-82e8-83851161e0f7")
-		)
-		(pin "27"
-			(uuid "9febca34-f5c5-45ac-ad89-a3de95f51588")
-		)
-		(pin "24"
-			(uuid "d81852c7-8611-4c93-9c78-445c30b66e09")
-		)
-		(instances
-			(project "CurvePlotter"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
+		(lib_id "custom:J-01x01-Socket_Basic")
 		(at 90.17 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -2432,8 +2103,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7f30d56a-d1e4-44ec-adc2-1b321a0d4629")
-		(property "Reference" "J16"
+		(uuid "76cf1bd4-4bb1-46b9-afa4-05f8ff854072")
+		(property "Reference" "J12"
 			(at 91.44 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2488,7 +2159,7 @@
 				)
 			)
 		)
-		(property "Spend" "$$$"
+		(property "Mfr. No" "CT4397-08-2"
 			(at 90.17 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2500,102 +2171,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d7d380f4-d7f8-4a1b-a3bf-9c6cc21a8833")
+			(uuid "3f17551f-184f-4a71-996b-6e294ed23aa8")
 		)
 		(instances
 			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 90.17 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9383226e-be57-41d9-9f55-70c42a34611f")
-		(property "Reference" "J15"
-			(at 91.44 81.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CT4397-08-4"
-			(at 91.44 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector:Banana_Jack_1Pin"
-			(at 90.17 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Spend" "$$$"
-			(at 90.17 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "05d758e6-80d8-41a1-97e2-de22bbde5769")
-		)
-		(instances
-			(project "CurvePlotter"
-				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
-					(reference "J15")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -2610,7 +2191,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9431f6f7-df84-44e5-9533-ad6c112225a8")
 		(property "Reference" "J20"
@@ -2679,7 +2260,7 @@
 				)
 			)
 		)
-		(property "Mfr. No" ""
+		(property "Mfr. No" "TBL009V-254-03GY-2GY"
 			(at 144.78 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2709,7 +2290,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
+		(lib_id "custom:J-01x01-Socket_Basic")
 		(at 90.17 88.9 0)
 		(unit 1)
 		(body_style 1)
@@ -2719,8 +2300,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a0c3272d-aa1b-4072-92d6-ce89c375c5ea")
-		(property "Reference" "J14"
+		(uuid "9641eefa-4456-4710-8e3e-cb8a41087d58")
+		(property "Reference" "J18"
 			(at 91.44 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2775,7 +2356,7 @@
 				)
 			)
 		)
-		(property "Spend" "$$$"
+		(property "Mfr. No" "CT4397-08-0"
 			(at 90.17 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2787,12 +2368,275 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e23baa6-0e43-4d8a-bc4e-bdd34ed3b203")
+			(uuid "898745e1-9fdb-4ee7-95da-c3f36cda3908")
 		)
 		(instances
 			(project "CurvePlotter"
 				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
-					(reference "J14")
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:J-01x01-Socket_Basic")
+		(at 90.17 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bc9ecfd-6d07-4d3d-bb70-160294d6c6aa")
+		(property "Reference" "J17"
+			(at 91.44 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CT4397-08-4"
+			(at 91.44 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 90.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "CT4397-08-4"
+			(at 90.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fea04c9a-c2d3-4d63-aed6-5907c2efbb31")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:J-28-pin-ZIF_Basic")
+		(at 86.36 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2fdd2ff-3761-45a9-9c7c-1612d0110928")
+		(property "Reference" "J11"
+			(at 123.19 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "228-1277-00-0602J"
+			(at 123.19 49.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "custom:228-1277-00-0602J"
+			(at 181.28 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.28 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No" "228-1277-00-0602J"
+			(at 86.36 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "f199c7ef-ac58-4d10-8926-a28d01b73b13")
+		)
+		(pin "15"
+			(uuid "d4485065-2050-45ea-872c-7fed82a7bbac")
+		)
+		(pin "18"
+			(uuid "4fd6e6e3-c6b2-470d-91ba-1fd0ac6ef649")
+		)
+		(pin "4"
+			(uuid "7128f8b7-7d80-4be1-be3a-9274c1438179")
+		)
+		(pin "16"
+			(uuid "fa69bdae-af4d-484f-866a-05adcfe858ad")
+		)
+		(pin "2"
+			(uuid "2619fc9c-c084-4aa7-b116-8aeaae5997f6")
+		)
+		(pin "24"
+			(uuid "1abba97b-39af-478f-80a6-b4aae8ca152f")
+		)
+		(pin "27"
+			(uuid "96ace293-60b2-4c25-9693-21ee0c4a6687")
+		)
+		(pin "13"
+			(uuid "f0f1f794-654a-4841-8064-190c9b07c63c")
+		)
+		(pin "3"
+			(uuid "76dfca08-e886-4306-b0a7-94205f5438c7")
+		)
+		(pin "17"
+			(uuid "db3cf81f-0780-4780-944e-ffdbea3fbd73")
+		)
+		(pin "20"
+			(uuid "5fc107ab-8175-4509-a796-fb24d6d91488")
+		)
+		(pin "26"
+			(uuid "513075e8-59b1-4d71-9288-b4fb21c06e8a")
+		)
+		(pin "5"
+			(uuid "29dc3474-8ca8-483d-bcf1-f9171ac0ea5f")
+		)
+		(pin "6"
+			(uuid "5ee73bb7-f03b-4e7a-8841-1796be70fa0c")
+		)
+		(pin "1"
+			(uuid "1f26f16e-0e15-48b4-bcb0-a7cdb44671f9")
+		)
+		(pin "7"
+			(uuid "cef97417-e27c-45a2-b270-5c791dbfaa9d")
+		)
+		(pin "8"
+			(uuid "f2814ec6-0675-413d-b8f7-6c288bc3a920")
+		)
+		(pin "9"
+			(uuid "ab4eceb9-33e5-4d4e-b90c-e993dbf110de")
+		)
+		(pin "14"
+			(uuid "8dcd1651-912e-42d7-85f6-a8d3f12b7a0c")
+		)
+		(pin "11"
+			(uuid "30e331ab-8505-4b2b-8ed8-494b5225081c")
+		)
+		(pin "19"
+			(uuid "f6b78197-2560-4504-8830-d185b7244de7")
+		)
+		(pin "10"
+			(uuid "66283b0f-29b2-4f15-97d9-3bd6fcab542f")
+		)
+		(pin "21"
+			(uuid "38f107ac-58ac-4d04-9673-5dbeac751adb")
+		)
+		(pin "23"
+			(uuid "a212807f-0eed-4ba1-a7d3-2ca8ea9156fb")
+		)
+		(pin "25"
+			(uuid "cacdc735-ef12-4264-9b6f-18f4d7851df6")
+		)
+		(pin "28"
+			(uuid "eb4450fb-ee4c-4c27-963f-4a53f6893ce5")
+		)
+		(pin "22"
+			(uuid "814171f8-8570-41d0-91bc-c9112c1c2c15")
+		)
+		(instances
+			(project "CurvePlotter"
+				(path "/d7a5a570-e509-45ae-a7d3-ba88e6083368/cd41930f-a470-4d4a-ba14-5ff26eaaa2fd"
+					(reference "J11")
 					(unit 1)
 				)
 			)

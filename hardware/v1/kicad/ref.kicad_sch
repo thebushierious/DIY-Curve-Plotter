@@ -3688,7 +3688,7 @@
 				)
 			)
 		)
-		(property "Mfr. No" ""
+		(property "Mfr. No" "MFR-25FRF52-4K7"
 			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)

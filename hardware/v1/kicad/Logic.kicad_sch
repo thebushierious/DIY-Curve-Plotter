@@ -15980,7 +15980,7 @@
 				)
 			)
 		)
-		(property "Value" "CD4520"
+		(property "Value" "CD4520BE"
 			(at 215.9 127 0)
 			(hide yes)
 			(show_name no)
@@ -17015,7 +17015,7 @@
 				)
 			)
 		)
-		(property "Mfr. No" ""
+		(property "Mfr. No" "MFR-25FRF52-4K7"
 			(at 212.09 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -19882,7 +19882,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4520"
+		(property "Value" "CD4520BE"
 			(at 219.7099 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -25268,7 +25268,7 @@
 		(fields_autoplaced yes)
 		(uuid "49e8c5d5-ade9-445d-9d36-6c80024f4430")
 		(property "Reference" "R66"
-			(at 344.17 222.25 0)
+			(at 344.17 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25278,7 +25278,7 @@
 			)
 		)
 		(property "Value" "97k6"
-			(at 344.17 224.79 0)
+			(at 344.17 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25309,7 +25309,7 @@
 				)
 			)
 		)
-		(property "Description" "0,1%"
+		(property "Description" ""
 			(at 344.17 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25330,7 +25330,7 @@
 				)
 			)
 		)
-		(property "Mfr. No" ""
+		(property "Mfr. No" "MFR-25FBF52-97K6"
 			(at 344.17 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -30932,7 +30932,7 @@
 		(dnp no)
 		(uuid "88674ab7-cff3-429f-a199-fe86ea820e85")
 		(property "Reference" "U6"
-			(at 215.392 133.096 0)
+			(at 215.138 133.604 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30941,8 +30941,8 @@
 				)
 			)
 		)
-		(property "Value" "CD4520"
-			(at 215.392 135.636 0)
+		(property "Value" "CD4520BE"
+			(at 215.138 136.144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33846,7 +33846,7 @@
 				)
 			)
 		)
-		(property "Mfr. No" ""
+		(property "Mfr. No" "7201SCWZGE"
 			(at 308.61 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -37480,7 +37480,7 @@
 				)
 			)
 		)
-		(property "Description" "0,1%"
+		(property "Description" ""
 			(at 283.21 278.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37501,7 +37501,7 @@
 				)
 			)
 		)
-		(property "Mfr. No" ""
+		(property "Mfr. No" "MFR-25FTE52-9K76"
 			(at 283.21 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -38117,7 +38117,7 @@
 				)
 			)
 		)
-		(property "Mfr. No" ""
+		(property "Mfr. No" "7201SCWZGE"
 			(at 279.4 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -40563,7 +40563,7 @@
 				)
 			)
 		)
-		(property "Mfr. No" ""
+		(property "Mfr. No" "MFR-25FRF52-4K7"
 			(at 407.67 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -41319,7 +41319,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "007af530-feb9-4f03-aaed-db03e570bb53")
-		(property "Sheetname" "N\\P Swiches"
+		(property "Sheetname" "Relay Drivers"
 			(at 20.32 377.7484 0)
 			(show_name no)
 			(do_not_autoplace no)

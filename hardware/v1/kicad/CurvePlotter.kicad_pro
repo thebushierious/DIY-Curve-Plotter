@@ -504,7 +504,7 @@
         "uuid": "d7a5a570-e509-45ae-a7d3-ba88e6083368"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J11-12,J17-18,HS13",
     "variants": []
   },
   "sheets": [
@@ -538,7 +538,7 @@
     ],
     [
       "007af530-feb9-4f03-aaed-db03e570bb53",
-      "N\\P Swiches"
+      "Relay Drivers"
     ],
     [
       "0abaecbf-bc21-4583-999c-ef290e64708d",
